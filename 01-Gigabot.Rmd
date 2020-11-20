@@ -1,8 +1,10 @@
 ---
 title: "Gigaboot"
 description: |
-  A new article created using the Distill format.
+  Testing the Gigaboot 
 author:
+  - first_name: "Benjamin"
+    last_name: "Ennesser-Serville"
   - first_name: "Fabio"
     last_name: "Cruz"
     url: https://erpi.univ-lorraine.fr/people/Fabio-Cruz/

@@ -11,6 +11,12 @@ author:
     affiliation: ERPI
     affiliation_url: https://erpi.univ-lorraine.fr/
     orcid_id:  
+  - first_name: "Fréderique"
+    last_name: "Mayer"
+    url: https://erpi.univ-lorraine.fr/people/Frederique-Mayer/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id:     
   - first_name: "Hakim"
     last_name: "Boudaoud"
     url: https://erpi.univ-lorraine.fr/people/Hakim-Boudaoud/
@@ -65,30 +71,37 @@ require(xaringanExtra)
 
 # Description of work
 
-## Task 6.1 Validation Process Specification [TL: SUPSI. Participants: SCM, AIMEN, UL, UNIN] 
+## Task 6.1 Validation Process Specification 
+[TL: SUPSI. Participants: SCM, AIMEN, UL, UNIN] 
 This task addresses the specification of the validation process. Specific Key Performance Indicators will be defined by the direct interaction between academic partners and end-users: the KPIs will be collected in structured workshops drawing both from established ones in literature and from more specific ones related to the end-user activities to be then analyzed against the INEDIT tools and technologies performances.
 
-## Task 6.2 Manufacturing of wood furniture demonstrator [TL: SCM. Participants: SCM, SUPSI, TTS, VERA, CROWS, TTPSC]
+## Task 6.2 Manufacturing of wood furniture demonstrator 
+[TL: SCM. Participants: SCM, SUPSI, TTS, VERA, CROWS, TTPSC]
 
 This task is dedicated to test and demonstrate how the DIT approach and platform can be leveraged by a company operating in the furniture sector to involve its designers base, its customers, its suppliers and the technological resources at its disposal to envision innovative customer-driven pieces of furniture. The task will thus see the validation of the pilot scenario described in Section 1.3 in which VERA supports with technological advices and with the seamless production of sample components a customer-driven creation of new pieces of furniture. To this end, the Design-to-Manufacturing in One Step will act as the decoupling point between the designs developed in the Co-Creation Digital Platform and the production instructions to be sent both to VERA and to SCM for production of the final product on the new developed wood working center. The design and manufacturing process will constantly be monitored in terms of sustainability impact thanks to the DIT Environmental Assessment Model that SUPSI will integrate in the system and support will be provided to the decision-makers through the Sustainability-Driven Orchestrator.
 
-## Task 6.3 3D printing of wood demonstrator [TL: AIMEN. Participants: CROWD, TTPSC]
+## Task 6.3 3D printing of wood demonstrator 
+[TL: AIMEN. Participants: CROWD, TTPSC]
 
 This task addresses the integration and validation of the OMDF for furniture 3D printing. Following the specifications established in T4.1. The OMDF prototype will be integrated at AIMEN in a modular way, allowing it to be replicated in other companies or co-creation environments in order to expand the INEDIT platforms to other countries. The OMDF will be mainly composed by a filament extruder, a 3D printing machine and a robot arm equipped with the printing header to print large and arbitrarily complex wood furniture and to give the final part different colors, textures and properties modifying the material recipe. The OMDF and its integration with the INEDIT platform will be validated using the KPIs collected in T6.1.
 
-## Task 6.4 3D printing of recycled plastic demonstrator [TL: UL. Participants: CROWD, TTPSC]
+## Task 6.4 3D printing of recycled plastic demonstrator 
+[TL: UL. Participants: CROWD, TTPSC]
 
 The main goal of this task is to validate the logistical and technical feasibility of recycled assets to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries.
 
-## Task 6.5 Smartification demonstrator [TL: UNIN. Participants: CROWD, TTPSC]
+## Task 6.5 Smartification demonstrator 
+[TL: UNIN. Participants: CROWD, TTPSC]
 
 The need for smart objects is pushing the introduction of communication and sensing devices, also known as IoT, in diverse sectors of the business industry. In the FabLab a series of smart objects, incorporated in furniture pieces can be developed and tested for the benefit of the user. Smartification of furniture pieces can be achieved by establishing connectivity of customized prototypes with user’s applications either locally or remote assessment. This task will assess and validate the smart components to be introduced in customized furniture as designed in WP4.
 
-## Task 6.6 Test and evaluation of results [TL: UL. Participants: ALL]
+## Task 6.6 Test and evaluation of results 
+[TL: UL. Participants: ALL]
 
 This task is meant to propose the criteria for the scenarios result evaluation and to apply those criteria to assess the project demonstration campaign outcome. The results will pave the way for a successful exploitation, pointing out the INEDIT solution strong points as well as aspects to be improved.
 
-## Task6.7 Analysis of the Gender Dimension in the DIT process [TL: HUAS. Participants: ALL]
+## Task6.7 Analysis of the Gender Dimension in the DIT process 
+[TL: HUAS. Participants: ALL]
 
 Based on an adaptation of the gender evaluation methodology, we will integrate gender analysis by following seven steps in three phases. In the first phase we already identified intended use, users and potential gender issues. We will use this preliminary work to hit the ground running when we start the project, by immediately explicate the concepts and issues and create evaluation questions together within the first three months. In the second phase we will set indicators and start collecting data in an iterative manner and will be analyzing it. The third phase is feedback of the results into the project
 
