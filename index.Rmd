@@ -10,13 +10,13 @@ author:
     url: https://erpi.univ-lorraine.fr/people/Laurent-Dupont/
     affiliation: ERPI
     affiliation_url: https://erpi.univ-lorraine.fr/
-    orcid_id:  
+    orcid_id: 0000-0002-8279-9690  
   - first_name: "Fréderique"
     last_name: "Mayer"
     url: https://erpi.univ-lorraine.fr/people/Frederique-Mayer/
     affiliation: ERPI
     affiliation_url: https://erpi.univ-lorraine.fr/
-    orcid_id: 0000-0002-8279-9690    
+    orcid_id:     
   - first_name: "Hakim"
     last_name: "Boudaoud"
     url: https://erpi.univ-lorraine.fr/people/Hakim-Boudaoud/
