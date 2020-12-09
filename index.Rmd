@@ -69,6 +69,18 @@ require(xaringanExtra)
 - Identify potential gender issues and insights to overcome them
 
 
+
+# Presentation
+
+
+```{r embed-xaringan, echo=FALSE}
+
+embed_xaringan(url = "slides/index.html", ratio = "16:9")
+
+```
+
+
+
 # Description of work
 
 ## Task 6.1 Validation Process Specification 

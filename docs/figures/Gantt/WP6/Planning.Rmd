@@ -1,0 +1,62 @@
+---
+title: "Planning"
+#output: html_document
+classoption: landscape
+geometry: margin=1cm
+header-includes:
+  - \usepackage{pgfgantt}
+  - \usepackage{textcomp}
+#bibliography: library.bib
+output: pdf_document
+#csl: ieee.csl
+link-citations: yes
+linkcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+\begin{ganttchart}[vgrid, hgrid, 
+   time slot format = isodate-yearmonth, 
+   bar/.append style={fill=blue!50, rounded corners=3pt},
+	newline shortcut=true,
+	today={\the\year-\the\month-\the\day}, 
+	today offset= .3,
+	y unit chart=0.6cm,
+	x unit = 0.7cm,
+	bar label node/.append style={align=left},
+	milestone/.append style={fill=blue, rounded corners=1pt},
+	milestone label font=\color{blue},
+	time slot unit=month ]{2020-12}{2022-10}
+	\gantttitlecalendar{year, month=shortname} \\
+
+\ganttgroup{WP 6: Use cases experiments demonstration and evaluation}{2021-03}{2022-07} \\ 
+
+   \ganttbar[name=T1]{T6.1 Validation Process Specification}{2021-03}{2021-09}\\
+   \ganttbar[name=T2]{T6.2 Manufacturing of wood furniture demonstrator}{2021-10}{2022-07}\\ 
+   \ganttbar[name=T3]{T6.3 3D printing of wood demonstrator}{2021-10}{2022-07}\\ 
+   \ganttbar[name=T4,  progress=5]{T6.4 3D printing of recycled plastic demonstrator}{2021-10}{2022-07}\\ 
+   \ganttbar[name=T5]{T6.5 Smartification demonstrator}{2021-10}{2022-07}\\ 
+   
+   \ganttbar[name=T6]{T6.6 Test and evaluation of results}{2022-04}{2022-07}\\ 
+   \ganttbar[name=T4]{T6.7 Analysis of the Gender Dimension in the DIT process}{2021-12}{2022-07}\\ 
+   
+   \ganttmilestone[name=Mile1]{Delivrable}{2022-07} \ganttnewline
+   
+   \ganttgroup{WP 7: Communication, Dissemination and Exploitation}{2020-12}{2022-10} \\ 
+   
+   
+   
+   %\ganttlink{T1.1}{T1.2}
+   %\ganttlink{T1.1}{T1.3}
+   %\ganttlink{T1.1}{T1.4}
+   %\ganttlink{T1.1}{T1.5}
+   %\ganttlink{T1.4}{Mile1}
+
+
+\end{ganttchart}
+
+Last Updated :  `r format(Sys.time(), '%d %B, %Y')`
+

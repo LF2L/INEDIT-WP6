@@ -434,8 +434,8 @@ blockquote, .blockquote {
   border-bottom: solid 2px #0148A4;
   border-right: solid 2px #0148A4;
   box-shadow: 0 0 6px rgba(0,0,0,0.5);
-  /* background-color: #e64626; */
-  color: #e64626;
+  /* background-color: #e2e2e2;*/
+  color: black;
   padding: 0.5em;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
