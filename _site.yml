@@ -23,4 +23,4 @@ output:
     toc: true
     toc_depth: 2
 
-exclude: ["README.md"]
+exclude: ["README.md", "figures/Gantt/WP6/Planning.Rmd",  "figures/Gantt/Task6-4/WP6-ERPI.Rmd"]
