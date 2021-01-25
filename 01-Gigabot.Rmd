@@ -11,6 +11,12 @@ author:
     affiliation: ERPI
     affiliation_url: https://erpi.univ-lorraine.fr/
     orcid_id: 0000-0001-8529-5327
+  - first_name: "Laurent"
+    last_name: "Dupont"
+    url: https://erpi.univ-lorraine.fr/people/Fabio-Cruz/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0002-8279-9690
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
