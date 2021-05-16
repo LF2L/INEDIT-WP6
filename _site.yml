@@ -2,7 +2,7 @@ name: "INEDIT Project"
 title: "INEDIT - WP6"
 theme: Inedit.css 
 description: |
-  Everest
+  INEDIT project
 output_dir: "docs"
 repository_url: https://github.com/LF2L/INEDIT-WP6
 navbar:
@@ -22,6 +22,6 @@ output:
   distill::distill_article:
     toc: true
     toc_depth: 2
-include: ["slides/"]
+#exclude: ["slides/"]
 
-exclude: ["README.md", "figures/Gantt/WP6/Planning.Rmd",  "figures/Gantt/Task6-4/WP6-ERPI.Rmd"]
+#exclude: ["README.md"]
