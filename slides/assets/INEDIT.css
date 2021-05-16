@@ -1,0 +1,91 @@
+/* Tittle  */
+.title-slide {
+  background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg");
+  background-position: 50% 15%;
+  background-size: 80%;
+  background-color: #FFFFFF;
+  text-align:left;
+  vertical-align: top;
+  text-shadow: none;
+  /*text-shadow: 0 0 5px #333;*/
+  /*padding-left: 100px;   delete this for 4:3 aspect ratio */
+}
+
+
+.title-slide h1 {
+  color: #1A292C;
+  font-weight: normal;
+  font-size: 45px;
+  /*padding: 20px;*/
+  text-align: left;
+  vertical-align: middle;
+  margin-bottom: 18px;
+}
+
+
+h1:after
+{
+    content:' ';
+    display:block;
+    border:2px solid #EB811B;
+}
+
+/* FONts */
+
+@font-face {
+  font-family: 'Trebuchet-MS';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/Trebuchet-MS-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trebuchet-MS';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/Trebuchet-MS.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trebuchet-MS';
+  font-style: italic;
+  font-weight: 700;
+  src: url('fonts/Trebuchet-MS-Bold-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trebuchet-MS';
+  font-style: italic;
+  font-weight: 400;
+  src: url('assets/fonts/Trebuchet-MS-Italic.ttf') format('truetype');
+}
+
+
+/* */
+.xaringan-extra-logo {
+  z-index: -10;
+}
+
+
+
+/*************************
+  Custom classes 
+**************************/
+
+.pull-left-2 {
+  float: left;
+  width: 60%;
+}
+.pull-right-1 {
+  float: right;
+  width: 36%;
+}
+
+.pull-left-1 {
+  float: left;
+  width: 36%;
+}
+.pull-right-2 {
+  float: right;
+  width: 60%;
+}

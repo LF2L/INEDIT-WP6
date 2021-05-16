@@ -1,0 +1,154 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=Maroon,
+  citecolor=Blue,
+  urlcolor=Blue,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=0.2in, paperheight=5in, paperwidth=11in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{pgfgantt}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[bitstream-charter]{mathdesign}
+\definecolor{blue_Inedit}{RGB}{24,156,232}
+\definecolor{grey_Inedit}{RGB}{150,150,150}
+\definecolor{green_Inedit}{RGB}{150,85,87}
+\definecolor{red_Inedit}{RGB}{169,2,48}
+\definecolor{orange_Inedit}{RGB}{221, 114, 42}
+\definecolor{yellow_Inedit}{RGB}{211,211,52}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{ganttchart}[vgrid, hgrid, 
+   time slot format = isodate-yearmonth, 
+   bar/.style={fill=blue_Inedit, rounded corners=3pt},
+   bar incomplete/.style={fill=orange_Inedit},
+    newline shortcut=true,
+    today={\the\year-\the\month-\the\day}, 
+    today offset= .3,
+    y unit chart=0.6cm,
+    x unit = 0.7cm,
+    bar label node/.append style={align=left},
+    milestone/.append style={fill=blue, rounded corners=1pt},
+    milestone label font=\color{blue},
+    time slot unit=month ]{2021-03}{2022-10}
+    \gantttitlecalendar{year, month=shortname} \\
+
+\ganttgroup{\color{grey_Inedit} WP 6: Use cases experiments demonstration and evaluation}{2021-03}{2022-07} \\ 
+   \ganttbar[name=T0]{\color{grey_Inedit} ... Other tasks .... }{2021-03}{2021-03}\\
+   
+  % \ganttbar[name=T1]{T6.1 Validation Process Specification}{2021-03}{2021-09}\\
+   %\ganttbar[name=T2]{T6.2 Manufacturing of wood furniture demonstrator}{2021-10}{2022-07}\\ 
+   %\ganttbar[name=T3]{T6.3 3D printing of wood demonstrator}{2021-10}{2022-07}\\ 
+   
+\ganttgroup[name=T4, progress=10 ]{\color{blue}T6.4 3D printing of recycled plastic demonstrator}{2021-03}{2022-07}\\ 
+
+   \ganttbar[name=T4_1, progress=37]{Coordination and alignement with WP 4.3-4.4 tasks}{2021-03}{2021-09} \\
+   
+   \ganttbar[name=T4_2, progress=15 ]{Literature and Background on Additive manufacturing / Recycling / Sustainability}{2021-03}{2021-07}\\ 
+      
+   \ganttbar[name=T4_3 , progress=10 ]{Printability test on Virgin material for calibration purposes}{2021-04}{2021-12}\\ 
+   
+   \ganttbar[name=T4_4, progress=10 ]{Iterative technical improvement of printing process}{2021-06}{2022-01}\\ 
+   
+   \ganttbar[name=T4_5, progress=10 ]{Definition of the scope of plastic wastes according printability }{2021-11}{2022-02}\\ 
+   
+   \ganttbar[name=T4_6, progress=0 ]{Experimental research design to test quality on virgin and recycled objects}{2022-01}{2022-05}\\ 
+   
+   \ganttbar[name=T4_7, progress=0 ]{Technical development of smart collector to collect plastic waste}{2021-04}{2021-10}\\ 
+   
+   \ganttbar[name=T4_8, progress=0 ]{Validation and consolidation of network of the local actors}{2021-11}{2022-05}\\ 
+   
+   \ganttbar[name=T4_9, progress=0 ]{Validation Demonstrator for INEDIT stakeholders (according KPI's?)}{2022-05}{2022-07}\\ 
+         
+  
+   
+  % \ganttbar[name=T5]{T6.5 Smartification demonstrator}{2021-10}{2022-07}\\ 
+   
+  % \ganttbar[name=T6]{T6.6 Test and evaluation of results}{2022-04}{2022-07}\\ 
+%   \ganttbar[name=T4]{T6.7 Analysis of the Gender Dimension in the DIT process}{2021-12}{2022-07}\\ 
+   
+   \ganttmilestone[name=Mile1]{Delivrable}{2022-07} \ganttnewline
+   
+   
+   
+   %\ganttlink{T1.1}{T1.2}
+   %\ganttlink{T1.1}{T1.3}
+   %\ganttlink{T1.1}{T1.4}
+   %\ganttlink{T1.1}{T1.5}
+   %\ganttlink{T1.4}{Mile1}
+
+         
+
+\end{ganttchart}
+
+\hfill \textbf{Last Updated}: 15 May, 2021
+
+\end{document}
