@@ -6,9 +6,9 @@ description: |
 output_dir: "docs"
 repository_url: https://github.com/LF2L/INEDIT-WP6
 navbar:
-#  logo:
-#    image: figures/logo.png
-#    href: https://lf2l.github.io/everest-bio/
+  logo:
+    image: figures/favicon2.ico
+    href: https://www.inedit-project.eu/
   search: true
   source_url: true
   right:

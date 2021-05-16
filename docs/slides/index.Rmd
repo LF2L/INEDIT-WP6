@@ -1,68 +1,224 @@
 ---
-title: "INEDIT WP-6 "
+title: " T6.4 3D printing of recycled plastic demonstrator "
 subtitle: |
-  Open **IN**novation **E**cosystems for **D**o-**I**t-**T**ogether process <br/>
-  Projet de recherche ERPI
+  Université de Lorraine - ERPI - France
 author: "Fabio Cruz"
 institute: "ERPI"
-date: "2020/11/18 (updated: `r Sys.Date()`)"
+date: "March, 2021 - INEDIT Monthly meeting – virtual seminar"
+#output: powerpoint_presentation
 output:
   xaringan::moon_reader:
-    lib_dir: libs
-    css: ["default", "assets/Fabio.css", "assets/Fabio-fonts.css"]
+    css: ["assets/xaringan-themer.css", "assets/INEDIT.css"]
+    seal: false
     nature:
-      ratio: "16:9"
+#      slideNumberFormat: "%current%"
       highlightStyle: github
       highlightLines: true
-      countIncrementalSlides: false
-      beforeInit: "assets/macros.js"
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+always_allow_html: true
 ---
 
-```{r share-again, echo=FALSE}
+
+```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
+# Libraries
+source("xaringan-themer.R")
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE,
+  include = TRUE
+)
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+#library(xaringanBuilder)
+#build_pdf("index.Rmd")
+
+# xaringanExtra
+xaringanExtra::use_panelset()
+
 xaringanExtra::use_share_again()
 ```
 
-# Global Planning WP6
 
-```{r echo=FALSE, out.height=450, out.width= 2000}
-knitr::include_graphics("../figures/Gantt/WP6/Planning.svg")
+
+class: title-slide, left, bottom
+
+
+```{r, out.width = '250px', fig.align='right'}
+knitr::include_graphics(paste0(URL, 'Logos/ERPI//UL-ERPI.png'))
 ```
 
 
----
-# Goals of the WP
+`r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date`
 
+# `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
+
+`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
+
+---
+
+
+
+
+```{r xaringan-logo, echo=FALSE, include=TRUE}
+xaringanExtra::use_logo(
+  image_url = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/background.svg",
+  width = "100%",
+  height = "100%",
+  position = css_position(top = "0em", right = "0em"),
+)
+
+```
+
+
+
+# Goals the WP-6
+
+.pull-left-2[
 - Implement the consumer-driven DIT process within the four use cases
 - Validate the INEDIT process specifications
 - Experiment and validate the result
 - Identify potential gender issues and insights to overcome them
 
-
----
 ## Task 6.4: 3D printing of recycled plastic demonstrator 
-### [TL: UL. Participants: CROWD, TTPSC]
 
-> The main goal of this task is to validate the .content-box-yellow[logistical and technical feasibility of recycled assets] to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries
+**TL: UL. Participants: CROWD, TTPSC**
 
 
-**Delivrable 6.4:** 3D printing of recycled plastic demonstrator .content-box-yellow[Deadline. Jul 2022]
+> The main goal of this task is to validate the .bg-green[logistical and technical feasibility of recycled assets] to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries
+
+
+**Delivrable 6.4:** 3D printing of recycled plastic demonstrator .bg-yellow[Deadline. Jul 2022]
+
+]
+.pull-right-1[
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
+```
+]
 
 
 ---
-background-image: url("../figures/Gantt/Task6-4/Planning.svg")
-background-size: contain
+
+# Planning Task 6.4:
 
 
-## Planning WP6 - Task 6.4
+```{r, fig.align='center'}
 
-```{r echo=FALSE}
-
-#library(magick)
-#"../figures/Gantt/Task6-4/Planning.svg"
 #Planning <- image_convert(tiger, "png")
-
-#knitr::include_graphics("../figures/Gantt/Task6-4/Planning.svg")
+magick::image_read_pdf("figures/Gantt/WP6/Planning.pdf",
+                       pages = 1)
 ```
+
+---
+class: middle
+
+# Agenda for Meeting  `r format(Sys.time(), '%d %B, %Y')`
+
+.grey_Inedit[
+1. .large.bg-yellow[**Coordination and alignement with WP 4.3-4.4**]
+1. .large.blue[**Literature and Background on Additive manufacturing / Recycling / Sustainability**]
+1. .large.blue[**Printability test on Virgin material for calibration purposes**]
+1. Iterative technical improvement of printing process
+1. Definition of the scope of plastic wastes according printability 
+1. Experimental research design to test quality on virgin and recycled objects
+1. .large.blue[**Technical development of smart collector to collect plastic waste**]
+1. Validation and consolidation of network of the local actors
+1. Validation Demonstrator for INEDIT stakeholders (according KPI's?)
+      ]   
+
+
+
+---
+class:  middle center inverse
+
+# .Large[1) Coordination and alignement with WP 4.3-4.4 ]
+
+.white.left[
+### Main Goal: To map elements from WP4 
+]
+
+---
+
+## Task 4.3. Technological and organizational development of the future use cases 
+**TL: UL. Participants: SCM, VERA, AIMEN, UNIN, TTS**
+
+.pull-left-2[
+During this task, the partners supporting the future use cases will develop the technological and logistical aspect of their local manufacturing demonstrator facility according the DIT approach in progress. 
+
+.bg-yellow[AIMEN] will develop a modular robotic cell for additive manufacturing of furniture; 
+
+.bg-yellow[UL] will identify a local closed-loop manufacturing network (potential local sources of waste material that can be considered as secondary raw material, based on indicators of quality and availability) and UL will also make the technical and organizational evaluation of the printability and manual injection of the recycled plastic; 
+
+.bg-yellow[SCM] will study the development parameters for the innovative manufacture of wood furniture. Additionally, this task aims to develop a parametric CAD / CAM software that transforms the 3D model, downloaded from the INEDIT platform or designed by the tool developed in T3.1, into the optimized manufacturing strategy for the 3D printing robot in order to achieve the seamless integration of the manufacturing process.
+]
+
+---
+## Coordination and alignement with WP 4.3-4.4 tasks
+
+UL OMDF (communities, Co-design, Gigabot X & more) : T4.3, T4.4  & WP6 
+
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics('figures/T6_1/Task-4_1-00.png')
+```
+
+---
+
+## Others connections...
+
+---
+
+class:  middle center inverse
+
+# .Large[ 2) Literature and Background on Additive manufacturing / Recycling / Sustainability ]
+---
+
+## Literature and Background on Additive manufacturing / Recycling / Sustainability
+
+Three main points
+
+- Additive manufacturing (AM) as a driver for EU economy
+- Sustainability of AM as challengue for not 
+- Recycling --> Towards distributed recyling approach
+
+---
+
+class:  middle center inverse
+
+# .Large[ 3) Printability test on Virgin material for calibration purposes ]
+
+---
+
+
+## Printability test on Virgin material for calibration purposes
+
+.pull-left-2[
+Working test for March – September 2021
+- Realization of first test using virgin material (e.g. PLA) for printability purposes and calibration tests with regarding to the commercial machines.
+- Evaluate the limit conditions of the open hardware machine using Design of Experiments (DoE) approach.
+- Fabrication of printing samples to evaluate the quality  considering the INEDIT project conditions.
+- Documentation of the test as scientific rapport defining the machine, protocol, user experience and the implications for DRAM. 
+–
+
+]
+---
+# .Large[ 7) Technical development of smart collector to collect plastic waste
+
+
 
 
 ---
@@ -75,7 +231,7 @@ background-size: contain
 
 
 .pull-right[ 
-![Plastic waste](https://images.unsplash.com/photo-1537084642907-629340c7e59c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80)
+ss
 ]
 
 
@@ -86,29 +242,7 @@ background-size: contain
 
 ---
 
-background-image: url("../figures/Test/SM/Diapositive4.jpeg")
-background-size: contain
-
----
-
-background-image: url("../figures/Test/SM/Diapositive5.jpeg")
-background-size: contain
-
----
-
-background-image: url("../figures/Test/SM/Diapositive6.jpeg")
-background-size: contain
-
----
-
-background-image: url("../figures/Test/SM/Diapositive7.jpeg")
-background-size: contain
-
----
-
-
-background-image: url("../figures/Test/SM/Diapositive8.jpeg")
-background-size: contain
+Technical development of smart collector to collect plastic waste
 
 ---
 
@@ -120,13 +254,9 @@ background-size: contain
 
 ---
 
-background-image: url("../figures/Test/SM/Diapositive9.jpeg")
-background-size: contain
 
 
----
 
-# Hangprinter? 
 
 
 ---
