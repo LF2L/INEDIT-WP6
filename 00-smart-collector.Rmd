@@ -1,0 +1,20 @@
+---
+title: "Smart collector"
+description: |
+  Some additional details coming soon :)
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+repository_url: https://github.com/LF2L/everest-bio
+---
+
+
+## Summary
+
+## Purpose of this task
+
+The logistical validation of a closed-loop supply chain for plastic in DIT approach needs to relied to a certain technology.
+
+In this delivrable, we will disscuss about the definition of closed loop elements and the 
+

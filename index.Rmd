@@ -40,6 +40,12 @@ author:
     affiliation: ERPI
     affiliation_url: https://erpi.univ-lorraine.fr/
     #orcid_id: 0000-0001-6328-1338
+  - first_name: "Alex"
+    last_name: "Gabriel"
+    url: https://erpi.univ-lorraine.fr/people/Alex-Gabriel/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    #orcid_id: 0000-0001-6328-1338
 bibliography: library.bib
 csl: journal-of-cleaner-production.csl
 link-citations: yes

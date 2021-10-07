@@ -73,13 +73,36 @@ d-appendix {
   --bkgd-color:       #0F2E3D;
 }
 
+
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 /* Change link appearance */
+
+/* Colors INEDIT */
+
+:root {
+  --inedit-grey: rgba(26, 156, 232, 0.9);
+  --inedit-blue: rgba(26, 156, 232, 0.9);
+  --inedit-green: rgba(150, 85, 87, 0.9);
+  --inedit-red: rgba(169, 2, 48, 0.9);
+  --inedit-orange: rgba(26, 156, 232, 0.9);
+  --inedit-yellow: rgba(221, 211, 52, 0.9);
+}
+
+
+.distill-site-header {
+  --bkgd-color:       var(--inedit-blue);
+}
 
 d-article a {
   border-bottom: 2px solid #e67e22;
   text-decoration: none;
 }
  
+/*-- Reducing list --*/
+d-article li {
+    margin-bottom: 0;
+    margin-left: 1rem;
+    padding-left: 0;
 }
+

@@ -14,10 +14,10 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-#    - text: "Gigabot"
-#      href: 01-Gigabot.html      
-#    - text: "References"
-#      href: 00-References.html
+    - text: "Gigabot"
+      href: 01-Gigabot.html
+    - text: "Smart Collector"
+      href: 00-smart-collector.html
 output:
   distill::distill_article:
     toc: true
