@@ -74,7 +74,7 @@ knitr::include_graphics(paste0(URL, 'Logos/ERPI//UL-ERPI.png'))
 
 
 
-```{r xaringan-logo, echo=FALSE, include=FALSE}
+```{r xaringan-logo, echo=FALSE, include=TRUE}
 xaringanExtra::use_logo(
   image_url = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/background.svg",
   width = "100%",

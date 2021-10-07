@@ -12,7 +12,7 @@
     <script src="index_files/xaringanExtra-scribble/scribble.js"></script>
     <script>document.addEventListener('DOMContentLoaded', function() { window.xeScribble = new Scribble({"pen_color":["#FF0000"],"pen_size":3,"eraser_size":30}) })</script>
     <link rel="stylesheet" href="assets/xaringan-themer.css" type="text/css" />
-    <link rel="stylesheet" href="assets/INEDIT.css" type="text/css" />
+    <link rel="stylesheet" href="assets/Inedit.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -40,7 +40,39 @@ class: title-slide, left, bottom
 
 
 
-
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 100%;
+height: 100%;
+z-index: 0;
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/background.svg);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:0em;right:0em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
 
 
 
@@ -81,7 +113,7 @@ class: title-slide, left, bottom
 ---
 class: middle
 
-# Agenda for Meeting  25 May, 2021
+# Agenda for Meeting  07 October, 2021
 
 .grey_Inedit[
 1. .large.bg-yellow[**Coordination and alignement with WP 4.3-4.4**]
