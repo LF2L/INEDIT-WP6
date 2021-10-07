@@ -14,9 +14,9 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Gigabot"
+    - text: "Technical Validation"
       href: 01-Gigabot.html
-    - text: "Smart Collector"
+    - text: "Logistical Validation"
       href: 00-smart-collector.html
 output:
   distill::distill_article:

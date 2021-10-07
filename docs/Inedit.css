@@ -106,3 +106,7 @@ d-article li {
     padding-left: 0;
 }
 
+/*-- Changing the logo --*/
+.distill-site-header .logo img {
+    max-height: 200px;
+  }

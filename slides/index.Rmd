@@ -125,7 +125,7 @@ knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
 ```{r, fig.align='center'}
 
 #Planning <- image_convert(tiger, "png")
-magick::image_read_pdf("figures/Gantt/WP6/Planning.pdf",
+magick::image_read_pdf("figures/Gantt/WP6/_Planning.pdf",
                        pages = 1)
 ```
 
@@ -151,7 +151,7 @@ class: middle
 ---
 class:  middle center inverse
 
-# .Large[1) Coordination and alignement with WP 4.3-4.4 ]
+# 1) Coordination and alignement with WP 4.3-4.4 ]
 
 .white.left[
 ### Main Goal: To map elements from WP4 

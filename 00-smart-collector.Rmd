@@ -10,11 +10,36 @@ repository_url: https://github.com/LF2L/everest-bio
 ---
 
 
-## Summary
+
+# Summary
 
 ## Purpose of this task
 
 The logistical validation of a closed-loop supply chain for plastic in DIT approach needs to relied to a certain technology.
 
-In this delivrable, we will disscuss about the definition of closed loop elements and the 
+In this delivrable, we will disscuss about the definition of closed loop elements and the development of a '*smart collector*' for the INEDIT demonstrator of plastic recycling leaded by Université de Lorraine
 
+
+## Presentation
+
+
+# Introduction
+
+# Background
+
+##  Closed-loop supply chain
+Reverse logistic and closed loop supply chains have been extensively studied in the scientific literature. 
+Govindan et al. (2015) identified decision variables and optimization methods, among other parameters considered in these fields. They presented the level of decision variables used, which, in most cases, are operational variables (e.g. lot sizing, inventory, etc.). Also, it was found that concerning optimization methods, most studies used linear and mixed integer programming (MILP) approaches, and most consider only one optimization objective. More specifically, they found that linear programming is the dominant form of modeling for RL/CLSC problems relating to design and plan- ning; for example, they address decisions such as facility location, facility capacity, and flow between facilities. In
+
+## Industry 4.0 and Circular Economy
+
+
+
+# Proposition of Smart Collector for INEDIT approach. 
+
+
+# Experimental results
+
+## Limits & Reccomendation for EU
+
+# Bibliography
