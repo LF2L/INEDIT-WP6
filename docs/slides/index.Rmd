@@ -69,8 +69,6 @@ knitr::include_graphics(paste0(URL, 'Logos/ERPI//UL-ERPI.png'))
 
 `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
 
----
-
 
 
 ```{r xaringan-logo, echo=FALSE, include=TRUE}
@@ -87,6 +85,11 @@ xaringanExtra::use_logo(
 ```{r xaringan-scribble, echo=FALSE}
 xaringanExtra::use_scribble()
 ```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
 
 ---
 
