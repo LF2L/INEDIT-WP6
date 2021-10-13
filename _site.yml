@@ -1,6 +1,6 @@
 name: "INEDIT Project"
 title: "INEDIT - WP6"
-theme: Inedit.css 
+theme: 'assets/Inedit-total.css'
 description: |
   INEDIT project
 output_dir: "docs"
