@@ -80,6 +80,7 @@ d-appendix {
 
 /* Colors INEDIT */
 
+/*
 :root {
   --inedit-grey: rgba(26, 156, 232, 0.9);
   --inedit-blue: rgba(26, 156, 232, 0.9);
@@ -89,10 +90,12 @@ d-appendix {
   --inedit-yellow: rgba(221, 211, 52, 0.9);
 }
 
+*/
 
 .distill-site-header {
-  --bkgd-color:       var(--inedit-blue);
+  --bkgd-color: rgba(26, 156, 232, 0.9);
 }
+
 
 d-article a {
   border-bottom: 2px solid #e67e22;
