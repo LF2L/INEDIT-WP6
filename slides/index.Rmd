@@ -183,9 +183,17 @@ UL OMDF (communities, Co-design, Gigabot X & more) : T4.3, T4.4  & WP6
 knitr::include_graphics('figures/T6_1/Task-4_1-00.png')
 ```
 
-
 ---
 
+## Coordination and alignement with WP 4.3-4.4 tasks
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/Task-4.3/Task.jpg'))
+```
+
+Work in progress  `r format(Sys.time(), '%d %B, %Y')`
+
+---
 class:  middle center inverse
 
 #  2) Literature and Background on Additive manufacturing / Recycling / Sustainability 
@@ -264,7 +272,7 @@ class:  middle center inverse
 
 ## Printability test on Virgin material for calibration purposes
 
-.pull-left-2[
+.pull-left[
 
 Working test for March – September 2021
 
@@ -273,9 +281,33 @@ Working test for March – September 2021
 - Fabrication of printing samples to evaluate the quality  considering the INEDIT project conditions.
 - Documentation of the test as scientific rapport defining the machine, protocol, user experience and the implications for DRAM. 
 –
+]
+
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/GB-00.jpg'))
+```
 
 ]
 
+---
+
+## Printability test on Virgin material for calibration purposes
+
+.pull-left[
+
+```{r , include=TRUE, fig.cap=" ", out.width = '65%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Swapnil-DOE-00.jpg'))
+```
+
+]
+
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Swapnil-DOE-01.jpg'))
+```
+
+]
 ---
 exclude: true
 class:  middle center inverse
@@ -321,41 +353,40 @@ class:  middle center inverse
 
 ---
 
+
 ## Smart Collector
 
-.pull-left[ 
-- To create a local network collection for puntual plastic material. 
-]
-
-
-.pull-right[ 
-
-]
-
-
-.footnote[
-*Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
-]
-
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-02.jpg'))
+```
 
 ---
 
-Technical development of smart collector to collect plastic waste
 
+## Smart Collector
 
----
+.pull-left[
+- To create a local network collection for punctual plastic material. 
+]
 
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-00.jpg'))
+```
+]
+
+Protyping a dashboard: http://grafana.lf2l.fr/dashboard/snapshot/qE20JzmxdSGXNDEaAwPpqgQBvr18ps1d?orgId=1
 
 
 
 
 
 ---
-
 class: middle, center
 
 
-Thanks !
+# Thanks !
+
 
 
 

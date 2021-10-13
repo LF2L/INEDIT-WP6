@@ -39,7 +39,7 @@ knitr::opts_chunk$set(echo = TRUE)
    bar incomplete/.style={fill=orange_Inedit},
 	newline shortcut=true,
 	today={\the\year-\the\month-\the\day}, 
-	today offset= .3,
+	%today offset= .3,
 	y unit chart=0.6cm,
 	x unit = 0.7cm,
 	bar label node/.append style={align=left},
@@ -57,23 +57,23 @@ knitr::opts_chunk$set(echo = TRUE)
    
 \ganttgroup[name=T4, progress=10 ]{\color{blue}T6.4 3D printing of recycled plastic demonstrator}{2021-03}{2022-07}\\ 
 
-   \ganttbar[name=T4_1, progress=50]{Coordination and alignement with WP 4.3-4.4 tasks}{2021-03}{2021-09} \\
+   \ganttbar[name=T4_1, progress=80]{Coordination and alignement with WP 4.3-4.4 tasks}{2021-03}{2021-09} \\
    
-   \ganttbar[name=T4_2, progress=95 ]{Literature and Background on Additive manufacturing / Recycling / Sustainability}{2021-03}{2021-07}\\ 
+   \ganttbar[name=T4_2, progress=90]{Literature and Background on Additive manufacturing / Recycling / Sustainability}{2021-03}{2021-07}\\ 
       
-   \ganttbar[name=T4_3 , progress=10 ]{Printability test on Virgin material for calibration purposes}{2021-04}{2021-12}\\ 
+   \ganttbar[name=T4_3 , progress=50]{Printability test on Virgin material for calibration purposes}{2021-04}{2021-12}\\ 
    
-   \ganttbar[name=T4_4, progress=10 ]{Iterative technical improvement of printing process}{2021-06}{2022-01}\\ 
+   \ganttbar[name=T4_4, progress=40]{Iterative technical improvement of printing process}{2021-06}{2022-01}\\ 
    
-   \ganttbar[name=T4_5, progress=10 ]{Definition of the scope of plastic wastes according printability }{2021-11}{2022-02}\\ 
+   \ganttbar[name=T4_5, progress=0]{Definition of the scope of plastic wastes according printability }{2021-11}{2022-02}\\ 
    
    \ganttbar[name=T4_6, progress=0 ]{Experimental research design to test quality on virgin and recycled objects}{2022-01}{2022-05}\\ 
    
-   \ganttbar[name=T4_7, progress=0 ]{Technical development of smart collector to collect plastic waste}{2021-04}{2021-10}\\ 
+   \ganttbar[name=T4_7, progress=70]{Technical development of smart collector to collect plastic waste}{2021-04}{2021-10}\\ 
    
-   \ganttbar[name=T4_8, progress=0 ]{Validation and consolidation of network of the local actors}{2021-11}{2022-05}\\ 
+   \ganttbar[name=T4_8, progress=0]{Validation and consolidation of network of the local actors}{2021-11}{2022-05}\\ 
    
-   \ganttbar[name=T4_9, progress=0 ]{Validation Demonstrator for INEDIT stakeholders (according KPI's?)}{2022-05}{2022-07}\\ 
+   \ganttbar[name=T4_9, progress=0]{Validation Demonstrator for INEDIT stakeholders (according KPI's?)}{2022-05}{2022-07}\\ 
          
   
    

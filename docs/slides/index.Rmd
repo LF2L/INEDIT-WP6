@@ -146,12 +146,10 @@ class: middle
 1. Validation Demonstrator for INEDIT stakeholders (according KPI's?)
       ]   
 
-
-
 ---
 class:  middle center inverse
 
-# 1) Coordination and alignement with WP 4.3-4.4 ]
+# 1) Coordination and alignement with WP 4.3-4.4 
 
 .white.left[
 ### Main Goal: To map elements from WP4 
@@ -162,12 +160,15 @@ class:  middle center inverse
 ## Task 4.3. Technological and organizational development of the future use cases 
 **TL: UL. Participants: SCM, VERA, AIMEN, UNIN, TTS**
 
-.pull-left-2[
+.grey_Inedit.pull-left-2[
 During this task, the partners supporting the future use cases will develop the technological and logistical aspect of their local manufacturing demonstrator facility according the DIT approach in progress. 
 
 .bg-yellow[AIMEN] will develop a modular robotic cell for additive manufacturing of furniture; 
 
+.black[
 .bg-yellow[UL] will identify a local closed-loop manufacturing network (potential local sources of waste material that can be considered as secondary raw material, based on indicators of quality and availability) and UL will also make the technical and organizational evaluation of the printability and manual injection of the recycled plastic; 
+
+]
 
 .bg-yellow[SCM] will study the development parameters for the innovative manufacture of wood furniture. Additionally, this task aims to develop a parametric CAD / CAM software that transforms the 3D model, downloaded from the INEDIT platform or designed by the tool developed in T3.1, into the optimized manufacturing strategy for the 3D printing robot in order to achieve the seamless integration of the manufacturing process.
 ]
@@ -184,93 +185,208 @@ knitr::include_graphics('figures/T6_1/Task-4_1-00.png')
 
 ---
 
-## Others connections...
+## Coordination and alignement with WP 4.3-4.4 tasks
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/Task-4.3/Task.jpg'))
+```
+
+Work in progress  `r format(Sys.time(), '%d %B, %Y')`
 
 ---
-
 class:  middle center inverse
 
-# .Large[ 2) Literature and Background on Additive manufacturing / Recycling / Sustainability ]
+#  2) Literature and Background on Additive manufacturing / Recycling / Sustainability 
+
+.white.left[
+### Main Goal: Highlith elements from literature to value for INEDIT
+]
+
 ---
 
-## Literature and Background on Additive manufacturing / Recycling / Sustainability
+## Background on Additive manufacturing / Recycling / Sustainability
 
 Three main points
 
 - Additive manufacturing (AM) as a driver for EU economy
-- Sustainability of AM as challengue for not 
-- Recycling --> Towards distributed recyling approach
+- Sustainability of AM as challenge. 
+- Recycling --> Towards distributed recycling approach (DRAM)
+
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+
+.pull-left[
+-Local closed loop  <br>
+-AM adds value  <br>
+-Small quantities   <br>
+-Reduction of landfilling  <br>
+-Minimize the use of virgin materials  <br>
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='left'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Green-fablab-2.jpg'))
+```
+
+]
+.pull-right[
+
+![](http://lf2l.fr/assets/images/3-projects/gf/Logo-GF.png)
+
+```{r, include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Green-fablab-1.jpg'))
+```
+
+
+http://lf2l.fr/projects/green-fablab
+]
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. <br>Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+]
+
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-12.png'))
+```
+
+
 
 ---
 
 class:  middle center inverse
 
-# .Large[ 3) Printability test on Virgin material for calibration purposes ]
+# 3) Printability test on Virgin material for calibration purposes
+
+.white.left[
+### Main Goal: Testing technical feasibility of 3DP process
+]
 
 ---
 
-
 ## Printability test on Virgin material for calibration purposes
 
-.pull-left-2[
+.pull-left[
+
 Working test for March – September 2021
+
 - Realization of first test using virgin material (e.g. PLA) for printability purposes and calibration tests with regarding to the commercial machines.
 - Evaluate the limit conditions of the open hardware machine using Design of Experiments (DoE) approach.
 - Fabrication of printing samples to evaluate the quality  considering the INEDIT project conditions.
 - Documentation of the test as scientific rapport defining the machine, protocol, user experience and the implications for DRAM. 
 –
-
-]
----
-# .Large[ 7) Technical development of smart collector to collect plastic waste
-
-
-
-
----
-
-# Smart Collector
-
-.pull-left[ 
-- To create a local network collection for puntual plastic material. 
 ]
 
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/GB-00.jpg'))
+```
 
-.pull-right[ 
-ss
-]
-
-
-.footnote[
-*Kranzinger, L., Pomberger, R., Schwabl, D., Flachberger, H., Bauer, M., Lehner, M., Hofer, W., 2018. Output-oriented analysis of the wet mechanical processing of polyolefin-rich waste for feedstock recycling. Waste Manag. Res. 36, 445–453
-]
-
-
----
-
-Technical development of smart collector to collect plastic waste
-
----
-
-# Gigabot
-
-.pull-left[ 
-- Print big
 ]
 
 ---
 
+## Printability test on Virgin material for calibration purposes
+
+.pull-left[
+
+```{r , include=TRUE, fig.cap=" ", out.width = '65%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Swapnil-DOE-00.jpg'))
+```
+
+]
+
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Swapnil-DOE-01.jpg'))
+```
+
+]
+---
+exclude: true
+class:  middle center inverse
+
+# 4) Iterative technical improvement of printing process
+
+.white.left[
+### Main Goal: 
+]
+
+---
+exclude: true
+class:  middle center inverse
+
+# 5) Definition of the scope of plastic wastes according printability 
+
+.white.left[
+### Main Goal: 
+]
+
+
+---
+exclude: true
+class:  middle center inverse
+
+# 6) Experimental research design to test quality on virgin and recycled objects
+
+.white.left[
+### Main Goal: 
+]
+
+
+---
+
+class:  middle center inverse
+
+# 7) Technical development of smart collector to collect plastic waste
+
+.white.left[
+### Main Goal: To have an open source IoT in order to deploy for the demonstrator
+]
+
+
+---
+
+
+## Smart Collector
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-02.jpg'))
+```
+
+---
+
+
+## Smart Collector
+
+.pull-left[
+- To create a local network collection for punctual plastic material. 
+]
+
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-00.jpg'))
+```
+]
+
+Protyping a dashboard: http://grafana.lf2l.fr/dashboard/snapshot/qE20JzmxdSGXNDEaAwPpqgQBvr18ps1d?orgId=1
 
 
 
 
 
 ---
-
 class: middle, center
 
 
-Thanks !
+# Thanks !
+
 
 
 

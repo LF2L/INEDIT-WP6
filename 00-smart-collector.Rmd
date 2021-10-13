@@ -11,6 +11,7 @@ repository_url: https://github.com/LF2L/everest-bio
 
 
 
+
 # Summary
 
 ## Purpose of this task
@@ -28,6 +29,7 @@ In this delivrable, we will disscuss about the definition of closed loop element
 # Background
 
 ##  Closed-loop supply chain
+
 Reverse logistic and closed loop supply chains have been extensively studied in the scientific literature. 
 Govindan et al. (2015) identified decision variables and optimization methods, among other parameters considered in these fields. They presented the level of decision variables used, which, in most cases, are operational variables (e.g. lot sizing, inventory, etc.). Also, it was found that concerning optimization methods, most studies used linear and mixed integer programming (MILP) approaches, and most consider only one optimization objective. More specifically, they found that linear programming is the dominant form of modeling for RL/CLSC problems relating to design and plan- ning; for example, they address decisions such as facility location, facility capacity, and flow between facilities. In
 
