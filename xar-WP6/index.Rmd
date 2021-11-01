@@ -8,7 +8,7 @@ date: "March, 2021 - INEDIT Monthly meeting – virtual seminar"
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
-    css: ["assets/xaringan-themer.css", "../assets/Inedit-total.css"]
+    css: ["assets/xaringan-themer.css"]
     seal: false
     nature:
 #      slideNumberFormat: "%current%"
@@ -20,6 +20,7 @@ output:
         scroll: false # disable slide transitions by scrolling
 always_allow_html: true
 ---
+
 
 
 ```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
@@ -49,17 +50,23 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 xaringanExtra::use_panelset()
 
 #xaringanExtra::use_share_again()
-
-
-
 ```
+
+
+
+
+```{r, include=FALSE, echo=FALSE}
+# CSS for the CSS
+htmltools::includeCSS("https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/assets/Inedit-total.css")
+```
+
 
 
 class: title-slide, left, bottom
 
 
 ```{r, out.width = '250px', fig.align='right'}
-knitr::include_graphics(paste0(URL, 'Logos/ERPI//UL-ERPI.png'))
+knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
 ```
 
 
@@ -101,24 +108,23 @@ xaringanExtra::use_share_again()
 - Experiment and validate the result
 - Identify potential gender issues and insights to overcome them
 
-## Task 6.4: 3D printing of recycled plastic demonstrator 
+**Task 6.4: 3D printing of recycled plastic demonstrator** 
 
-**TL: UL. Participants: CROWD, TTPSC**
+*TL: UL. Participants: CROWD, TTPSC**
 
-
-> The main goal of this task is to validate the .bg-green[logistical and technical feasibility of recycled assets] to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries
+The main goal of this task is to validate the .bg-green[logistical and technical feasibility of recycled assets] to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries
 
 
 **Delivrable 6.4:** 3D printing of recycled plastic demonstrator .bg-yellow[Deadline. Jul 2022]
 
 ]
+
 .pull-right-1[
 
-```{r, out.width = '90%', fig.align='center'}
+```{r, out.width = '80%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
 ```
 ]
-
 
 ---
 
@@ -202,10 +208,12 @@ class:  middle center inverse
 #  2) Literature and Background on Additive manufacturing / Recycling / Sustainability 
 
 .white.left[
-### Main Goal: Highlith elements from literature to value for INEDIT
+### Main Goal: Highlithg elements from literature to value for INEDIT
 ]
 
 ---
+
+class: header_background
 
 ## Background on Additive manufacturing / Recycling / Sustainability
 
@@ -245,7 +253,7 @@ http://lf2l.fr/projects/green-fablab
 ]
 
 .footnote[
-Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. <br>Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing.<br> Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
 ]
 
 
@@ -311,7 +319,9 @@ knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Swapnil-DOE-01.jpg'))
 ```
 
 ]
+
 ---
+
 exclude: true
 class:  middle center inverse
 

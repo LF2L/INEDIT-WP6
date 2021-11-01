@@ -53,7 +53,7 @@
   --inverse-background-color: #FF961C;
   --inverse-header-color: #FFFFFF;
   --inverse-link-color: #1381B0;
-  --title-slide-background-color: #1381B0;
+  --title-slide-background-color: #FFFFFF;
   --title-slide-text-color: #000000;
   --header-background-color: #1381B0;
   --header-background-text-color: #FFFFFF;
@@ -127,9 +127,9 @@ a, a > code {
 }
 .footnote {
   position: absolute;
-  bottom: 60px;
+  bottom: 0px;
   padding-right: 4em;
-  font-size: 0.9em;
+  font-size: 60%;
 }
 .remark-code-line-highlighted {
   background-color: var(--code-highlight-color);
@@ -150,6 +150,9 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
+  background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg");
+  background-size: 80%;
+  background-position: 50% 15%;
 }
 .title-slide .remark-slide-number {
   display: none;
@@ -333,30 +336,23 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 
 
 /* Extra CSS */
+.remark-slide-content > h1:first-of-type {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #EB811B;
+}
 .remark-slide-content h1 {
   margin-bottom: 0;
   margin-top: 0;
 }
-.remark-slide-content > h1:first-of-type {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-.title-slide h2 {
-  font-family: Trebuchet-MS;
-}
 .remark-slide-content > h2:first-of-type {
   margin-top: 5px;
   margin-bottom: 10px;
+  border-bottom: 2px solid #EB811B;
 }
 .remark-slide-content > h3:first-of-type {
   margin-top: 5px;
   margin-bottom: 10px;
-}
-.remark-slide-content {
-  padding-top: 25px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 25px;
 }
 .small {
   font-size: 90%;
@@ -380,14 +376,24 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 .tiny , .tiny .remark-code, .tiny .remark-inline-code {
   font-size: 60%;
 }
-.footnote {
-  position: absolute;
-  bottom: 0;
-  padding-right: 8em;
-  font-size: 60%;
-}
 .fn {
   vertical-align: super;
   font-size: 60%;
   color: purple;
+}
+.pull-left-2 {
+  float: left;
+  width: 60%;
+}
+.pull-right-1 {
+  float: right;
+  width: 36%;
+}
+.pull-left-1 {
+  float: left;
+  width: 36%;
+}
+.pull-right-2 {
+  float: right;
+  width: 60%;
 }

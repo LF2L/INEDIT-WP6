@@ -85,7 +85,7 @@ require(xaringanExtra)
 # Presentation from UL
 
 ```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "slides/index.html", ratio = "16:9")
+xaringanExtra::embed_xaringan(url = "xar-WP6/index.html", ratio = "16:9")
 ```
 
 # Description of work
