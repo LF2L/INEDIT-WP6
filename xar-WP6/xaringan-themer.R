@@ -18,8 +18,9 @@ style_duo_accent(
    base_font_size = "18px",
    text_font_family = 'Trebuchet-MS',
    header_font_family = 'Trebuchet-MS',
-
+   header_font_url = 'https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/xar-WP6/assets/WP6.css',	
    
+
    # Title slide
    title_slide_background_color = '#FFFFFF',
    title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg",
@@ -48,11 +49,6 @@ style_duo_accent(
       yellow = "#FAFE83",
       blue = "#1381B0",
       grey_Inedit = "#969696"
-   ),
-   extra_fonts = list(
-      google_font("Sofia"),
-      # Young Serif by uplaod.fr
-      "https://cdn.jsdelivr.net/gh/uplaod/YoungSerif/fonts/webfonts/fontface.css",
    ),
    
    extra_css = list(
