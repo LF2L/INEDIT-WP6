@@ -1,35 +1,6 @@
-
-/*  Xaringan */
-   /* Tittle  */
-   .title-slide {
-      background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg");
-      background-position: 50% 15%;
-      background-size: 80%;
-      background-color: #FFFFFF;
-         text-align:left;
-      vertical-align: top;
-      text-shadow: none;
-      /*text-shadow: 0 0 5px #333;*/
-      /*padding-left: 100px;   delete this for 4:3 aspect ratio */
-   }
-
-
-
-.title-slide h1 {
-   color: #1A292C;
-      font-weight: normal;
-   font-size: 45px;
-   /*padding: 20px;*/
-      text-align: left;
-   vertical-align: middle;
-   margin-bottom: 18px;
-}
-
-
-
 /* FONts */
 
-   @font-face {
+@font-face {
       font-family: 'Trebuchet-MS';
       font-style: normal;
       font-weight: 700;

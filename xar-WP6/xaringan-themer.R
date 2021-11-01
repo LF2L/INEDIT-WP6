@@ -12,11 +12,13 @@ style_duo_accent(
    secondary_color = "#FF961C",
    inverse_header_color = "#FFFFFF", 
    white_color = "#FFFFFF",
-   
+   #header_color = '#969696',
+    
    # Fonts
    base_font_size = "18px",
    text_font_family = 'Trebuchet-MS',
    header_font_family = 'Trebuchet-MS',
+
    
    # Title slide
    title_slide_background_color = '#FFFFFF',
@@ -47,8 +49,14 @@ style_duo_accent(
       blue = "#1381B0",
       grey_Inedit = "#969696"
    ),
+   extra_fonts = list(
+      google_font("Sofia"),
+      # Young Serif by uplaod.fr
+      "https://cdn.jsdelivr.net/gh/uplaod/YoungSerif/fonts/webfonts/fontface.css",
+   ),
    
    extra_css = list(
+      
 
       # Changing the Title H1
       ".remark-slide-content > h1:first-of-type" = list(

@@ -1,5 +1,5 @@
 ---
-title: " T6.4 3D printing of recycled plastic demonstrator "
+title: " T6.4 3D printing of recycled plastic demonstrator"
 subtitle: |
   Université de Lorraine - ERPI - France
 author: "Fabio Cruz"
@@ -101,6 +101,8 @@ xaringanExtra::use_share_again()
 ---
 
 # Goals the WP-6
+
+
 
 .pull-left-2[
 - Implement the consumer-driven DIT process within the four use cases
