@@ -1,5 +1,5 @@
 ---
-title: " T6.4 3D printing of recycled plastic demonstrator "
+title: " T6.4 3D printing of recycled plastic demonstrator"
 subtitle: |
   Université de Lorraine - ERPI - France
 author: "Fabio Cruz"
@@ -54,14 +54,6 @@ xaringanExtra::use_panelset()
 
 
 
-
-```{r, include=FALSE, echo=FALSE}
-# CSS for the CSS
-htmltools::includeCSS("https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/assets/Inedit-total.css")
-```
-
-
-
 class: title-slide, left, bottom
 
 
@@ -102,6 +94,8 @@ xaringanExtra::use_share_again()
 
 # Goals the WP-6
 
+
+
 .pull-left-2[
 - Implement the consumer-driven DIT process within the four use cases
 - Validate the INEDIT process specifications
@@ -128,6 +122,80 @@ knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
 
 ---
 
+# Pitch my devs ! 
+
+.pull-left-1[
+
+
+**Tasks in DOA:**
+
+- Task 6.4 3D printing of recycled plastic demonstrator
+
+**What is our target :**
+
+- To be able to print recycled printed parts for personalized furniture from usable plastic waste collected locally.
+
+**What we have Done so far:**
+
+- .yellow[Create a V1.1 of the collector.]
+- Printability test for fused granular Fabrication
+
+**What are the next steps:**
+
+- .yellow[Create a dashboard for smart collectors]
+- Printability test from recycled PLA 
+
+
+
+
+]
+
+.pull-right-2[
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-Concept.jpg'))
+```
+
+]
+
+---
+
+# Pitch my devs ! 
+
+.pull-left-1[
+
+
+**Tasks in DOA:**
+
+- Task 6.4 3D printing of recycled plastic demonstrator
+
+**What is our target :**
+
+- To be able to print recycled printed parts for personalized furniture from usable plastic waste collected locally.
+
+**What we have Done so far:**
+
+- Create a V1.1 of the collector.
+- .yellow[Printability test for fused granular Fabrication]
+
+**What are the next steps:**
+
+- Create a dashboard for smart collectors
+- .yellow[Printability test from recycled PLA] 
+
+]
+
+.pull-right-2[
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Results-00.jpg'))
+```
+
+]
+
+
+---
+
 # Planning Task 6.4:
 
 
@@ -139,6 +207,7 @@ magick::image_read_pdf("figures/Gantt/WP6/_Planning.pdf",
 ```
 
 ---
+
 class: middle
 
 # Agenda for Meeting  `r format(Sys.time(), '%d %B, %Y')`

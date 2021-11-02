@@ -53,7 +53,6 @@ style_duo_accent(
    
    extra_css = list(
       
-
       # Changing the Title H1
       ".remark-slide-content > h1:first-of-type" = list(
          "margin-top" = "5px",

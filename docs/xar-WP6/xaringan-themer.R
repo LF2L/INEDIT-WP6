@@ -12,12 +12,15 @@ style_duo_accent(
    secondary_color = "#FF961C",
    inverse_header_color = "#FFFFFF", 
    white_color = "#FFFFFF",
-   
+   #header_color = '#969696',
+    
    # Fonts
    base_font_size = "18px",
    text_font_family = 'Trebuchet-MS',
    header_font_family = 'Trebuchet-MS',
+   header_font_url = 'https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/xar-WP6/assets/WP6.css',	
    
+
    # Title slide
    title_slide_background_color = '#FFFFFF',
    title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg",
@@ -49,7 +52,7 @@ style_duo_accent(
    ),
    
    extra_css = list(
-
+      
       # Changing the Title H1
       ".remark-slide-content > h1:first-of-type" = list(
          "margin-top" = "5px",
