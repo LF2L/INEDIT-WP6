@@ -137,12 +137,12 @@ knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
 
 **What we have Done so far:**
 
-- .yellow[Create a V1.1 of the collector.]
+- .bg-yellow[Create a V1.1 of the collector.]
 - Printability test for fused granular Fabrication
 
 **What are the next steps:**
 
-- .yellow[Create a dashboard for smart collectors]
+- .bg-yellow[Create a dashboard for smart collectors]
 - Printability test from recycled PLA 
 
 
@@ -176,12 +176,12 @@ knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-Concept.jpg')
 **What we have Done so far:**
 
 - Create a V1.1 of the collector.
-- .yellow[Printability test for fused granular Fabrication]
+- .bg-yellow[Printability test for fused granular Fabrication]
 
 **What are the next steps:**
 
 - Create a dashboard for smart collectors
-- .yellow[Printability test from recycled PLA] 
+- .bg-yellow[Printability test from recycled PLA] 
 
 ]
 
