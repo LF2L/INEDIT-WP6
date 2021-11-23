@@ -4,7 +4,7 @@ subtitle: |
   Université de Lorraine - ERPI - France
 author: "Fabio Cruz"
 institute: "ERPI"
-date: "March, 2021 - INEDIT Monthly meeting – virtual seminar"
+date: "November, 2021 - INEDIT"
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
@@ -57,17 +57,16 @@ xaringanExtra::use_panelset()
 class: title-slide, left, bottom
 
 
-```{r, out.width = '250px', fig.align='right'}
-knitr::include_graphics(paste0(URL, 'Logos/ERPI/UL-ERPI.png'))
-```
-
-
 `r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date`
 
-# `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
+## `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
 
 `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
 
+
+```{r, out.width = '600px', fig.align='right'}
+knitr::include_graphics(paste0(URL, 'Inedit/Logo-UL-EU.png'))
+```
 
 
 ```{r xaringan-logo, echo=FALSE, include=TRUE}
@@ -77,8 +76,9 @@ xaringanExtra::use_logo(
   height = "100%",
   position = css_position(top = "0em", right = "0em"),
 )
-
 ```
+
+
 
 
 ```{r xaringan-scribble, echo=FALSE}
