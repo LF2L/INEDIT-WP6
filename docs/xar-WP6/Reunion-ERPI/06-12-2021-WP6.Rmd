@@ -1,0 +1,63 @@
+# REcorderis del proyecto INEDIT
+
+---
+
+## Principales Objetivos del Proyecto
+
+--
+
+## Implication de UL
+
+
+---
+
+## People
+
+
+---
+
+
+# Green Fablab Demostrator
+
+.pull-left-2[
+- Implement the consumer-driven DIT process within the four use cases
+- Validate the INEDIT process specifications
+- Experiment and validate the result
+- Identify potential gender issues and insights to overcome them
+
+**Task 6.4: 3D printing of recycled plastic demonstrator** 
+
+*TL: UL. Participants: CROWD, TTPSC**
+
+The main goal of this task is to validate the .bg-green[logistical and technical feasibility of recycled assets] to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries
+
+
+**Delivrable 6.4:** 3D printing of recycled plastic demonstrator .bg-yellow[Deadline. Jul 2022]
+
+]
+
+.pull-right-1[
+
+```{r, out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
+```
+]
+
+---
+
+
+
+---
+
+# A demostrator to validate INEDIT Appro
+
+---
+
+# Link estrategia del EPRI
+
+
+---
+
+# Short ang long term
+
+---

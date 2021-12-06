@@ -15,26 +15,26 @@
  *    - xaringan wiki: https://github.com/yihui/xaringan/wiki
  *    - remarkjs wiki: https://github.com/gnab/remark/wiki
  *
- *  Version: 0.4.1
+ *  Version: 0.4.0.9000
  *
  * ------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap);
-@import url(https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/xar-WP6/assets/WP6.css);
+@import url(https://fonts.googleapis.com/css?family=Cabin:600,600i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap);
 
 
 :root {
   /* Fonts */
-  --text-font-family: Trebuchet-MS;
-  --text-font-is-google: 0;
+  --text-font-family: 'Noto Sans';
+  --text-font-is-google: 1;
   --text-font-family-fallback: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial;
   --text-font-base: sans-serif;
-  --header-font-family: Trebuchet-MS;
-  --header-font-is-google: 0;
+  --header-font-family: Cabin;
+  --header-font-is-google: 1;
   --header-font-family-fallback: Georgia, serif;
   --code-font-family: 'Source Code Pro';
   --code-font-is-google: 1;
-  --base-font-size: 18px;
+  --base-font-size: 20px;
   --text-font-size: 1rem;
   --code-font-size: 0.9rem;
   --code-inline-font-size: 1em;
@@ -53,7 +53,7 @@
   --inverse-background-color: #FF961C;
   --inverse-header-color: #FFFFFF;
   --inverse-link-color: #1381B0;
-  --title-slide-background-color: #FFFFFF;
+  --title-slide-background-color: #1381B0;
   --title-slide-text-color: #000000;
   --header-background-color: #1381B0;
   --header-background-text-color: #FFFFFF;
@@ -61,15 +61,6 @@
   --secondary: #FF961C;
   --white: #FFFFFF;
   --black: #000000;
-  --red: #f34213;
-  --purple: #3e2f5b;
-  --orange: #ff8811;
-  --green: #d9edc2;
-  --white: #FFFFFF;
-  --grey: #F5F5F5;
-  --yellow: #FAFE83;
-  --blue: #1381B0;
-  --grey_Inedit: #969696;
 }
 
 html {
@@ -127,9 +118,9 @@ a, a > code {
 }
 .footnote {
   position: absolute;
-  bottom: 0px;
+  bottom: 60px;
   padding-right: 4em;
-  font-size: 60%;
+  font-size: 0.9em;
 }
 .remark-code-line-highlighted {
   background-color: var(--code-highlight-color);
@@ -150,9 +141,6 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
-  background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg");
-  background-size: 80%;
-  background-position: 50% 15%;
 }
 .title-slide .remark-slide-number {
   display: none;
@@ -308,122 +296,4 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 .bg-black {
   background-color: var(--black);
 }
-.red {
-  color: var(--red);
-}
-.bg-red {
-  background-color: var(--red);
-}
-.purple {
-  color: var(--purple);
-}
-.bg-purple {
-  background-color: var(--purple);
-}
-.orange {
-  color: var(--orange);
-}
-.bg-orange {
-  background-color: var(--orange);
-}
-.green {
-  color: var(--green);
-}
-.bg-green {
-  background-color: var(--green);
-}
-.white {
-  color: var(--white);
-}
-.bg-white {
-  background-color: var(--white);
-}
-.grey {
-  color: var(--grey);
-}
-.bg-grey {
-  background-color: var(--grey);
-}
-.yellow {
-  color: var(--yellow);
-}
-.bg-yellow {
-  background-color: var(--yellow);
-}
-.blue {
-  color: var(--blue);
-}
-.bg-blue {
-  background-color: var(--blue);
-}
-.grey_Inedit {
-  color: var(--grey_Inedit);
-}
-.bg-grey_Inedit {
-  background-color: var(--grey_Inedit);
-}
 
-
-
-/* Extra CSS */
-.remark-slide-content > h1:first-of-type {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #EB811B;
-}
-.remark-slide-content h1 {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.remark-slide-content > h2:first-of-type {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #EB811B;
-}
-.remark-slide-content > h3:first-of-type {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-.small {
-  font-size: 90%;
-}
-.Large , .Large .remark-code, .Large .remark-inline-code {
-  font-size: 144%;
-}
-.large , .large .remark-code, .large .remark-inline-code {
-  font-size: 120%;
-}
-.small , .small .remark-code, .small .remark-inline-code {
-  font-size: 90%;
-}
-.footnotesize, 
-    .footnotesize .remark-code, .footnotesize .remark-inline-code {
-  font-size: 80%;
-}
-.scriptsize , .scriptsize .remark-code, .scriptsize .remark-inline-code {
-  font-size: 70%;
-}
-.tiny , .tiny .remark-code, .tiny .remark-inline-code {
-  font-size: 60%;
-}
-.fn {
-  vertical-align: super;
-  font-size: 60%;
-  color: purple;
-}
-.pull-left-2 {
-  float: left;
-  width: 60%;
-}
-.pull-right-1 {
-  float: right;
-  width: 36%;
-}
-.pull-left-1 {
-  float: left;
-  width: 36%;
-}
-.pull-right-2 {
-  float: right;
-  width: 60%;
-}
