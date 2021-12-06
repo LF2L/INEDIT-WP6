@@ -176,7 +176,9 @@ INEDIT demonstrates the potential innovation of .bg-yellow[Social Manufacturing 
 
 
 ---
-
+background-image: url("https://erpi.univ-lorraine.fr/assets/images/people/Alex-Gabriel.jpg")
+background-position: 40% 20%
+background-size: 110px
 
 ## Equipe
 
@@ -223,6 +225,8 @@ knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Brune
 
 **Brunelle Marche**
 ]
+
+
 
 .pull-right[
 
@@ -303,6 +307,7 @@ background-size: 30%
 
 Jiang, P., Leng, J., Ding, K., Gu, P., Koren, Y., 2016. Social manufacturing as a sustainable paradigm for mass individualization. Proc. Inst. Mech. Eng. Part B J. Eng. Manuf. 230, 1961–1968. https://doi.org/10.1177/0954405416666903
 ]
+
 ---
 
 ## Definition DIT
@@ -775,6 +780,8 @@ knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-05.jpg'))
 .pull-right[
 ```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '70%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/2021-11-17-SM.jpg'))
+
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-06.jpeg'))
 ```
 ]
 
