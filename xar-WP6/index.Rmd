@@ -113,6 +113,10 @@ xaringanExtra::use_xaringan_extra(c("scribble", "share_again"))
  
 .pull-right[
 
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/tender.png'))
+```
+
 
 ]
 
