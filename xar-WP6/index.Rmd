@@ -4,7 +4,7 @@ subtitle: |
   Université de Lorraine - ERPI - France
 author: "Fabio Cruz"
 institute: "ERPI"
-date: "November, 2021 - INEDIT"
+date: "December, 2021 - INEDIT"
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
@@ -22,7 +22,6 @@ always_allow_html: true
 ---
 
 
-
 ```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
 # Libraries
 source("xaringan-themer.R")
@@ -31,6 +30,7 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
   fig.width=9, fig.height=3.5, fig.retina=3,
   out.width = "100%",
+  fig.align = 'center',
   cache = FALSE,
   echo = FALSE,
   message = FALSE, 
@@ -50,6 +50,8 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 xaringanExtra::use_panelset()
 
 #xaringanExtra::use_share_again()
+
+library(fontawesome)
 ```
 
 
@@ -59,7 +61,7 @@ class: title-slide, left, bottom
 
 `r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date`
 
-## `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
+### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
 
 `r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
 
@@ -82,19 +84,300 @@ xaringanExtra::use_logo(
 
 
 ```{r xaringan-scribble, echo=FALSE}
-xaringanExtra::use_scribble()
+xaringanExtra::use_xaringan_extra(c("scribble", "share_again"))
+
 ```
 
-```{r share-again, echo=FALSE}
-xaringanExtra::use_share_again()
+
+
+```{r, child='Reunion-ERPI/06-12-2021-WP6.Rmd', include=FALSE, eval=FALSE}
+
+```
+
+---
+
+# How it started?
+
+.pull-left[
+
+
+
+
+🎯 The **Do-It-Yourself (DIY)** for SME's 👉 whole value chain.
+- New processes, machines and products and functionalities with shorter time to market.
+- Collaborative production / Open Innovation networks for new business opportunities
+- Consumer-goods sectors and couple design, .bg-yellow[**creativity**] and knowledge with a .bg-yellow[**customer-driven production**].
+- .bg-yellow[**Co-creation**] 👉 Design and Production
+
+]
+ 
+.pull-right[
+
+
+]
+
+.pull-left[
+*Scope and Expected Impact*
+
+🔄 KM and ideas of design, technologies and engineering relevant data and demands from users.
+-  Creative and agile methodologies strategies
+- Collaborative engineering in the Open-Innovation production networks
+- OS product data exchange, representations of products and processes + modelling and simulation
+- Manufacturing Demonstration Facilities (MDFs)
+- TRL 4 and achieve TRL 6 
+]
+
+.pull-right[
+**Expected Impact**:
+
+-Open-Innovation networks for manufacturing that support customer-driven production all around Europe;
+- Business models (SMEs) for the engineering of customised solutions
+- Co-design and co-development capabilities towards a reduction of development costs of new products and services
+- Product variety and personalisation for higher customer satisfaction and loyalty.
+]
+ 
+---
+
+## Ambition
+
+```{r, out.width = '&à0%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-00.png'))
 ```
 
 
 ---
 
-# Goals the WP-6
+background-image: url("`r paste0(URL, 'Inedit/WP7/INEDIT_Brochure-01.jpg')`")
+background-position: 80% 70%
+background-size: 50%
 
 
+# How it's going?
+
+### INEDIT
+INEDIT demonstrates the potential innovation of .bg-yellow[Social Manufacturing Models creating an Open Innovation] European Do It Together ecosystem for sustainable furniture co-creation
+.pull-left-1[
+
+**Furniture sector**
+
+- Interactive tech to unleash .bg-yellow[**creativity**] & .bg-yellow[**co-creation**]
+
+- Open Innovation Platform to democratize the production resources
+
+- Find new business opportunities
+
+- framework for co-creation & distributed production of .bg-yellow[**customer-driven**]
+
+- Lower ecological impact of Manufacturing
+
+- To create an Ecosystem of 'all stakeholders' within EU
+]
+
+
+
+---
+
+
+## Equipe
+
+.pull-left[
+
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px;"' }
+knitr::include_graphics('https://erpi.univ-lorraine.fr/assets/images/people/LD.jpg')
+```
+
+**Laurent Dupont**
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics('https://erpi.univ-lorraine.fr/assets/images/people/Fedoua-Kasmi.jpg')
+```
+
+**Fedoua Kasmi**
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Frederique-Mayer.jpg')
+```
+
+**Fréderique Mayer**
+
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Brunelle-Marche.jpg')
+```
+
+**Brunelle Marche**
+]
+
+.pull-right[
+
+
+```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Benjamin.jpg')
+```
+
+**Benjamin Enneser-Serville**. 
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Hakim-Boudaoud.jpg')
+```
+
+
+**Hakim Boudaoud**. 
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics(paste0(URL, 'Inedit/Cristian.png'))
+```
+
+**Cristian Caceres**. 
+
+Ingénieur d'etudes pour mettre en place et animer le demostrateur INEDIT
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics(paste0(URL, 'Fontaine/Alexandre.png'))
+```
+
+
+**Alexandre ASTACHENKO** Étudiant LP AFTER en alternance au LF2L dans le cadre de la licence.
+
+]
+
+---
+name: UL-INEDIT
+class: middle
+background-image: url("`r paste0(URL, 'Inedit/Proposal/Fig-3a-00.png')`")
+background-position: 80% 50%
+background-size: 60%
+
+### UL at INEDIT
+
+---
+class: middle
+background-image: url("`r paste0(URL, 'Inedit/Structure/Structure-00.png')`")
+background-position: 80% 50%
+background-size: 30%
+
+
+
+### Overview of the work (UL)
+
+- From DYI to the definition DIT `r fa("check-circle", fill = "steelblue")`
+- Formalisation DIT `r fa("check-circle", fill = "steelblue")`
+
+- Open Manufacturing Demostrator (OMDF) `r fa("spinner", fill = "steelblue")`
+
+- **Demostrator (UL)** `r fa("spinner", fill = "steelblue")`
+
+.small.pull-left-1[
+
+Jiang, P., Leng, J., Ding, K., Gu, P., Koren, Y., 2016. Social manufacturing as a sustainable paradigm for mass individualization. Proc. Inst. Mech. Eng. Part B J. Eng. Manuf. 230, 1961–1968. https://doi.org/10.1177/0954405416666903
+]
+---
+
+## Definition DIT
+
+```{r, out.width = '70%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model.png'))
+```
+
+<br>
+
+Innovations, Journal of Innovation Economics and management  – Special Issue (2022) “Do-It-Together” and innovation, towards the Factories of the Future (FoF) 
+Guest Editor(s): Laurent Dupont, Fedoua Kasmi, Joshua M. Pearce, Roland J. Ortt
+http://i-jiem.cairn.info/wp-content/uploads/sites/5/2017/05/JIEM-call-for-paper-Do-It-Together.pdf]
+
+---
+## Definition DIT
+
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-01.png'))
+```
+
+
+---
+## Formalisation DIT
+
+```{r, out.width = '70%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/Formalisation.png'))
+```
+
+
+http://inedit-db.lf2l.fr/fr/database/dit/
+
+
+---
+
+template:  UL-INEDIT
+
+---
+background-image: url("`r paste0(URL, 'Inedit/WP4/OMFD-01.png')`")
+background-position: 90% 70%
+background-size: 90%
+
+### Open Manufacturing Demonstrator (OMDF) 
+
+
+To facilitate the understanding, the demonstrator of the DIT approach will be called Open Manufacturing Demonstrator (OMD)
+
+
+---
+
+background-image: url("`r paste0(URL, 'Inedit/WP4/OMFD-03.png')`")
+background-position: 80% 70%
+background-size: 90%
+
+### Open Manufacturing Demonstrator (OMDF) 
+
+To facilitate the understanding, the demonstrator of the DIT approach will be called Open Manufacturing Demonstrator (OMD)
+
+
+---
+
+
+template:  UL-INEDIT
+
+
+---
+# Demostrators INEDIT
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/Demostrator-00.png'))
+```
+
+---
+
+# Demostrator UL
 
 .pull-left-2[
 - Implement the consumer-driven DIT process within the four use cases
@@ -102,7 +385,7 @@ xaringanExtra::use_share_again()
 - Experiment and validate the result
 - Identify potential gender issues and insights to overcome them
 
-**Task 6.4: 3D printing of recycled plastic demonstrator** 
+**3D printing of recycled plastic demonstrator** 
 
 *TL: UL. Participants: CROWD, TTPSC**
 
@@ -120,81 +403,10 @@ knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
 ```
 ]
 
----
-
-# Pitch my devs ! 
-
-.pull-left-1[
-
-
-**Tasks in DOA:**
-
-- Task 6.4 3D printing of recycled plastic demonstrator
-
-**What is our target :**
-
-- To be able to print recycled printed parts for personalized furniture from usable plastic waste collected locally.
-
-**What we have Done so far:**
-
-- .bg-yellow[Create a V1.1 of the collector.]
-- Printability test for fused granular Fabrication
-
-**What are the next steps:**
-
-- .bg-yellow[Create a dashboard for smart collectors]
-- Printability test from recycled PLA 
-
-
-
-
-]
-
-.pull-right-2[
-
-```{r , include=TRUE,  fig.cap=" ", out.width = '90%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-Concept.jpg'))
-```
-
-]
 
 ---
 
-# Pitch my devs ! 
-
-.pull-left-1[
-
-
-**Tasks in DOA:**
-
-- Task 6.4 3D printing of recycled plastic demonstrator
-
-**What is our target :**
-
-- To be able to print recycled printed parts for personalized furniture from usable plastic waste collected locally.
-
-**What we have Done so far:**
-
-- Create a V1.1 of the collector.
-- .bg-yellow[Printability test for fused granular Fabrication]
-
-**What are the next steps:**
-
-- Create a dashboard for smart collectors
-- .bg-yellow[Printability test from recycled PLA] 
-
-]
-
-.pull-right-2[
-
-```{r , include=TRUE,  fig.cap=" ", out.width = '90%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Results-00.jpg'))
-```
-
-]
-
-
----
+exclude: true
 
 # Planning Task 6.4:
 
@@ -207,6 +419,28 @@ magick::image_read_pdf("figures/Gantt/WP6/_Planning.pdf",
 ```
 
 ---
+
+# Our demostrator
+
+```{r, out.width = '100%', fig.align='center'}
+
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg'))
+
+```
+
+---
+
+# Our demostrator
+
+```{r, out.width = '70%', fig.align='center'}
+
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi-1.jpg'))
+
+```
+
+
+---
+exclude: true
 
 class: middle
 
@@ -225,6 +459,8 @@ class: middle
       ]   
 
 ---
+
+exclude: true
 class:  middle center inverse
 
 # 1) Coordination and alignement with WP 4.3-4.4 
@@ -235,7 +471,7 @@ class:  middle center inverse
 
 ---
 
-## Task 4.3. Technological and organizational development of the future use cases 
+## Technological and organizational development of the future use cases 
 **TL: UL. Participants: SCM, VERA, AIMEN, UNIN, TTS**
 
 .grey_Inedit.pull-left-2[
@@ -272,7 +508,9 @@ knitr::include_graphics(paste0(URL, 'Inedit/WP6/Task-4.3/Task.jpg'))
 Work in progress  `r format(Sys.time(), '%d %B, %Y')`
 
 ---
-class:  middle center inverse
+
+exclude: true
+class:  middle center 
 
 #  2) Literature and Background on Additive manufacturing / Recycling / Sustainability 
 
@@ -282,6 +520,7 @@ class:  middle center inverse
 
 ---
 
+exclude: true
 class: header_background
 
 ## Background on Additive manufacturing / Recycling / Sustainability
@@ -330,16 +569,15 @@ Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a stand
 
 ## Distributed recycling via additive manufacturing (DRAM)
 
-
-
 ```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'DRAM/DRAM-12.png'))
 ```
 
-
+Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. J. Clean. Prod. 264, 121602. https://doi.org/10.1016/j.jclepro.2020.121602
 
 ---
 
+exclude: true
 class:  middle center inverse
 
 # 3) Printability test on Virgin material for calibration purposes
@@ -349,6 +587,44 @@ class:  middle center inverse
 ]
 
 ---
+
+
+
+# Main techno Devs ! 
+
+.pull-left-1[
+
+
+**Tasks in DOA:**
+
+- Task 6.4 3D printing of recycled plastic demonstrator
+
+**What is our target :**
+
+- To be able to print recycled printed parts for personalized furniture from usable plastic waste collected locally.
+
+**What we have Done so far:**
+
+- Create a V1.1 of the collector.
+- .bg-yellow[Printability test for fused granular Fabrication]
+
+**What are the next steps:**
+
+- Create a dashboard for smart collectors
+- .bg-yellow[Printability test from recycled PLA] 
+
+]
+
+.pull-right-2[
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/gigabot/Results-00.jpg'))
+```
+
+]
+
+---
+
 
 ## Printability test on Virgin material for calibration purposes
 
@@ -424,6 +700,7 @@ class:  middle center inverse
 
 ---
 
+exclude: true
 class:  middle center inverse
 
 # 7) Technical development of smart collector to collect plastic waste
@@ -435,6 +712,43 @@ class:  middle center inverse
 
 ---
 
+# Main techno Devs ! 
+
+.pull-left-1[
+
+
+**Tasks in DOA:**
+
+- Task 6.4 3D printing of recycled plastic demonstrator
+
+**What is our target :**
+
+- To be able to print recycled printed parts for personalized furniture from usable plastic waste collected locally.
+
+**What we have Done so far:**
+
+- .bg-yellow[Create a V1.1 of the collector.]
+- Printability test for fused granular Fabrication
+
+**What are the next steps:**
+
+- .bg-yellow[Create a dashboard for smart collectors]
+- Printability test from recycled PLA 
+
+
+
+
+]
+
+.pull-right-2[
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-Concept.jpg'))
+```
+
+]
+
+---
 
 ## Smart Collector
 
@@ -449,25 +763,38 @@ knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-02.jpg'))
 
 .pull-left[
 - To create a local network collection for punctual plastic material. 
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-05.jpg'))
+
+```
 ]
 
 .pull-right[
 ```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '70%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-00.jpg'))
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/2021-11-17-SM.jpg'))
 ```
 ]
 
 Protyping a dashboard: http://grafana.lf2l.fr/dashboard/snapshot/qE20JzmxdSGXNDEaAwPpqgQBvr18ps1d?orgId=1
 
 
+---
+class: middle
+background-image: url("`r paste0(URL, 'ERPI/HCERES/Strategie-00.png')`")
+background-position: 80% 50%
+background-size: 40%
 
-
+### INEDIT at the ERPI Strategy
 
 ---
-class: middle, center
+
+class: center, middle
 
 
-# Thanks !
+### Thanks !
 
 
 
