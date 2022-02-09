@@ -1,63 +1,284 @@
-# REcorderis del proyecto INEDIT
-
 ---
+# How it started?
+.pull-left[
 
-## Principales Objetivos del Proyecto
-
---
-
-## Implication de UL
-
-
----
-
-## People
-
-
----
-
-
-# Green Fablab Demostrator
-
-.pull-left-2[
-- Implement the consumer-driven DIT process within the four use cases
-- Validate the INEDIT process specifications
-- Experiment and validate the result
-- Identify potential gender issues and insights to overcome them
-
-**Task 6.4: 3D printing of recycled plastic demonstrator** 
-
-*TL: UL. Participants: CROWD, TTPSC**
-
-The main goal of this task is to validate the .bg-green[logistical and technical feasibility of recycled assets] to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries
-
-
-**Delivrable 6.4:** 3D printing of recycled plastic demonstrator .bg-yellow[Deadline. Jul 2022]
+🎯 The **Do-It-Yourself (DIY)** for SME's 👉 whole value chain.
+- New processes, machines and products and functionalities with shorter time to market.
+- Collaborative production / Open Innovation networks for new business opportunities
+- Consumer-goods sectors and couple design, .bg-yellow[**creativity**] and knowledge with a .bg-yellow[**customer-driven production**].
+- .bg-yellow[**Co-creation**] 👉 Design and Production
 
 ]
 
-.pull-right-1[
+.pull-right[
 
-```{r, out.width = '80%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/tender.png'))
 ```
+
+
+]
+
+.pull-left[
+*Scope and Expected Impact*
+
+🔄 KM and ideas of design, technologies and engineering relevant data and demands from users.
+-  Creative and agile methodologies strategies
+- Collaborative engineering in the Open-Innovation production networks
+- OS product data exchange, representations of products and processes + modelling and simulation
+- Manufacturing Demonstration Facilities (MDFs)
+- TRL 4 and achieve TRL 6 
+]
+
+.pull-right[
+**Expected Impact**:
+
+-Open-Innovation networks for manufacturing that support customer-driven production all around Europe;
+- Business models (SMEs) for the engineering of customised solutions
+- Co-design and co-development capabilities towards a reduction of development costs of new products and services
+- Product variety and personalisation for higher customer satisfaction and loyalty.
+]
+ 
+---
+
+## Ambition
+
+```{r, out.width = '&à0%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-00.png'))
+```
+
+
+---
+
+background-image: url("`r paste0(URL, 'Inedit/WP7/INEDIT_Brochure-01.jpg')`")
+background-position: 80% 70%
+background-size: 50%
+
+
+# How it's going?
+
+### INEDIT
+INEDIT demonstrates the potential innovation of .bg-yellow[Social Manufacturing Models creating an Open Innovation] European Do It Together ecosystem for sustainable furniture co-creation
+.pull-left-1[
+
+**Furniture sector**
+
+- Interactive tech to unleash .bg-yellow[**creativity**] & .bg-yellow[**co-creation**]
+
+- Open Innovation Platform to democratize the production resources
+
+- Find new business opportunities
+
+- framework for co-creation & distributed production of .bg-yellow[**customer-driven**]
+
+- Lower ecological impact of Manufacturing
+
+- To create an Ecosystem of 'all stakeholders' within EU
+]
+
+
+
+---
+background-image: url("https://erpi.univ-lorraine.fr/assets/images/people/Alex-Gabriel.jpg")
+background-position: 40% 20%
+background-size: 110px
+
+## Equipe
+
+.pull-left[
+
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px;"' }
+knitr::include_graphics('https://erpi.univ-lorraine.fr/assets/images/people/LD.jpg')
+```
+
+**Laurent Dupont**
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics('https://erpi.univ-lorraine.fr/assets/images/people/Fedoua-Kasmi.jpg')
+```
+
+**Fedoua Kasmi**
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Frederique-Mayer.jpg')
+```
+
+**Fréderique Mayer**
+
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Brunelle-Marche.jpg')
+```
+
+**Brunelle Marche**
+]
+
+
+
+.pull-right[
+
+
+```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Benjamin.jpg')
+```
+
+**Benjamin Enneser-Serville**. 
+
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='left', out.extra='style="float:left; padding:10px"'    }
+knitr::include_graphics('http://erpi.univ-lorraine.fr/assets/images/people/Hakim-Boudaoud.jpg')
+```
+
+
+**Hakim Boudaoud**. 
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics(paste0(URL, 'Inedit/Cristian.png'))
+```
+
+**Cristian Caceres**. 
+
+Ingénieur d'etudes pour mettre en place et animer le demostrateur INEDIT
+<br>
+<br>
+<br>
+<br>
+
+```{r, out.width = '20%', fig.align='center', out.extra='style="float:left; padding:10px"' }
+knitr::include_graphics(paste0(URL, 'Fontaine/Alexandre.png'))
+```
+
+
+**Alexandre ASTACHENKO** Étudiant LP AFTER en alternance au LF2L dans le cadre de la licence.
+
+]
+
+---
+name: UL-INEDIT
+class: middle
+background-image: url("`r paste0(URL, 'Inedit/Proposal/Fig-3a-00.png')`")
+background-position: 80% 50%
+background-size: 60%
+
+### UL at INEDIT
+
+---
+class: middle
+background-image: url("`r paste0(URL, 'Inedit/Structure/Structure-00.png')`")
+background-position: 80% 50%
+background-size: 30%
+
+
+
+### Overview of the work (UL)
+
+- From DYI to the definition DIT `r fa("check-circle", fill = "steelblue")`
+- Formalisation DIT `r fa("check-circle", fill = "steelblue")`
+
+- Open Manufacturing Demostrator (OMDF) `r fa("spinner", fill = "steelblue")`
+
+- **Demostrator (UL)** `r fa("spinner", fill = "steelblue")`
+
+.small.pull-left-1[
+
+Jiang, P., Leng, J., Ding, K., Gu, P., Koren, Y., 2016. Social manufacturing as a sustainable paradigm for mass individualization. Proc. Inst. Mech. Eng. Part B J. Eng. Manuf. 230, 1961–1968. https://doi.org/10.1177/0954405416666903
 ]
 
 ---
 
+## Definition DIT
+
+```{r, out.width = '70%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model.png'))
+```
+
+<br>
+
+Innovations, Journal of Innovation Economics and management  – Special Issue (2022) “Do-It-Together” and innovation, towards the Factories of the Future (FoF) 
+Guest Editor(s): Laurent Dupont, Fedoua Kasmi, Joshua M. Pearce, Roland J. Ortt
+http://i-jiem.cairn.info/wp-content/uploads/sites/5/2017/05/JIEM-call-for-paper-Do-It-Together.pdf]
+
+---
+## Definition DIT
+
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-01.png'))
+```
+
+
+---
+## Formalisation DIT
+
+```{r, out.width = '70%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/Formalisation.png'))
+```
+
+
+http://inedit-db.lf2l.fr/fr/database/dit/
 
 
 ---
 
-# A demostrator to validate INEDIT Appro
+template:  UL-INEDIT
+
+---
+background-image: url("`r paste0(URL, 'Inedit/WP4/OMFD-01.png')`")
+background-position: 90% 70%
+background-size: 90%
+
+### Open Manufacturing Demonstrator (OMDF) 
+
+
+To facilitate the understanding, the demonstrator of the DIT approach will be called Open Manufacturing Demonstrator (OMD)
+
 
 ---
 
-# Link estrategia del EPRI
+background-image: url("`r paste0(URL, 'Inedit/WP4/OMFD-03.png')`")
+background-position: 80% 70%
+background-size: 90%
+
+### Open Manufacturing Demonstrator (OMDF) 
+
+To facilitate the understanding, the demonstrator of the DIT approach will be called Open Manufacturing Demonstrator (OMD)
 
 
 ---
 
-# Short ang long term
+
+template:  UL-INEDIT
+
 
 ---
+# Demostrators INEDIT
+
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/Demostrator-00.png'))
+```
