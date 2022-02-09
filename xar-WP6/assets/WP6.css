@@ -20,7 +20,7 @@
    font-family: 'Trebuchet-MS';
    font-style: italic;
    font-weight: 700;
-   src: url('https://github.com/LF2L/INEDIT-WP6/blob/main/xar-WP6/assets/fonts/Trebuchet-MS-Bold-Italic.ttf?raw=true') format('truetype');
+   src: url(https://github.com/LF2L/INEDIT-WP6/blob/main/xar-WP6/assets/fonts/Trebuchet-MS-Bold-Italic.ttf?raw=true) format('truetype');
 }
 
 @font-face {

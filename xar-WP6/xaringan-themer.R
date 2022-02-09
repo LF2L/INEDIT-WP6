@@ -19,7 +19,7 @@ style_mono_accent(
    # Text
    text_font_size = "1rem",
    text_font_family = 'Trebuchet-MS',
-   text_font_url = 'https://www.fabbiocrux.com/inedit/wp6.css',
+   text_font_url = 'https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/xar-WP6/assets/WP6.css',
    text_font_weight = "bold",
    
    text_font_family_fallback = "Belgates",
