@@ -44,7 +44,7 @@ knitr::opts_chunk$set(
 URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 #library(xaringanBuilder)
-#build_pdf("index.Rmd")
+#build_pdf("calibration.Rmd")
 
 # xaringanExtra
 #xaringanExtra::use_panelset()

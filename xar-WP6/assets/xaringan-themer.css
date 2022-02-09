@@ -27,11 +27,11 @@
   /* Fonts */
   --text-font-family: Trebuchet-MS;
   --text-font-is-google: 0;
-  --text-font-family-fallback: Belgates;
+  --text-font-family-fallback: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial;
   --text-font-base: sans-serif;
-  --header-font-family: Trebuchet-MS;
+  --header-font-family: test-Belgates;
   --header-font-is-google: 0;
-  --header-font-family-fallback: mono;
+  --header-font-family-fallback: Georgia, serif;
   --code-font-family: 'Source Code Pro';
   --code-font-is-google: 1;
   --base-font-size: 20px;
@@ -77,7 +77,7 @@ html {
 
 body {
   font-family: var(--text-font-family), var(--text-font-family-fallback), var(--text-font-base);
-  font-weight: bold;
+  font-weight: 600;
   color: var(--text-color);
 }
 h1, h2, h3 {
