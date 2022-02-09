@@ -19,13 +19,14 @@ style_mono_accent(
    # Text
    text_font_size = "1rem",
    text_font_family = 'Trebuchet-MS',
-   text_font_weight = "500",
+   text_font_url = 'https://www.fabbiocrux.com/inedit/wp6.css',
+   text_font_weight = "bold",
    
-   text_font_family_fallback = "Menlo",
+   text_font_family_fallback = "Belgates",
    
    # H1
    header_font_family = 'Trebuchet-MS',
-   header_font_family_fallback = "Menlo",
+   header_font_family_fallback = "mono",
    header_h1_font_size = "1.50rem",
    header_font_weight = "bold",
    
