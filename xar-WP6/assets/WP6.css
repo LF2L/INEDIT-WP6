@@ -3,7 +3,7 @@
 @font-face {
       font-family: 'Trebuchet-MS';
       font-style: normal;
-      font-weight: 700;
+      font-weight: bold;
       src: url('https://github.com/LF2L/INEDIT-WP6/blob/main/xar-WP6/assets/fonts/Trebuchet-MS-Bold.ttf?raw=true') format('truetype');
    }
 
@@ -30,6 +30,11 @@
 
 
 
-
+@font-face {
+      font-family: 'Belgates';
+      font-style: normal;
+      font-weight: 400;
+      src: url('assets/fonts/Belgates.ttf') format('truetype');
+   }
 
 

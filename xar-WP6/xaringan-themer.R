@@ -6,26 +6,44 @@ library(fontawesome)
 
 
 # set options ------------------------------------------------------------------
-style_duo_accent(
+#style_duo_accent(
+style_mono_accent(   
    # Colors
-   primary_color = "#1381B0",
-   secondary_color = "#FF961C",
-   inverse_header_color = "#FFFFFF", 
+   base_color = "#4D4D4E",
+   black_color = "#272822",
    white_color = "#FFFFFF",
-   #header_color = '#969696',
     
    # Fonts
-   base_font_size = "18px",
-   text_font_family = 'Trebuchet-MS',
-   header_font_family = 'Trebuchet-MS',
-   header_font_url = 'https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/xar-WP6/assets/WP6.css',	
+   base_font_size = "20px",
    
-
+   # Text
+   text_font_size = "1rem",
+   text_font_family = 'Trebuchet-MS',
+   text_font_weight = "500",
+   
+   text_font_family_fallback = "Menlo",
+   
+   # H1
+   header_font_family = 'Trebuchet-MS',
+   header_font_family_fallback = "Menlo",
+   header_h1_font_size = "1.50rem",
+   header_font_weight = "bold",
+   
+   #H2
+   header_h2_font_size = "1.25rem",
+   
+   #H3
+   header_h3_font_size = "1.15rem",
+   
+   
+   
    # Title slide
    title_slide_background_color = '#FFFFFF',
    title_slide_background_image = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/INEDIT-logo-00.jpg",
    title_slide_background_size = '80%',
    title_slide_background_position = '50% 15%',
+   title_slide_text_color = "#4D4D4E",
+   
    
    # Slide content
    #header_background_auto = 'FALSE',
@@ -33,7 +51,7 @@ style_duo_accent(
    #header_background_text_color = "#1381B0",
    #header_background_padding = '0px 0px',
    #header_background_content_padding_top = "5px",
-   #padding = '25px 50px 50px 25px',
+   padding = '25px 50px 50px 30px',
    
    # Footnote
    footnote_position_bottom = '0px',
@@ -56,8 +74,8 @@ style_duo_accent(
       # Changing the Title H1
       ".remark-slide-content > h1:first-of-type" = list(
          "margin-top" = "5px",
-         "margin-bottom" = "10px",
-         "border-bottom" = '2px solid #EB811B'
+         "padding-bottom" = "25px",
+         "border-bottom" = '1px solid #4D4D4E'
       ),
       
       ".remark-slide-content h1" = list(
