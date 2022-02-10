@@ -27,7 +27,7 @@
   /* Fonts */
   --text-font-family: Trebuchet-MS;
   --text-font-is-google: 0;
-  --text-font-family-fallback: Belgates;
+  --text-font-family-fallback: test-Belgates;
   --text-font-base: sans-serif;
   --header-font-family: Trebuchet-MS-titles;
   --header-font-is-google: 0;
