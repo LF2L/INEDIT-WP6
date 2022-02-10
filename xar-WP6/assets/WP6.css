@@ -1,17 +1,17 @@
 /* FONts */
 
 @font-face {
-      font-family: 'Trebuchet-MS';
+      font-family: 'Titles';
       font-style: normal;
       font-weight: bold;
-      src: url('assets/fonts/Trebuchet-MS-Bold.ttf') format('truetype');
+      src: url(fonts/Trebuchet-MS-Bold.ttf) format('truetype');
    }
 
 @font-face {
    font-family: 'Trebuchet-MS';
    font-style: normal;
    font-weight: 400;
-   src: url(https://www.fabbiocrux.com/inedit/Trebuchet-MS.ttf) format('truetype');
+   src: url(fonts/Trebuchet-MS.ttf) format('truetype');
 }
 
 
@@ -20,14 +20,14 @@
    font-family: 'Trebuchet-MS';
    font-style: italic;
    font-weight: 700;
-   src: url(https://github.com/LF2L/INEDIT-WP6/blob/main/xar-WP6/assets/fonts/Trebuchet-MS-Bold-Italic.ttf?raw=true) format('truetype');
+   src: url(fonts/Trebuchet-MS-Bold-Italic.ttf) format('truetype');
 }
 
 @font-face {
    font-family: 'Trebuchet-MS';
    font-style: italic;
    font-weight: 400;
-   src: url(https://github.com/LF2L/INEDIT-WP6/blob/main/xar-WP6/assets/fonts/Trebuchet-MS-Italic.ttf?raw=true) format('truetype');
+   src: url(fonts/Trebuchet-MS-Italic.ttf) format('truetype');
 }
 
 
@@ -36,7 +36,7 @@
       font-family: 'test-Belgates';
       font-style: normal;
       font-weight: 400;
-      src: url('assets/fonts/Belgates.ttf') format('truetype');
+      src: url(fonts/Belgates.ttf) format('truetype');
    }
 
 

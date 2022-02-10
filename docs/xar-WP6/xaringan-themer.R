@@ -25,7 +25,7 @@ style_mono_accent(
    text_font_family_fallback = "Belgates",
    
    # H1
-   header_font_family = 'Trebuchet-MS',
+   header_font_family = 'Trebuchet-MS-titles',
    header_font_family_fallback = "mono",
    header_h1_font_size = "1.50rem",
    header_font_weight = "bold",

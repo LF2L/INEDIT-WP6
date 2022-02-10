@@ -19,16 +19,16 @@ style_mono_accent(
    # Text
    text_font_size = "1rem",
    text_font_family = 'Trebuchet-MS',
-   text_font_url = 'https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/xar-WP6/assets/WP6.css',
-   text_font_weight = 600,
+   #text_font_url = 'https://raw.githubusercontent.com/LF2L/INEDIT-WP6/main/xar-WP6/assets/WP6.css',
+   text_font_weight = 400,
    #text_font_family_fallback = "serif",
    
    # H1
-   header_font_family = 'test-Belgates',
+   header_font_family = 'Titles',
    #header_font_google  = google_font("Allerta"),
    #header_font_family_fallback = "Source Code Pro",
    header_h1_font_size = "1.50rem",
-   header_font_weight = "bold",
+   header_font_weight = "700",
    
    #H2
    header_h2_font_size = "1.25rem",
