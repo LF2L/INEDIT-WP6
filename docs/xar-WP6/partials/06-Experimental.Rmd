@@ -1,0 +1,29 @@
+
+# Agenda for Meeting 
+
+Date: `r format(Sys.time(), '%d %B, %Y')`
+
+.grey_Inedit[
+1. Coordination and alignement with WP 4.3-4.4
+1. Literature and Background on Additive manufacturing / Recycling / Sustainability
+1. Printability test on Virgin material for calibration purposes
+1. Iterative technical improvement of printing process
+1. Definition of the scope of plastic wastes according printability
+1. .large.bg-yellow[**Experimental research design to test quality on virgin and recycled objects**]
+1. Technical development of smart collector to collect plastic waste
+1. Validation and consolidation of network of the local actors
+1. Validation Demonstrator for INEDIT stakeholders (according KPI's?)
+      ]   
+
+
+### Main Goal:
+
+- Establishment of a protocol to identify 'useful' plastic wastes to be used in the process
+
+
+---
+
+class: middle
+## Experimental research design to test quality on virgin and recycled objects
+
+.Large[**Work in progress**]

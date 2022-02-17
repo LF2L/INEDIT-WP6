@@ -1,0 +1,98 @@
+
+# Agenda for Meeting 
+
+Date: `r format(Sys.time(), '%d %B, %Y')`
+
+.grey_Inedit[
+1. Coordination and alignement with WP 4.3-4.4
+1. Literature and Background on Additive manufacturing / Recycling / Sustainability
+1. Printability test on Virgin material for calibration purposes
+1. Iterative technical improvement of printing process
+1. Definition of the scope of plastic wastes according printability
+1. Experimental research design to test quality on virgin and recycled objects
+1. .large.bg-yellow[**Technical development of smart collector to collect plastic waste**]
+1. Validation and consolidation of network of the local actors
+1. Validation Demonstrator for INEDIT stakeholders (according KPI's?)
+      ]   
+
+
+### Main Goal:
+
+- To have an open source IoT in order to deploy for the demonstrator
+
+
+---
+
+## Technical development of smart collector to collect plastic waste
+
+.pull-left-1[
+
+
+**Tasks in DOA:**
+
+- Task 6.4 3D printing of recycled plastic demonstrator
+
+**What is our target :**
+
+- To be able to print recycled printed parts for personalized furniture from usable plastic waste collected locally.
+
+**What we have Done so far:**
+
+- .bg-yellow[Create a V1.1 of the collector.]
+- Printability test for fused granular Fabrication
+
+**What are the next steps:**
+
+- .bg-yellow[Create a dashboard for smart collectors]
+- Printability test from recycled PLA 
+
+
+
+
+]
+
+.pull-right-2[
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-Concept.jpg'))
+```
+
+]
+
+---
+
+## Smart Collector
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-02.jpg'))
+```
+
+---
+
+
+## Smart Collector
+
+.pull-left[
+- To create a local network collection for punctual plastic material. 
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-05.jpg'))
+
+```
+]
+
+.pull-right[
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/2021-11-17-SM.jpg'))
+
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-06.jpeg'))
+```
+]
+
+Protyping a dashboard: http://grafana.lf2l.fr/dashboard/snapshot/qE20JzmxdSGXNDEaAwPpqgQBvr18ps1d?orgId=1
+
+
+
+

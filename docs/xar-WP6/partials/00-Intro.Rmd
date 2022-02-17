@@ -1,0 +1,78 @@
+
+# DEMONSTRATOR UL
+
+.pull-left-2[
+- Implement the consumer-driven DIT process within the four use cases
+- Validate the INEDIT process specifications
+- Experiment and validate the result
+- Identify potential gender issues and insights to overcome them
+
+**3D printing of recycled plastic demonstrator** 
+
+*TL: UL. Participants: CROWD, TTPSC**
+
+The main goal of this task is to validate the .bg-green[logistical and technical feasibility of recycled assets] to be used in the DIT approach. These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries
+
+
+**Delivrable 6.4:** 3D printing of recycled plastic demonstrator .bg-yellow[Deadline. Jul 2022]
+
+]
+
+.pull-right-1[
+
+```{r, out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
+```
+]
+
+
+---
+
+exclude: false
+
+# Planning Task 6.4:
+
+```{r Gantt, fig.align='center'}
+
+#Planning <- magick::image_read_pdf(here("figures/Gantt/WP6/_Planning.pdf"),                       pages = 1)
+#magick::image_write(Planning, path = paste0("figures/Gantt/WP6/",Sys.Date(), "-Planning.jpg"), format = "jpg")
+
+#knitr::include_graphics(here('figures', 'Gantt', 'WP6', '2022-02-17-Planning.jpg'))
+
+knitr::include_graphics("figures/Gantt/WP6/2022-02-17-planning.jpg")
+```
+
+---
+name: GF-demostrator
+background-image: url("`r paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg')`")
+background-position: 50% 60%
+background-size: 80%
+
+
+# Our demostrator 
+
+.panelset[
+
+.panel[.panel-name[Today: `r format(Sys.time(), "%b %Y")`]
+
+
+]
+
+.panel[.panel-name[Nov 2021]
+```{r GF-Nov-2021,}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-Octroi.jpg'))
+```
+]
+
+.panel[.panel-name[Dec 2021]
+```{r GF-Dec-2021,}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-12-Octroi.jpg'))
+```
+]
+
+.panel[.panel-name[Jan 2022]
+```{r GF-Jan-2022,}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2022-01-Octroi.jpg'))
+```
+]
+]

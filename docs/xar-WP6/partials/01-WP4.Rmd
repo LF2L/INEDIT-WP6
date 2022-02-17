@@ -1,0 +1,80 @@
+# Agenda for Meeting 
+
+Date: `r format(Sys.time(), '%d %B, %Y')`
+
+.grey_Inedit[
+1. .large.bg-yellow[**Coordination and alignement with WP 4.3-4.4**]
+1. Literature and Background on Additive manufacturing / Recycling / Sustainability
+1. Printability test on Virgin material for calibration purposes
+1. Iterative technical improvement of printing process
+1. Definition of the scope of plastic wastes according printability 
+1. Experimental research design to test quality on virgin and recycled objects
+1. Technical development of smart collector to collect plastic waste
+1. Validation and consolidation of network of the local actors
+1. Validation Demonstrator for INEDIT stakeholders (according KPI's?)
+      ]   
+
+
+### Main Goal:
+To map elements from WP4 that are important for WP6
+
+
+---
+
+## Technological and organizational development of the future use cases 
+**TL: UL. Participants: SCM, VERA, AIMEN, UNIN, TTS**
+
+
+.grey_Inedit.pull-left-2[
+During this task, the partners supporting the future use cases will develop the technological and logistical aspect of their local manufacturing demonstrator facility according the DIT approach in progress. 
+
+.bg-yellow[AIMEN] will develop a modular robotic cell for additive manufacturing of furniture; 
+
+.black[
+.bg-yellow[UL] will identify a local closed-loop manufacturing network (potential local sources of waste material that can be considered as secondary raw material, based on indicators of quality and availability) and UL will also make the technical and organizational evaluation of the printability and manual injection of the recycled plastic; 
+
+]
+
+.bg-yellow[SCM] will study the development parameters for the innovative manufacture of wood furniture. Additionally, this task aims to develop a parametric CAD / CAM software that transforms the 3D model, downloaded from the INEDIT platform or designed by the tool developed in T3.1, into the optimized manufacturing strategy for the 3D printing robot in order to achieve the seamless integration of the manufacturing process.
+]
+
+---
+
+## Main functions of INEDIT
+
+Principal Functions (PF):
+- **PF1:** Design a customized product for users with the help of other specialized stakeholders
+- **PF2:** Co-design with other stakeholders and users using the platform
+- **PF3:** Produce a customized product for users with the help of other specialized stakeholders
+- **PF4:** Produce in network with other stakeholders using the platform
+
+Secondary Functions (SF):
+- **SF1:** Provide manufacturing data (means of production, production capacity, location, delays…) to the platform
+- **SF2:** Share environmental practices to the other stakeholders
+- **SF3:** Share manufacturing data for design to the users
+- **SF4:** Insert into the territory
+
+Circular Functions (CF):
+- **CF1:** Adjust to the pillars of the circular economy
+
+
+---
+
+## Coordination and alignement with WP 4.3-4.4 tasks
+
+UL OMDF (communities, Co-design, Gigabot X & more) : T4.3, T4.4  & WP6 
+
+
+```{r, out.width = '90%', fig.align='center'}
+knitr::include_graphics('figures/T6_1/Task-4_1-00.png')
+```
+
+---
+
+## Coordination and alignement with WP 4.3-4.4 tasks
+
+```{r , include=TRUE,  fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/Task-4.3/Task.jpg'))
+```
+
+Work in progress  `r format(Sys.time(), '%d %B, %Y')`
