@@ -5,10 +5,11 @@ subtitle: |
 author: "Fabio Cruz"
 institute: "ERPI"
 date: "December, 2021 - INEDIT"
-#output: powerpoint_presentation
+# output:
+#   officedown::rpptx_document: default
 output:
   xaringan::moon_reader:
-    css: ["assets/xaringan-themer.css" ]
+    css: ["assets/xaringan-themer.css", "assets/WP6.css"  ]
     seal: false
     nature:
 #      slideNumberFormat: "%current%"
@@ -44,7 +45,7 @@ knitr::opts_chunk$set(
 URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 #library(xaringanBuilder)
-#build_pdf("index.Rmd")
+#build_pdf("calibration.Rmd")
 
 # xaringanExtra
 #xaringanExtra::use_panelset()

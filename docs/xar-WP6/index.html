@@ -5,10 +5,19 @@
     <meta charset="utf-8" />
     <meta name="author" content="Fabio Cruz" />
     <script src="index_files/header-attrs/header-attrs.js"></script>
+    <link href="index_files/panelset/panelset.css" rel="stylesheet" />
+    <script src="index_files/panelset/panelset.js"></script>
+    <script src="index_files/clipboard/clipboard.min.js"></script>
+    <link href="index_files/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="index_files/shareon/shareon.min.js"></script>
+    <link href="index_files/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="index_files/xaringanExtra-shareagain/shareagain.js"></script>
     <link rel="stylesheet" href="assets/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="assets/WP6.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
+
 
 
 
@@ -30,7 +39,39 @@ class: title-slide, left, bottom
 
 
 
-
+<div>
+<style type="text/css">.xaringan-extra-logo {
+width: 100%;
+height: 100%;
+z-index: 0;
+background-image: url(https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/background.svg);
+background-size: contain;
+background-repeat: no-repeat;
+position: absolute;
+top:0em;right:0em;
+}
+</style>
+<script>(function () {
+  let tries = 0
+  function addLogo () {
+    if (typeof slideshow === 'undefined') {
+      tries += 1
+      if (tries < 10) {
+        setTimeout(addLogo, 100)
+      }
+    } else {
+      document.querySelectorAll('.remark-slide-content:not(.title-slide):not(.inverse):not(.hide_logo)')
+        .forEach(function (slide) {
+          const logo = document.createElement('div')
+          logo.classList = 'xaringan-extra-logo'
+          logo.href = null
+          slide.appendChild(logo)
+        })
+    }
+  }
+  document.addEventListener('DOMContentLoaded', addLogo)
+})()</script>
+</div>
 
 
 
@@ -78,21 +119,40 @@ exclude: false
 
 ---
 
-# Our demostrator
+background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/WP6/octroi/2021-11-17-octroi.jpg")
+background-position: 50% 60%
+background-size: 80%
 
-.pull-left-2[
-&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/WP6/octroi/2021-11-17-octroi.jpg" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+# Our demostrator {#GF-demostrator}
+
+.panelset[
+
+.panel[.panel-name[Today: Feb 2022]
+
+
 ]
-.pull-right-1[
-&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/WP6/octroi/2021-11-17-octroi-1.jpg" width="100%" style="display: block; margin: auto 0 auto auto;" /&gt;
+
+.panel[.panel-name[Nov 2021]
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/WP6/octroi/2021-11-Octroi.jpg" width="100%" style="display: block; margin: auto;" /&gt;
 ]
+
+.panel[.panel-name[Dec 2021]
+&lt;img src="https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/WP6/octroi/2021-11-Octroi.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.panel[.panel-name[Jan 2022]
+
+]
+]
+
 
 ---
 exclude: false
 
 class: middle
 
-# Agenda for Meeting  10 February, 2022
+# Agenda for Meeting  17 February, 2022
 
 .grey_Inedit[
 1. .large.bg-yellow[**Coordination and alignement with WP 4.3-4.4**]
@@ -108,7 +168,7 @@ class: middle
 
 ---
 
-exclude: false
+exclude: true
 class:  middle center 
 
 # 1) Coordination and alignement with WP 4.3-4.4 
@@ -136,6 +196,7 @@ During this task, the partners supporting the future use cases will develop the 
 ]
 
 ---
+
 ## Main functions of INEDIT
 
 Principal Functions (PF):
@@ -152,6 +213,8 @@ Secondary Functions (SF):
 
 Circular Functions (CF):
 - **CF1:** Adjust to the pillars of the circular economy
+
+
 ---
 
 ## Coordination and alignement with WP 4.3-4.4 tasks
@@ -170,12 +233,12 @@ UL OMDF (communities, Co-design, Gigabot X &amp; more) : T4.3, T4.4  &amp; WP6
 &lt;p class="caption"&gt; &lt;/p&gt;
 &lt;/div&gt;
 
-Work in progress  10 February, 2022
+Work in progress  17 February, 2022
 
 ---
 
-exclude: true
-class:  middle center 
+exclude: false
+class:  middle  
 
 #  2) Literature and Background on Additive manufacturing / Recycling / Sustainability 
 
@@ -456,6 +519,7 @@ Protyping a dashboard: http://grafana.lf2l.fr/dashboard/snapshot/qE20JzmxdSGXNDE
 
 
 ---
+exclude: TRUE
 class: middle
 background-image: url("https://raw.githubusercontent.com/fabbiocrux/Figures/main/ERPI/HCERES/Strategie-00.png")
 background-position: 80% 50%

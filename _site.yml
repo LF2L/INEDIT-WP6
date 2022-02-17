@@ -14,10 +14,10 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Technical Validation"
-      href: 01-Gigabot.html
-    - text: "Logistical Validation"
-      href: 00-smart-collector.html
+    # - text: "Technical Validation"
+    #   href: 01-Gigabot.html
+    # - text: "Logistical Validation"
+    #   href: 00-smart-collector.html
 output:
   distill::distill_article:
     toc: true
