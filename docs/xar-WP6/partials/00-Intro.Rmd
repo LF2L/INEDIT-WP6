@@ -46,7 +46,7 @@ knitr::include_graphics("figures/Gantt/WP6/2022-02-17-planning.jpg")
 name: GF-demostrator
 background-image: url("`r paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg')`")
 background-position: 50% 60%
-background-size: 80%
+background-size: 75%
 
 
 # Our demostrator 
@@ -59,19 +59,19 @@ background-size: 80%
 ]
 
 .panel[.panel-name[Nov 2021]
-```{r GF-Nov-2021,}
+```{r GF-Nov-2021, out.width='80%'}
 knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-Octroi.jpg'))
 ```
 ]
 
 .panel[.panel-name[Dec 2021]
-```{r GF-Dec-2021,}
+```{r GF-Dec-2021, out.width='80%'}
 knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-12-Octroi.jpg'))
 ```
 ]
 
 .panel[.panel-name[Jan 2022]
-```{r GF-Jan-2022,}
+```{r GF-Jan-2022, out.width='80%'}
 knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2022-01-Octroi.jpg'))
 ```
 ]
