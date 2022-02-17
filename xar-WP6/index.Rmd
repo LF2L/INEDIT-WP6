@@ -4,7 +4,6 @@ subtitle: |
   Université de Lorraine - ERPI - France
 author: "Fabio Cruz"
 institute: "ERPI"
-date: "December, 2021 - INEDIT"
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
@@ -21,11 +20,11 @@ output:
 always_allow_html: true
 ---
 
-
 ```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
 # Libraries
 source("xaringan-themer.R")
 library(fontawesome)
+library(here)
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -50,15 +49,14 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 
 
-
 class: title-slide, left, bottom
 
 
-`r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date`
+
 
 ### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
 
-`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
+`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle` | `r fa("map-marker-alt", fill = "steelblue")` `r format(Sys.time(), '%d %B, %Y')`
 
 .pull-left[
 - Laurent dupont (l.dupont{at}univ-lorraine.fr)
@@ -66,7 +64,6 @@ class: title-slide, left, bottom
 - Fedoua Kasmi
 - Cristian Caceres
 - Benjamin Enneser-Serville
-
 ]
 .pull-right[
 ```{r Logo_ul_inicio, out.width = '600px', fig.align='right'}
