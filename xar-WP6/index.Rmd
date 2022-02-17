@@ -7,7 +7,7 @@ institute: "ERPI"
 #output: powerpoint_presentation
 output:
   xaringan::moon_reader:
-    css: ["assets/xaringan-themer.css", "assets/WP6.css"]
+    css: ["assets/xaringan-themer.css", "assets/WP6.css", ]
     seal: false
     nature:
 #      slideNumberFormat: "%current%"
@@ -25,6 +25,8 @@ always_allow_html: true
 source("xaringan-themer.R")
 library(fontawesome)
 library(here)
+library(vembedr)
+
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -91,8 +93,8 @@ xaringanExtra::use_xaringan_extra(c( "share_again")) #"scribble",
 ```
 
 
-
 ---
+
 
 ```{r, child='partials/00-Intro.Rmd'}
 

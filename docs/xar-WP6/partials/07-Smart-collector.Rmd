@@ -95,33 +95,6 @@ Protyping a dashboard: http://grafana.lf2l.fr/dashboard/snapshot/qE20JzmxdSGXNDE
 ## Deployment in the local are
 
 
-:::: {style="display: flex;"}
-
-::: {}
-Here is the **first** Div.
-
-```{r,   out.width = '60%'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-06.jpeg'))
-```
-:::
-
-::: {}
-And this block will be put on the right:
-
-```{r,   out.width = '60%'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-06.jpeg'))
-```
-:::
-
-::: {}
-And this block will be put on the right:
-
-```{r,   out.width = '60%'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-06.jpeg'))
-```
-:::
-
-::::
 
 ---
 

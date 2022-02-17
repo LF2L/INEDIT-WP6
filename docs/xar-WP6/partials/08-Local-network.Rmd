@@ -26,3 +26,8 @@ class: middle
 ## Validation and consolidation of network of the local actors
 
 .Large[**Work in progress**]
+
+.center[
+<iframe src="https://giphy.com/embed/l0K4hO8mVvq8Oygjm" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/topshelfrecords-clique-top-shelf-records-l0K4hO8mVvq8Oygjm"></a></p>
+
+]

@@ -38,23 +38,18 @@ knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
 
 #knitr::include_graphics(here('figures', 'Gantt', 'WP6', '2022-02-17-Planning.jpg'))
 
-knitr::include_graphics(here("figures", "Gantt", "WP6", "planning.jpg"))
-
 knitr::include_graphics("figures/Gantt/WP6/planning.jpg")
 ```
 
 ---
-name: GF-demostrator
-background-image: url("`r paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg')`")
-background-position: 50% 60%
-background-size: 70%
-
 
 # Our demostrator 
 
 .panelset[
 .panel[.panel-name[Today: `r format(Sys.time(), "%b %Y")`]
-
+```{r GF-Feb-2022, out.width='80%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg'))
+```
 ]
 
 .panel[.panel-name[Jan 2022]
@@ -76,6 +71,18 @@ knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-Octroi.jpg'))
 ```
 ]
 
+.panel[.panel-name[Oct 2021]
+
+.center[
+```{r, }
+embed_youtube(
+  "c_PdGwSOQ5Y",
+  height = 400,
+)
+```
+]
 
 
+
+]
 ]
