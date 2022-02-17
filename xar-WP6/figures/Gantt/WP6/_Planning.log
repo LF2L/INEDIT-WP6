@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.20)  13 OCT 2021 15:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.2.20)  17 FEB 2022 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -118,12 +118,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
-)) (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
@@ -309,7 +305,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count278
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 45.
+Package hyperref Info: Option `colorlinks' set `true' on input line 48.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -1003,11 +999,11 @@ LaTeX Info: Redefining \nameref on input line 84.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(14.45377pt, 766.06245pt, 14.45377pt)
+* h-part:(L,W,R)=(14.45377pt, 874.46747pt, 14.45377pt)
 * v-part:(T,H,B)=(14.45377pt, 332.44246pt, 14.45377pt)
-* \paperwidth=794.96999pt
+* \paperwidth=903.375pt
 * \paperheight=361.34999pt
-* \textwidth=766.06245pt
+* \textwidth=874.46747pt
 * \textheight=332.44246pt
 * \oddsidemargin=-57.81622pt
 * \evensidemargin=-57.81622pt
@@ -1048,10 +1044,10 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./_Pla
 nning.aux) ) 
 Here is how much of TeX's memory you used:
- 26482 strings out of 479023
- 489715 string characters out of 5859412
- 853785 words of memory out of 5000000
- 43424 multiletter control sequences out of 15000+600000
+ 26896 strings out of 479023
+ 496450 string characters out of 5859412
+ 881155 words of memory out of 5000000
+ 43843 multiletter control sequences out of 15000+600000
  419268 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,8n,102p,514b,912s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1060,7 +1056,7 @@ c}</usr/local/texlive/2020/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><
 /usr/local/texlive/2020/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-chr8t.pf
 b>
-Output written on _Planning.pdf (1 page, 37116 bytes).
+Output written on _Planning.pdf (1 page, 37077 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream

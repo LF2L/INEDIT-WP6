@@ -25,6 +25,7 @@ always_allow_html: true
 ```{r packages, echo = FALSE, message=FALSE, warning=FALSE}
 # Libraries
 source("xaringan-themer.R")
+library(fontawesome)
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -45,14 +46,8 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 #library(xaringanBuilder)
 #build_pdf("index.Rmd")
-
-# xaringanExtra
-#xaringanExtra::use_panelset()
-#xaringanExtra::use_xaringan_extra(c("scribble", "share_again"))
-
-
-library(fontawesome)
 ```
+
 
 
 
@@ -71,7 +66,7 @@ knitr::include_graphics(paste0(URL, 'Inedit/Logo-UL-EU.png'))
 
 
 
-```{r xaringan-logo, echo=FALSE, include=FALSE}
+```{r xaringan-logo, echo=FALSE, include=TRUE}
 xaringanExtra::use_logo(
   image_url = "https://raw.githubusercontent.com/fabbiocrux/Figures/main/Inedit/background.svg",
   width = "100%",
@@ -80,7 +75,11 @@ xaringanExtra::use_logo(
 )
 ```
 
-
+```{r xaringanExtra, echo=FALSE}
+# xaringanExtra
+xaringanExtra::use_panelset()
+xaringanExtra::use_xaringan_extra(c( "share_again")) #"scribble",
+```
 
 
 
@@ -129,24 +128,48 @@ exclude: false
 ```{r, fig.align='center'}
 
 #Planning <- image_convert(tiger, "png")
-magick::image_read_pdf("figures/Gantt/WP6/_Planning.pdf",
+Planning <- magick::image_read_pdf("figures/Gantt/WP6/_Planning.pdf",
                        pages = 1)
+Planning
+magick::image_write(Planning, 
+                    path = paste0("figures/Gantt/WP6/",Sys.Date(), "-Planning.jpg"), format = "jpg")
 ```
 
 ---
 
+background-image: url("`r paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg')`")
+background-position: 50% 60%
+background-size: 80%
+
+
 # Our demostrator
 
-.pull-left-2[
-```{r, out.width = '100%', fig.align='left'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg'))
+.panelset[
+
+.panel[.panel-name[Today: `r format(Sys.time(), "%b %Y")`]
+
+
+]
+
+.panel[.panel-name[Nov 2021]
+```{r GF-Nov-2021,}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-Octroi.jpg'))
 ```
 ]
-.pull-right-1[
-```{r, out.width = '100%', fig.align='right'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi-1.jpg'))
+
+.panel[.panel-name[Dec 2021]
+```{r GF-Dec-2021,}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/octroi/2021-11-Octroi.jpg'))
 ```
 ]
+
+.panel[.panel-name[Jan 2022]
+```{r GF-Jan-2022,}
+
+```
+]
+]
+
 
 ---
 exclude: false
@@ -169,7 +192,7 @@ class: middle
 
 ---
 
-exclude: false
+exclude: true
 class:  middle center 
 
 # 1) Coordination and alignement with WP 4.3-4.4 
@@ -197,6 +220,7 @@ During this task, the partners supporting the future use cases will develop the 
 ]
 
 ---
+
 ## Main functions of INEDIT
 
 Principal Functions (PF):
@@ -213,6 +237,8 @@ Secondary Functions (SF):
 
 Circular Functions (CF):
 - **CF1:** Adjust to the pillars of the circular economy
+
+
 ---
 
 ## Coordination and alignement with WP 4.3-4.4 tasks
@@ -236,8 +262,8 @@ Work in progress  `r format(Sys.time(), '%d %B, %Y')`
 
 ---
 
-exclude: true
-class:  middle center 
+exclude: false
+class:  middle  
 
 #  2) Literature and Background on Additive manufacturing / Recycling / Sustainability 
 
@@ -511,6 +537,7 @@ Protyping a dashboard: http://grafana.lf2l.fr/dashboard/snapshot/qE20JzmxdSGXNDE
 
 
 ---
+exclude: TRUE
 class: middle
 background-image: url("`r paste0(URL, 'ERPI/HCERES/Strategie-00.png')`")
 background-position: 80% 50%

@@ -370,8 +370,8 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 }
 .remark-slide-content > h2:first-of-type {
   margin-top: 5px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #EB811B;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #EB811B;
 }
 .remark-slide-content > h3:first-of-type {
   margin-top: 5px;

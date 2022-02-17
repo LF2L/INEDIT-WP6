@@ -87,8 +87,8 @@ style_mono_accent(
       # Changing the Title H2
       ".remark-slide-content > h2:first-of-type" = list(
          "margin-top" = "5px",
-         "margin-bottom" = "10px",
-         "border-bottom" = '2px solid #EB811B'
+         "padding-bottom" = "25px",
+         "border-bottom" = '1px solid #EB811B'
       ),
       
       # Changing the Title H3
