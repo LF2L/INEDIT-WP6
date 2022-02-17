@@ -136,13 +136,13 @@ magick::image_write(Planning,
 ```
 
 ---
-
+name: GF-demostrator
 background-image: url("`r paste0(URL, 'Inedit/WP6/octroi/2021-11-17-octroi.jpg')`")
 background-position: 50% 60%
 background-size: 80%
 
 
-# Our demostrator {#GF-demostrator}
+# Our demostrator
 
 .panelset[
 
