@@ -32,7 +32,7 @@ knitr::include_graphics(paste0(URL, 'Gigabot/Gigabot-05.jpg'))
 # Planning Task 6.4:
 
 ```{r Gantt, fig.align='center'}
-
+#library(here)
 #Planning <- magick::image_read_pdf(here("figures/Gantt/WP6/_Planning.pdf"),                       pages = 1)
 #magick::image_write(Planning, path = paste0("figures/Gantt/WP6/",Sys.Date(), "-Planning.jpg"), format = "jpg")
 

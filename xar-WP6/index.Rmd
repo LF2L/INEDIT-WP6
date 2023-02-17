@@ -53,12 +53,9 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 class: title-slide, left, bottom
 
-
-
-
 ### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$title`
 
-`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle` | `r fa("map-marker-alt", fill = "steelblue")` `r format(Sys.time(), '%d %B, %Y')`
+`r fa("user-group", fill = "steelblue")` `r rmarkdown::metadata$subtitle` | `r fa("location-dot", fill = "steelblue")` `r format(Sys.time(), '%d %B, %Y')`
 
 .pull-left[
 - Laurent dupont (l.dupont{at}univ-lorraine.fr)
@@ -163,12 +160,12 @@ xaringanExtra::use_xaringan_extra(c( "share_again")) #"scribble",
 class: title-slide, left, bottom
 
 
-`r fa("map-marker-alt", fill = "steelblue")` `r rmarkdown::metadata$date`
+`r fa("location-dot", fill = "steelblue")` `r rmarkdown::metadata$date`
 
 
 ### `r fa("comment", fill = "steelblue")` Thank you very much for your attention
 
-`r fa("user-friends", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
+`r fa("user-group", fill = "steelblue")` `r rmarkdown::metadata$subtitle`
 
 .pull-left[
 - Laurent dupont (l.dupont{at}univ-lorraine.fr)

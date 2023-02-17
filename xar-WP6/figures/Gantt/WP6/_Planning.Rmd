@@ -55,7 +55,7 @@ knitr::opts_chunk$set(echo = TRUE)
    %\ganttbar[name=T2]{T6.2 Manufacturing of wood furniture demonstrator}{2021-10}{2022-07}\\ 
    %\ganttbar[name=T3]{T6.3 3D printing of wood demonstrator}{2021-10}{2022-07}\\ 
    
-\ganttgroup[name=T4, progress=10 ]{\color{blue}T6.4 3D printing of recycled plastic demonstrator}{2021-03}{2022-07}\\ 
+\ganttgroup[name=T4, progress=30 ]{\color{blue}T6.4 3D printing of recycled plastic demonstrator}{2021-03}{2022-07}\\ 
 
    \ganttbar[name=T4_1, progress=100]{Coordination and alignement with WP 4.3-4.4 tasks}{2021-03}{2021-09} \\
    
