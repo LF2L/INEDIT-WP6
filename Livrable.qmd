@@ -1,8 +1,12 @@
 ---
-title: "Livrable WP6"
+title: "Delivrable"
 format:
+  # html:
+  #   toc: true
   pdf:
     toc: true
+    #lot: true
+    lof: true
     documentclass: article
     number-sections: true
     geometry:
@@ -13,8 +17,8 @@ format:
     linkcolor: blue
     urlcolor: blue
     link-citations: yes
-    #include-in-header: [assets/preamble.tex]
-    #include-before-body: [assets/titlepage.tex]
+    include-in-header: [assets/packages.tex]
+    include-before-body: [assets/titlepage.tex]
     keep-tex: true
     # include-in-header:
     #   - assets/packages.tex
@@ -25,7 +29,7 @@ execute:
 bibliography: [References.bib]
 csl: assets/journal-of-cleaner-production.csl   
 subparagraph: yes
-#mainfont: Trebuchet MS
+mainfont: Trebuchet MS
 pdf-engine: lualatex
 ---
 
@@ -36,8 +40,14 @@ library(knitr)
 library(kableExtra)
 ```
 
-
+\color{darkgray}
 # Introduction
+
+This is the introduction of the document
+
+
+ss
+
 # Plastic Issues for the European Union
 
 Since 1950’, our society have gained enormous advantages in terms of quality of life thanks to the technical development of the development of plastic and polymer materials. Plastic is a material that is widely used in our daily lives and plays a fundamental role in industry and economic development. The plastic material are found in almost all our products: food packaging, cars, technological tools, clothing, among others. The main reason is that plastic materials offer a variety of chemical and mechanical properties to be useful for a wide array of applications. Plastics are extremely useful, but their mismanagement has affected the environment and our health. The over-consumption and especially bad practices (single use, difficulty of reuse, etc.), make plastics one of the major societal challenges of an ecological transition that has become imperative. The main problem is the end-of-life treatment which traditionally uses a centralized system where plastic waste often has to travel thousands of kilometers... to be incinerated or landfilled. In addition to the energy and environmental impact of their production, there is also the impact of the end of life. 
@@ -235,10 +245,7 @@ The main functional requirement of the smart collector is to collect and provide
 - Initiating a digitization process in the waste management process as the information system element present here is flexible and commonly used in various types of projects. 
 
 
-
-The device uses a controller compatible with batteries and use WAN technology to avoid the deployment of routers for data acquisition. 
-Although using various types of sensors allows us to achieve better results [@Catania2014] by crossing data, the main indicator remains the weight.   
-
+The device uses a controller compatible with batteries and use WAN technology to avoid the deployment of routers for data acquisition. Although using various types of sensors allows us to achieve better results [@Catania2014] by crossing data, the main indicator remains the weight.   
 
 The process illustrated by the @fig-abstract  can be described in the as follows: 
 
@@ -253,6 +260,7 @@ The process illustrated by the @fig-abstract  can be described in the as follows
  
 In the scientific literature, the reverse logistic and closed loop supply chains have been extensively studied in the scientific literature. 
 For instance, @Santander2021 evaluated the benefits of a near loop and closed loop recycling network focused on additive manufacturing, mainly producing recycled filament. The main results show an economic and environmental benefit of sourcing filament from recycled plastic rather than purchasing exported virgin filament.  
+
 
 ### Preparation II  
 
@@ -316,7 +324,7 @@ The major point in the ‘Green Fablab’ case is to propose a maual recycled as
 
  
 
-##### 3D printing process: Fused Filament & Granular Fabrication (FFF & FGF) 
+#### 3D printing process: Fused Filament & Granular Fabrication (FFF & FGF) 
 
 In the era of the additive manufacturing technology, without a doubt, the material extrusion-based systems such as the fused filament fabrication (FFF) has been one of the prominent processes.
 In fact, the technological development of open-source 3D printers is creating more affordable Additive Manufacturing (AM) machines for society in different applications. It provides the possibility of mass diffusion of this technology, and consequently, AM is being recognised as a disruptive that could up-end the last two centuries of approaches to design and manufacturing [@Pearce2014d, @Birtchnell2013a]. 
@@ -351,10 +359,9 @@ On the other hand, the Fused Granular Fabrication is a direct extrusion systems 
 The use of Moineau pump technology to add precise volumetric control to the extrusion of pellets opens extraordinary new possibilities. It is important to mention that a Moineau pump has to be coupled to a first stage Auger screw. This ensures a continuous feed of melted plastic with-out inclusion of air bubbles, since the Moineau pump itself cannot guarantee such condition. However, it is also important to highlight that currently this technology is the phase of laboratory experimentation and initial market diffusion. The complexity  
 
 
-
-
-
 ### Quality Assessment VI
+
+
 
 # Operationalization of Do-It-Together process for 3D Printing Recycled Plastic Use Case.
 
@@ -392,7 +399,58 @@ In the case that it cannot be produced, it is necessary to notify immediately to
 
 ## Step 2 – Validation of the technical specifications of model to fabricate 
 
+
+
 ## Step 3 – Identify local source of plastic waste 
+
+This step seeks to establish a first network of plastic wastes source from the local ecosystem.
+The task of the identification of local source of plastic is fundamental as the first stage in the recovery process.  
+As illustrated in the @fig-fedoua-00, the methodological approach included the following steps: 
+1) Pre-diagnosis of the territorial context, 
+2) Identification of the actors, 
+3) Analysis of the actors' involvement and implementation of the smart collector, and finally, 
+4) Implementation & monitoring.
+
+![MEthodlogical steps for the ](figures/Fedoua-00.pdf){#fig-fedoua-00}
+ 
+<!-- Pre-diagnosis of the territorial context -->
+Regarding the pre-diagnosis phase, the purpose was to align the INEDIT project with the territorial context.
+To do so, between Oct 2021 and June 2022,  the UL team had exchange with key actors of territorial development and the priorities in terms of sustainable development. 
+Association ATP, Echogeste, Agence Scalen.
+The main output of this phase was the establishment of a initial Swot-Pestel analysis for the thatn can 
+
+
+<!-- Pre-diagnosis of the territorial context -->
+Based on this first step, it was possible to identify a target of actors subtle to be relevant according to the following criteria. 
+The main goal was 
+ Mapping of actual and potential actors 
+
+Identification of the role of each actor 
+
+Identification of the sources of plastic waste collection  
+
+Identification of 3D printing sources and potential synergies with Lf2L 
+
+ 
+ 
+<!-- Criteria 1 -->
+First, they need to be in a  geographical range perimeter (less than 2km around the Green Fablab) following the observations of [@CruzSanchez2020, @Santander2020].
+Limiting the geographical perimeter of collection  helps in the reduction of environmental impact because of the transport means. 
+<!-- Criteria 1 -->
+Second, the diversification of the actor profile (general public, spectators, students...) and/or stakeholder activity (Public, Private, Associative) was an important criteria to guarantee a significant quantity of collection and a sensitization to the management of the plastic. 
+In function of their profile, it can be hypothesize that there a are a different rate of frequentation in the establishments with diversified profiles of actors. 
+
+A total of XX actors were interviewed in the period of time of XX-2020 - YY-2022.
+They were mainly companies (X% small and Y% medium size), associative entities (sports, cultural, academic, economic...), academic and training institutions. 
+The diversity of the public was an interesting criterion for our study.
+Participants in the economic, cultural and social dynamics of the district through their membership in the local association of economic actors of the territory (ATP Rives de Meurthes).
+23 out of the fifty actors solicited to participate in the survey agreed to participate (of which 21 by physical or telephone interview and 2 by electronic questionnaire). 
+The scope of activity of most of the respondents is local (at the level of the neighborhood or city) which may reflect a strong territorial anchoring and a commitment to local concerns and issues (waste management, social welfare, local job creation...). The majority of their business decisions are made locally, which reduces the risk of depending on the interests of entities outside the territory
+
+
+To do this, we identified the role of each actor, then the sources of plastic waste collection, and then identify the sources of 3D printing and potential synergies with LF2L. 
+In order to achieve these results, an exchange with key actors in territorial development was necessary.  
+
 
 
 ## Step 4: Put in place smart collectors 
@@ -403,19 +461,20 @@ In the case that it cannot be produced, it is necessary to notify immediately to
 ## Step 6: Adequation and preparation of the material 
 
 
- 
+
 ## Step 7: Path planning  - 3D Printing  
 
 ## Step 8 : Post-processing 
 
 
-## Step 9 : Post-processing 
+## Step 9: Implementation Examples 
 
-## Step 9: Test by Use 
+### Test by Use 
 
-## Step 10: Re-design and improvements of fabrication 
+### Step 10: Re-design and improvements of fabrication 
 
-## Step 11: Validation 
+### Step 11: Validation 
+
 
 
 

@@ -18,6 +18,7 @@
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \setmainfont[]{Trebuchet MS}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -98,6 +99,38 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
+% Packages
+
+%\newcommand{\lf2l}{Lorraine Fab Living Lab}
+
+%\usepackage[table, svgnames]{xcolor}
+
+\let\paragraph\oldparagraph
+\let\subparagraph\oldsubparagraph
+
+\usepackage{titlesec}
+
+\titleformat{\section}{\sffamily\Large\bfseries\rlap{\color{gray}\rule[-2ex]{\linewidth}{4ex}\vspace{-4ex}}\sffamily\Large\bfseries\color{white}}{\thesection}{1em}{}
+\newcommand{\sectionbreak}{\clearpage}
+
+%\usepackage{graphicx}
+%\usepackage[, x11names]{xcolor}
+
+%\usepackage{titlesec}
+%\titleformat{\section}{\LARGE}{\rlap{\color{Aquamarine1!92!Chartreuse1}\rule[-0.4cm]{\linewidth}{1.2cm}} \thesection}{1em}{}
+
+\usepackage{textcomp}
+
+\usepackage{xcolor}
+
+% Emulate the possible action of a package that changes the default color
+
+\definecolor{ocre}{RGB}{243,102,25}
+\usepackage{caption}
+\usepackage[font={color=darkgray,bf}, figurename=Fig., labelfont={it}]{caption}
+
+\usepackage{tabu}
+\usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
@@ -170,7 +203,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Livrable WP6},
+  pdftitle={Delivrable},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -178,13 +211,99 @@
   urlcolor={blue},
   pdfcreator={LaTeX via pandoc}}
 
-\title{Livrable WP6}
+\title{Delivrable}
 \author{}
 \date{}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, sharp corners, interior hidden, enhanced, frame hidden]}{\end{tcolorbox}}\fi
+
+\begin{titlepage}
+	\begin{center}
+
+		\vspace{30mm}
+		
+		\includegraphics[width=\linewidth]{figures/Inedit_horiz.pdf}\\ 
+		
+		\vfill
+		
+		\textbf{\Huge{\textcolor{darkgray}{ D6.4 3D Printing of recycled plastic demonstrator }}} \\ 
+		
+		\vfill
+		
+		\vspace{60mm} 
+		
+		
+		
+      \textcolor{gray}{\rule{\textwidth}{2pt}}
+      
+		\vspace{5pt}
+		\begin{tabular}{ c p{8cm} c }
+           & & Version 1.0  \\ 
+         WP6 T6.5  & & January 2023   \\ 
+      \end{tabular}
+		\vspace{5pt} 
+		
+		\textcolor{gray}{\rule{\textwidth}{2pt}}
+		
+		
+	
+		
+		\vfill
+		
+	\end{center}
+\end{titlepage}
+
+\newpage
+
+
+\begin{tabu} to \linewidth { X  X | X | X }
+\toprule
+
+ 
+\multicolumn{2}{l |}{ \multirow{4}{*}{  \includegraphics[width=7cm]{figures/Inedit_horiz.pdf} } }  & Work Package: & 6   \\ \cmidrule{3-4}
+   & & Type of document:  & Deliverable        \\ \cmidrule{3-4}
+
+   & & Due Delivery Date:    & January 31/2023     \\ \cmidrule{3-4}
+ 
+   & & Actual Delivery Date:    & January 31 / 2023       \\ \midrule
+ 
+
+\multicolumn{4}{l|}{ } \\ \midrule
+
+ Responsible:    &  \multicolumn{3}{|l}{Université de Lorraine }        \\ \midrule
+        
+ Dissemination Level    &  \multicolumn{3}{|l}{ }  \\ \midrule
+ Title:    &   \multicolumn{3}{|l}{ }    \\ \hline
+
+ Description:    &    \multicolumn{3}{|l}{ }   \\ \midrule
+
+ Version    &   \multicolumn{3}{|l}{ }    \\ \midrule
+ Contributors       & Versions    & Dates       & Revision Description \\ \midrule
+        
+ & & & \\ \midrule
+        
+\end{tabu}
+
+
+\vfill
+
+\begin{center}
+\textcolor{lightgray}{Disclaimer}
+
+\textcolor{lightgray}{
+\small
+This document is provided « as is » with no warranties whatsoever, including any warranty or merchantability, non-infringement, fitness for any particular purpose, or any warranty otherwise arising out of any proposal, specification or sample.  No license, express or implied, by estoppels or otherwise, to any intellectual property rights are granted herein. The members of the project INEDIT do not accept any liability for actions or omissions of INEDIT members or third parties and disclaim any obligation to enforce the use of this document. }
+
+\textcolor{lightgray}{
+This document reflects only the authors' view and the Commission is not responsible for any use that may be made of the information it contains.  This document is subject to change without notice. 
+}
+\end{center}
+\normalsize
+
+\newpage
+
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, borderline west={3pt}{0pt}{shadecolor}, frame hidden, enhanced, breakable, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -192,8 +311,15 @@
 \setcounter{tocdepth}{3}
 \tableofcontents
 }
+\listoffigures
+\color{darkgray}
+
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
+
+This is the introduction of the document
+
+ss
 
 \hypertarget{plastic-issues-for-the-european-union}{%
 \section{Plastic Issues for the European
@@ -1016,8 +1142,8 @@ The major point in the `Green Fablab' case is to propose a maual
 recycled aspecg to possible reutse the plastic waste
 
 \hypertarget{d-printing-process-fused-filament-granular-fabrication-fff-fgf}{%
-\subparagraph{3D printing process: Fused Filament \& Granular
-Fabrication (FFF \&
+\paragraph{3D printing process: Fused Filament \& Granular Fabrication
+(FFF \&
 FGF)}\label{d-printing-process-fused-filament-granular-fabrication-fff-fgf}}
 
 In the era of the additive manufacturing technology, without a doubt,
@@ -1087,6 +1213,8 @@ be printed on top of the previous layer, so that, filament fuses with
 the previous layer and then is solidified at room temperature after
 printing Cruz Sanchez et al.
 (\protect\hyperlink{ref-CruzSanchez2017}{2017}).
+
+For the
 
 On the other hand, the Fused Granular Fabrication is a direct extrusion
 systems of pellets is a key technical advancement to facilitate the use
@@ -1171,6 +1299,77 @@ fabricate}\label{step-2-validation-of-the-technical-specifications-of-model-to-f
 \subsection{Step 3 -- Identify local source of plastic
 waste}\label{step-3-identify-local-source-of-plastic-waste}}
 
+This step seeks to establish a first network of plastic wastes source
+from the local ecosystem. The task of the identification of local source
+of plastic is fundamental as the first stage in the recovery process.\\
+As illustrated in the Figure~\ref{fig-fedoua-00}, the methodological
+approach included the following steps: 1) Pre-diagnosis of the
+territorial context, 2) Identification of the actors, 3) Analysis of the
+actors' involvement and implementation of the smart collector, and
+finally, 4) Implementation \& monitoring.
+
+\begin{figure}
+
+{\centering \includegraphics{figures/Fedoua-00.pdf}
+
+}
+
+\caption{\label{fig-fedoua-00}MEthodlogical steps for the}
+
+\end{figure}
+
+Regarding the pre-diagnosis phase, the purpose was to align the INEDIT
+project with the territorial context. To do so, between Oct 2021 and
+June 2022, the UL team had exchange with key actors of territorial
+development and the priorities in terms of sustainable development.
+Association ATP, Echogeste, Agence Scalen. The main output of this phase
+was the establishment of a initial Swot-Pestel analysis for the thatn
+can
+
+Based on this first step, it was possible to identify a target of actors
+subtle to be relevant according to the following criteria. The main goal
+was Mapping of actual and potential actors
+
+Identification of the role of each actor
+
+Identification of the sources of plastic waste collection
+
+Identification of 3D printing sources and potential synergies with Lf2L
+
+First, they need to be in a geographical range perimeter (less than 2km
+around the Green Fablab) following the observations of Santander et al.
+(\protect\hyperlink{ref-Santander2020}{2020}). Limiting the geographical
+perimeter of collection helps in the reduction of environmental impact
+because of the transport means. Second, the diversification of the actor
+profile (general public, spectators, students\ldots) and/or stakeholder
+activity (Public, Private, Associative) was an important criteria to
+guarantee a significant quantity of collection and a sensitization to
+the management of the plastic. In function of their profile, it can be
+hypothesize that there a are a different rate of frequentation in the
+establishments with diversified profiles of actors.
+
+A total of XX actors were interviewed in the period of time of XX-2020 -
+YY-2022. They were mainly companies (X\% small and Y\% medium size),
+associative entities (sports, cultural, academic, economic\ldots),
+academic and training institutions. The diversity of the public was an
+interesting criterion for our study. Participants in the economic,
+cultural and social dynamics of the district through their membership in
+the local association of economic actors of the territory (ATP Rives de
+Meurthes). 23 out of the fifty actors solicited to participate in the
+survey agreed to participate (of which 21 by physical or telephone
+interview and 2 by electronic questionnaire). The scope of activity of
+most of the respondents is local (at the level of the neighborhood or
+city) which may reflect a strong territorial anchoring and a commitment
+to local concerns and issues (waste management, social welfare, local
+job creation\ldots). The majority of their business decisions are made
+locally, which reduces the risk of depending on the interests of
+entities outside the territory
+
+To do this, we identified the role of each actor, then the sources of
+plastic waste collection, and then identify the sources of 3D printing
+and potential synergies with LF2L. In order to achieve these results, an
+exchange with key actors in territorial development was necessary.
+
 \hypertarget{step-4-put-in-place-smart-collectors}{%
 \subsection{Step 4: Put in place smart
 collectors}\label{step-4-put-in-place-smart-collectors}}
@@ -1190,18 +1389,19 @@ Printing}\label{step-7-path-planning---3d-printing}}
 \hypertarget{step-8-post-processing}{%
 \subsection{Step 8 : Post-processing}\label{step-8-post-processing}}
 
-\hypertarget{step-9-post-processing}{%
-\subsection{Step 9 : Post-processing}\label{step-9-post-processing}}
+\hypertarget{step-9-implementation-examples}{%
+\subsection{Step 9: Implementation
+Examples}\label{step-9-implementation-examples}}
 
-\hypertarget{step-9-test-by-use}{%
-\subsection{Step 9: Test by Use}\label{step-9-test-by-use}}
+\hypertarget{test-by-use}{%
+\subsubsection{Test by Use}\label{test-by-use}}
 
 \hypertarget{step-10-re-design-and-improvements-of-fabrication}{%
-\subsection{Step 10: Re-design and improvements of
+\subsubsection{Step 10: Re-design and improvements of
 fabrication}\label{step-10-re-design-and-improvements-of-fabrication}}
 
 \hypertarget{step-11-validation}{%
-\subsection{Step 11: Validation}\label{step-11-validation}}
+\subsubsection{Step 11: Validation}\label{step-11-validation}}
 
 \hypertarget{conclusions}{%
 \section{Conclusions}\label{conclusions}}

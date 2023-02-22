@@ -1,12 +1,16 @@
 % Packages
-%\usepackage{textcomp}
+
 %\newcommand{\lf2l}{Lorraine Fab Living Lab}
 
 %\usepackage[table, svgnames]{xcolor}
-%\usepackage{titlesec}
-% 
-% \titleformat{\section}{\sffamily\Large\bfseries\rlap{\color{blue}\rule[-0.5ex]{\linewidth}{3ex}\vspace{-3ex}}\sffamily\Large\bfseries\color{white}}{\thesection}{1em}{}
-% 
+
+\let\paragraph\oldparagraph
+\let\subparagraph\oldsubparagraph
+
+\usepackage{titlesec}
+
+\titleformat{\section}{\sffamily\Large\bfseries\rlap{\color{gray}\rule[-2ex]{\linewidth}{4ex}\vspace{-4ex}}\sffamily\Large\bfseries\color{white}}{\thesection}{1em}{}
+\newcommand{\sectionbreak}{\clearpage}
 
 %\usepackage{graphicx}
 %\usepackage[, x11names]{xcolor}
@@ -15,3 +19,14 @@
 %\titleformat{\section}{\LARGE}{\rlap{\color{Aquamarine1!92!Chartreuse1}\rule[-0.4cm]{\linewidth}{1.2cm}} \thesection}{1em}{}
 
 \usepackage{textcomp}
+
+\usepackage{xcolor}
+
+% Emulate the possible action of a package that changes the default color
+
+\definecolor{ocre}{RGB}{243,102,25}
+\usepackage{caption}
+\usepackage[font={color=darkgray,bf}, figurename=Fig., labelfont={it}]{caption}
+
+\usepackage{tabu}
+\usepackage{multirow}
