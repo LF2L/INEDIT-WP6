@@ -98,6 +98,20 @@
 \newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \makeatletter
 \makeatother
 \makeatletter
@@ -170,7 +184,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, enhanced, sharp corners, breakable, interior hidden, frame hidden, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, breakable, boxrule=0pt, sharp corners, interior hidden, enhanced, frame hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -254,11 +268,206 @@ Demostrator}\label{context-of-the-3d-printing-of-recycled-plastic-demostrator}}
 Meurthe district (Nancy,
 France)}\label{presentation-of-the-scale-of-the-demostrator-rives-de-meurthe-district-nancy-france}}
 
+The demonstrator is placed at the City of Nancy - France. Nancy is a
+city located in northeastern France, in the region of Lorraine. It is
+the capital of the Meurthe-et-Moselle department and has a population of
+approximately 105,000 inhabitants.
+
+It is the capital of the Meurthe-et-Moselle department, on the Meurthe
+River in Lorraine. Nancy was the capital of the steel industry until its
+collapse. In 1977, it created France's third largest technology park,
+Nancy-Brabois, which is very accessible thanks to the highway network.
+
+Located in the east of the city, the Rives de Meurthe district extends
+from the banks of the Meurthe in the east to the boulevard Lobau and the
+boulevard of the 26th infantry regiment in the west. To the south, it is
+bounded by the rue de Tomblaine and to the north by the rue du Crosne.
+It is separated from the rest of the city of Nancy by the canal from the
+Marne to the Rhine. It thus gives the impression of being an independent
+city, adjacent to Nancy.
+
 \hypertarget{third-place-octroi-nancy}{%
 \subsection{Third place Octroi Nancy}\label{third-place-octroi-nancy}}
 
+The third place Octroi Nancy is a part of the neighborhood of the Rives
+de Meurthe. This project transforms the former slaughterhouses of the
+city of Nancy into \emph{``cultural, creative and citizen''} third place
+with \(4600~m^2\) of renovated buildings
+(\protect\hyperlink{ref-pallot2021}{Pallot et al., 2021}). Four large
+buildings (Figure~\ref{fig-ok}) were adequated to provide a friendly and
+multidisciplinary meeting place between culture and innovation; open to
+experimentation and intended to operate as a creative laboratory for the
+city. This place is intended to be an open space allowing the connection
+of future occupants, such as artists and creatives, with the inhabitants
+of the city and companies.
+
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/ok3/OK3.png}
+
+}
+
+}
+
+\subcaption{\label{fig-oka}Description of the OK3 site}
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/ok3/OK3.png}
+
+}
+
+}
+
+\subcaption{\label{fig-okb}Photo of OK3}
+\end{minipage}%
+
+\caption{\label{fig-ok}The OK3 Site}
+
+\end{figure}
+
+At the 2023, this third place is an open ecosystem that will bring
+together artists, researchers and creative people with the public, the
+city's inhabitants and businesses.
+
 \hypertarget{lorraine-fab-living-lab}{%
-\subsection{Lorraine Fab Living Lab}\label{lorraine-fab-living-lab}}
+\subsection{\texorpdfstring{Lorraine Fab Living
+Lab\textregistered}{Lorraine Fab Living Lab}}\label{lorraine-fab-living-lab}}
+
+The \textbf{Lorraine Smart Cities Living Lab (LSCLL)} is a
+trans-disciplinary resource center of the Université de Lorraine, to
+support and link the different societal challenges of the Lorraine
+territory with the local resources. It enables the integration of
+different users, implementing collaborative and agile approaches in the
+service of \emph{Research, Development of Innovations, Training and a
+Citizen Culture}. It experiments in terms of projects, governance and
+support platform since 2008, involving several laboratories and other
+public and private partners as detailed in the Figure~\ref{fig-LSCLL}.
+Since 2010, this project is member of the European Network of Living
+Labs (ENoLL)\footnote{\(4^{th}\) wave of labelisation)}, seeking to
+develop public-private-population Partnerships (PPPPs) to disseminate
+innovation and related practices.
+
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/lf2l/LSCLL.png}
+
+}
+
+}
+
+\subcaption{\label{fig-LSCLL}Description of the Lo site}
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/ok3/OK3.png}
+
+}
+
+}
+
+\subcaption{\label{fig-okb}Photo of OK3}
+\end{minipage}%
+
+\caption{\label{fig-lscll}The OK3 Site}
+
+\end{figure}
+
+Since 2014, the LSCLL formalizes its strategic intention with the the
+Lorraine Fab Living Lab\textregistered    (LF2L\textregistered) research
+platform for prospective assessment of innovative usages
+(\protect\hyperlink{ref-Dupont2016}{Dupont et al., 2016}).\\
+The LF2L physical environment is constituted by a collaborative and a
+fabLab space. The collaborative space allows users to foster
+co-operation in engineering design with different stakeholders in order
+to new create concepts/designs. On the other hand, FabLab space allows
+users to materialize the concepts/designs in an easy and quick way in
+order to have an prospective evaluation
+(\protect\hyperlink{ref-Boujut2003}{Boujut and Blanco, 2003};
+\protect\hyperlink{ref-Dupont2015b}{Dupont et al., 2015},
+\protect\hyperlink{ref-Dupont2014}{2014}). The synergy of these two
+spaces enables the project development in a living lab approach taking
+into account the User Centered Design principles.
+
+The conceptual framework is composed of three main elements as
+illustrated in Figure~\ref{fig-lf2l-methodology}:
+
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/lf2l/Methodology-01.jpg}
+
+}
+
+\caption{\label{fig-lf2l-methodology}The Lorraine Fab Living Lab
+methodlogy.}
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \emph{Co-creation}: Creative process to find alternative resolution
+  concepts to a problem-topic given integrating the key stakeholders in
+  the process.
+\item
+  \emph{Prototyping}: Materialization (virtual/real) of the concept in
+  order to have a first and quick in- sight.
+\item
+  \emph{Evaluation}: Establishment of the pertinence of the concepts in
+  order to create a feedback/improvement process.
+\end{enumerate}
+
+}
+
+\end{minipage}%
+
+\end{figure}
+
+The conceptual innovation framework of LF2L takes into consideration the
+2D (concept), 3D (object), 4D (over time) approaches involving different
+type of stakeholders (e.g.~researches, companies, networks,) in order to
+have a foresight usage evaluation of a new concept, technology or
+project. The stages and 2D/3D/4D resources allowing prospective
+assessment of innovative usages in order to support this conceptual
+framework inside this ``innovation space'' as indicated in figure 2.3
+(\protect\hyperlink{ref-Dupont2016}{Dupont et al., 2016},
+\protect\hyperlink{ref-Dupont2015b}{2015}): This approach is useful to
+accelerate the deployment of industrial and/or urban demonstrators.
 
 \hypertarget{d-printing-of-recycled-plastic-demonstrator-the-green-fablab}{%
 \section{3D Printing of recycled plastic demonstrator: the ``Green
@@ -269,13 +478,11 @@ FabLab''}\label{d-printing-of-recycled-plastic-demonstrator-the-green-fablab}}
 recycling
 demonstrator}\label{rationale-for-the-technological-system-of-the-3d-printing-recycling-demonstrator}}
 
-Based on the context characteristics of the Lorraine Fab Living Lab® and
-the Octroi local ecosystems, the 3D printed demonstrator also called
-locally as the ``Green Fablab'', it is an initial demonstrator of the
-distributed recycling approach that combines a living lab approach
-inside a citizen third place ecosystem.\\
-The logistical validation of a closed-loop supply chain for plastic in
-DIT approach needs to relied to a certain technology.
+Based on the context characteristics of the (LF2L\textregistered) and
+the Octroi local ecosystems, the 3D printed demonstrator, also called
+locally as the ``Green Fablab'', it is an initial socio-technical
+demonstrator of the distributed recycling approach that combines a
+living lab approach inside a citizen third place ecosystem.
 
 The Green FabLab demonstrator aims to experiment the technical
 feasibility evaluation of a distributed and local plastic recycling for
@@ -289,14 +496,15 @@ researches have already explored this path.
 
 The main purpose of this demonstrator in the INEDIT project is to
 understand the conditions under which to deploy a notion of circular
-economy with the feedstock of the OS 3D printers. The outputs are, not
-only by minimizing use of the environment as a sink for residuals but --
-perhaps more importantly -- by minimizing the use of virgin materials.
-Hence, the environmental impact of this technology is significantly
-reduced. Moreover, taking into account the exponential growth of these
-spaces (Fablab, Hakerspace, Makespace), they could help to increase the
-efficiency to the problem of polymer recycling through the development
-of a distributed recycling approach.
+economy with the feedstock of the open source 3D printers and manual
+desktop injection. The outputs are, not only by minimizing use of the
+environment as a sink for residuals but -- perhaps more importantly --
+by minimizing the use of virgin materials. Hence, the environmental
+impact of this technology is significantly reduced. Moreover, taking
+into account the exponential growth of these spaces (Fablab, Hakerspace,
+Makespace), they could help to increase the efficiency to the problem of
+polymer recycling through the development of a distributed recycling
+approach.
 
 \textbf{The Green FabLab project aims to demonstrate that plastic waste
 material can have several uses, and therefore several values, during its
@@ -305,7 +513,7 @@ new raw material for different products. It is in this spirit that many
 associations, SMEs, local authorities and individuals are developing new
 local recycling practices that could allow us to aim for an economy that
 is more respectful of the environment, fairer for society and more
-engaging for local politicians
+engaging for local politicians.
 
 The Additive manufacturing (AM) -also known as 3D printing- is an
 important industrial vector in the and its direct (and distributed)
@@ -353,7 +561,7 @@ Figure~\ref{fig-dram} illustrates the conceptual model of DRAM.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\textwidth,height=\textheight]{figures/DRAM-10.png}
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/DRAM-10.png}
 
 }
 
@@ -437,9 +645,65 @@ considering time- and cost-saving as the most important reasons.
 \subsection{Positionnement of Use case for OMDF
 Functions}\label{positionnement-of-use-case-for-omdf-functions}}
 
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\textwidth,height=\textheight]{figures/Sankey-GF-Global.jpg}
+
+}
+
+\caption{\label{fig-dram}Connection of the 'Green Fablab Use case with
+the Open Manufacturing Demonstration Facilities (OMDF) functions}
+
+\end{figure}
+
 \hypertarget{hypothesis-of-ul-case-for-deployment-in-reality}{%
-\subsection{Hypothesis of UL case for deployment in
+\subsubsection{Hypothesis of UL case for deployment in
 reality}\label{hypothesis-of-ul-case-for-deployment-in-reality}}
+
+The implementation of the Green Fablab needs to be done considering
+certain assumptions and simplifications to reduce the complexity of this
+socio-technical system. The following assumptions were assumed in terms
+of geographical scale, material recollection and manufacturing aspects:
+
+\begin{itemize}
+\item
+  From a material perspective, only certain types of plastic wastes are
+  considered. Specifically, Polyethylene terephthalate (PET), High
+  density Polyethylene (HDPE), Polypropylene (PP) and Polylactic Acid
+  (PLA). The major reason is from the technical perspective relies on
+  the availability of these materials at the local area around the
+  physical demonstrator.
+
+  \begin{itemize}
+  \item
+    PLA is one of the most used plastics in 3D printing. As plastic
+    waste sources, PLA waste from clean sources like printed prototypes
+    or 3D printed parts scard has been considered.
+  \item
+    HDPE is one of ???
+  \end{itemize}
+\item
+  The recycling system considers the sorting, separation and cleaning
+  process as a high because the collected material corresponds to a
+  non-contaminated waste. For example, discarded 3D printing parts used
+  for prototyping.
+\item
+  From a geographical point of view, only plastic waste collected from
+  the smart collectors was considered. Nevertheless, as MVP use case
+  demonstrator, this model can be extrapolated to schools and high
+  schools in the Lorraine region (France) have been considered, and the
+  route of recovery and delivery considered is obtained in the work of
+  (\protect\hyperlink{ref-Santander2020}{Santander et al., 2020}).
+\end{itemize}
+
+The 3D printing activities carried out in these establishments have a
+specific purpose of making product prototypes and mock-ups, which allow
+to generate testing activities, design evaluations, functional
+evaluations, corrections. Therefore, after a short lifetime, 3D printing
+can be a source of significant amounts of plastic waste due to printed
+parts that do not possess the desired quality, unused raw materials, or
+products that have already fulfilled their life cycle
+(\protect\hyperlink{ref-Alexandre2020}{\textbf{Alexandre2020?}})
 
 \hypertarget{technical-characterization-of-the-3d-printing-of-recycled-demonstrator}{%
 \subsection{Technical characterization of the 3D printing of recycled
@@ -448,13 +712,13 @@ demonstrator}\label{technical-characterization-of-the-3d-printing-of-recycled-de
 \hypertarget{recovery-i}{%
 \subsubsection{Recovery I}\label{recovery-i}}
 
-The first step in the implementation of the OMDF of the Green Fablab is
-the activity of \emph{Recovery I}. This phase aims to establish a
-minimal baseline logistic operations to consider to collect the plastic
-wastes to be recycled in the process. In the scientific literature, the
+The first step in the implementation of the Green Fablab OMDF is the
+activity of \emph{Recovery I}. This phase aims to establish a minimal
+baseline logistic operations to consider to collect the plastic wastes
+to be recycled in the process. In the scientific literature, the
 recovery is one of the main activities to considered in the recycling
 process given that this structures a supply chain that certainly is
-variable (i.e.~in fuction of the public supoprt to sort the material in
+variable (i.e.~in function of the public support to sort the material in
 the specific points of collection). This process is the first step to
 create a closed-loop supply network approach for the distributed
 manufacturing (\protect\hyperlink{ref-Santander2020}{Santander et al.,
@@ -484,14 +748,52 @@ model considered.
 The main difficult relies in the pertinent identification and the
 quality state of the plastic waste. Therefore, in the framework of the
 INEDIT project, the UL case demonstrator developed a ``smart collector
-prototype''. The complete documentation of the technical device can be
-found in the following open access reference
+prototype'' as illustrated in the Figure~\ref{fig-smart-collector}. The
+complete documentation of the technical device can be found in the
+following open access reference
 (\protect\hyperlink{ref-gabriel2023}{Gabriel and Cruz, 2023}). Given the
 possible implementation in other contexts, the source files are shared
 in open-source repository with the purpose that open communities to take
 advantage the experiences developed at the Université de Lorraine.
 Eventually, the open communities can propose improvements and better
 versions.
+
+\begin{figure}
+
+\begin{minipage}[t]{\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=4.16667in,height=\textheight]{figures/SC/Abstract.png}
+
+}
+
+}
+
+\subcaption{\label{fig-abstract}Description of the developed Smart
+collector}
+\end{minipage}%
+\newline
+\begin{minipage}[t]{\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=3.125in,height=\textheight]{figures/SC/2022-02-22 smart collectors.png}
+
+}
+
+}
+
+\subcaption{\label{fig-hanno}Prototypes deployed at the local territory}
+\end{minipage}%
+
+\caption{\label{fig-smart-collector}Photos of the Smart collectors}
+
+\end{figure}
 
 This is a relevant strategy given the cross-line of Industry 4.0 and
 circular economy, which is opening up fields such as smart waste
@@ -534,43 +836,6 @@ may be used in various use cases such as:
   the information system element present here is flexible and commonly
   used in various types of projects.
 \end{itemize}
-
-\begin{figure}
-
-\begin{minipage}[t]{0.37\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{figures/SC/Abstract.png}
-
-}
-
-}
-
-\subcaption{\label{fig-abstract}Description of the developed Smart
-collector}
-\end{minipage}%
-%
-\begin{minipage}[t]{0.63\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics{figures/SC/2022-02-22 smart collectors.png}
-
-}
-
-}
-
-\subcaption{\label{fig-hanno}Prototypes deployed at the local territory}
-\end{minipage}%
-
-\caption{\label{fig-elephants}Famous Elephants}
-
-\end{figure}
 
 The device uses a controller compatible with batteries and use WAN
 technology to avoid the deployment of routers for data acquisition.
@@ -705,7 +970,7 @@ company have a patented use of the additive in the polymer matrix, in
 order to fulfil its initial function of the product.
 
 \hypertarget{feedstock-iv}{%
-\subsection{Feedstock IV}\label{feedstock-iv}}
+\subsubsection{Feedstock IV}\label{feedstock-iv}}
 
 The Feedstock III phase refers to the processes in order to transform
 the plastic waste into usable material material for the fabrication
@@ -723,6 +988,234 @@ that are necessary in the printing process.
 
 Figure XX and table present the technical characteristics of the
 material equipement
+
+\hypertarget{fabrication-process-technological-mix-to-valorize-the-recycled-material}{%
+\subsubsection{Fabrication process -- Technological mix to valorize the
+recycled
+material}\label{fabrication-process-technological-mix-to-valorize-the-recycled-material}}
+
+In this step, the major output is the valorisation of the plastic waste
+material using different two alternative paths: 1) Desktop injection
+process, and 2), 3D printing process. As matter of the validation of the
+demonstrator at TRL 6 level, the ambition of the demonstrator in the
+INEDIT project is to experiment and prove a technological ecosystem mix
+that seeks to valorise in a distributed approach different plastics for
+different purposes and stakeholders. Therefore, the initial choice is
+these two paths to create objects injected and 3D printed parts that are
+useful to the local ecosystem of the demonstrator. The technologies are
+presented in the following paragraphs.
+
+\hypertarget{desktop-injection-moulding}{%
+\paragraph{Desktop injection
+moulding}\label{desktop-injection-moulding}}
+
+Injection mouding is one of the most used technique to form plastic
+materials.
+
+The major point in the `Green Fablab' case is to propose a maual
+recycled aspecg to possible reutse the plastic waste
+
+\hypertarget{d-printing-process-fused-filament-granular-fabrication-fff-fgf}{%
+\subparagraph{3D printing process: Fused Filament \& Granular
+Fabrication (FFF \&
+FGF)}\label{d-printing-process-fused-filament-granular-fabrication-fff-fgf}}
+
+In the era of the additive manufacturing technology, without a doubt,
+the material extrusion-based systems such as the fused filament
+fabrication (FFF) has been one of the prominent processes. In fact, the
+technological development of open-source 3D printers is creating more
+affordable Additive Manufacturing (AM) machines for society in different
+applications. It provides the possibility of mass diffusion of this
+technology, and consequently, AM is being recognised as a disruptive
+that could up-end the last two centuries of approaches to design and
+manufacturing Birtchnell and Urry
+(\protect\hyperlink{ref-Birtchnell2013a}{2013}).
+
+In the Green Fablab demonstrator, we have two types of material-based
+systems: 1) Fused filament fabrication (FFF) and 2) Fused Granular
+Fabrication (FGF):
+
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=2.08333in,height=\textheight]{figures/FFF-00.png}
+
+}
+
+}
+
+\subcaption{\label{fig-fff}Fused filament fabrication -FFF- principle}
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=2.08333in,height=\textheight]{figures/Canessa2017.png}
+
+}
+
+}
+
+\subcaption{\label{fig-hanno}Fused granular fabrication -FGF- principle}
+\end{minipage}%
+
+\caption{\label{fig-smart-collector}Additive manufacturing of
+material-extrusion based systems}
+
+\end{figure}
+
+The filament fabrication was developed and patented in 1989 by Scott
+Crump as \emph{Fused Deposition Modelling}, and since 2009, the
+technology became open source
+(\protect\hyperlink{ref-Crump1992}{\textbf{Crump1992?}}), known as Fused
+Filament Fabrication, to establish the difference betwwen the registred
+mark. A schematic representation of this technology is presented in
+Figure~\ref{fig-fff}. This process usually uses thermoplastic polymer
+filaments that are heated until a temperature slightly higher than the
+melting temperature at the nozzle of the machine, reaching a semi-liquid
+state. At this point, the polymer is extruded on the platform to create
+the first layer of the object and after that, the polymer continues to
+be printed on top of the previous layer, so that, filament fuses with
+the previous layer and then is solidified at room temperature after
+printing Cruz Sanchez et al.
+(\protect\hyperlink{ref-CruzSanchez2017}{2017}).
+
+On the other hand, the Fused Granular Fabrication is a direct extrusion
+systems of pellets is a key technical advancement to facilitate the use
+of recycled material in the printing process. Volpato et al.
+(\protect\hyperlink{ref-Volpato2015}{2015}) describes the development of
+a piston driven extrusion head that can extrude polypropylene granules
+into a filament. The head was designed to minimize the volume of
+material fused during the extrusion process and reduce the effect of
+material degradation. Canessa et al.
+(\protect\hyperlink{ref-Canessa2017}{2017}) developed a mini extruder
+for pellets or granules of recycled plastic that can be used in a RepRap
+FDM 3D printer for rapid prototyping. The use of Moineau pump technology
+to add precise volumetric control to the extrusion of pellets opens
+extraordinary new possibilities. It is important to mention that a
+Moineau pump has to be coupled to a first stage Auger screw. This
+ensures a continuous feed of melted plastic with-out inclusion of air
+bubbles, since the Moineau pump itself cannot guarantee such condition.
+However, it is also important to highlight that currently this
+technology is the phase of laboratory experimentation and initial market
+diffusion. The complexity
+
+\hypertarget{quality-assessment-vi}{%
+\subsubsection{Quality Assessment VI}\label{quality-assessment-vi}}
+
+\hypertarget{operationalization-of-do-it-together-process-for-3d-printing-recycled-plastic-use-case.}{%
+\section{Operationalization of Do-It-Together process for 3D Printing
+Recycled Plastic Use
+Case.}\label{operationalization-of-do-it-together-process-for-3d-printing-recycled-plastic-use-case.}}
+
+Explanation of the INEDIT project but focusing on the Open Manufacturing
+Demonstration Facilities process
+
+\begin{table}
+\centering\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{5cm}>{\raggedright\arraybackslash}p{10cm}>{\raggedright\arraybackslash}p{1.5cm}}
+\toprule
+Steps ID  & Steps Description  & Corresponding ID\_DIT process \\
+\midrule
+\cellcolor{gray!6}{STEP 1 - RECEIVE DESIGN AND SPECIFICATION } & \cellcolor{gray!6}{Information about materials, finish, colour, texture, etc. from the INEDIT platform are sent to the manufacturing centre chosen by the ERP module and the Sustainability Driven Orchestrator (SDO). The expected files to be imported are: CAD file of the object, colour and texture, technical requirements identified in the design phase. } & \cellcolor{gray!6}{7\_1 }\\
+STEP 2 - VALIDATION OF THE TECHNICAL SPECIFICATIONS OF MODEL TO FABRICATE  & Furniture producers or FabLab with the support of 3D printing technical experts evaluate the printability (if the part can be printed with the available technology) as well as validate the design.  & 7\_2 \\
+\cellcolor{gray!6}{STEP 3 - IDENTIFY LOCAL SOURCES OF PLASTIC WASTE } & \cellcolor{gray!6}{This step starts identifying local sources of plastic waste at least 2 km far from the production site. Designers and technicians will evaluate the quantity and quality of possible plastic wastes that could be used as secondary raw material. } & \cellcolor{gray!6}{9\_2 }\\
+STEP 4 – PUT IN PLACE SMART COLLECTOR  & By using the Smart Collector developed by UL in the local areas (< 2 km) it is enabled to collect plastic waste from the sources identified before.  & 9\_6 \\
+\cellcolor{gray!6}{STEP 5 - TRANSPORT WASTE MATERIAL TO THE RECYCLING FACILITIES } & \cellcolor{gray!6}{All the recycled plastic waste is collected and transported to the recycling facilities } & \cellcolor{gray!6}{9\_9 }\\
+\addlinespace
+STEP 6 - ADEQUATION AND PREPARATION OF THE MATERIAL, MATERIAL PRINTABILITY VERIFICATION  & The collected material has to be adequate in order to be utilised as recycled feedstock (sorting of usable material, cleaning, etc). The treated material needs to be tested and validated (evaluation on usage and printability).  & 10\_4 \\
+\cellcolor{gray!6}{STEP 7 - PATH PLANNING–3D PRINTING } & \cellcolor{gray!6}{Path planning software generates the best printing strategy to reduce the material used and time. The high-tech solution developed by UL manufactures using at least 30\% of recycled plastic the product in the previously chosen manufacturing centre. } & \cellcolor{gray!6}{5\_1\_2 }\\
+STEP 8 – POST PROCESSING  & If needed, a post-processing phase refines the product in terms of aesthetic quality in order to meet customer requirements. Some parts need to be assembled in the manufacturing site before shipping to the customer.  & 5\_1\_2 \\
+\cellcolor{gray!6}{STEP 9 – TEST BY USE } & \cellcolor{gray!6}{The DIT innovation space enables the designer to test the just realized prototype, to ensure proper functioning in real conditions. } & \cellcolor{gray!6}{6\_1\_1 }\\
+STEP 10 – RE-DESIGN AND AFFINATION OF FABRICATION  & If the test by use of the prototype fails, the failure is improved and corrected, repeating the process (re-involving the necessary stakeholders and the technologies used).  & 5\_2\_2 \\
+\addlinespace
+\cellcolor{gray!6}{STEP 11 – VALIDATION } & \cellcolor{gray!6}{The use case ends validating the product printed, first by the manufacturer and the designer, second by a responsible entity for verification of design feasibility that provides safety and environmental certification and lastly by the customer use (feedback). } & \cellcolor{gray!6}{6\_1\_2 }\\
+\bottomrule
+\end{tabular}
+\endgroup{}
+\end{table}
+
+\hypertarget{step-1-receive-design-and-specification}{%
+\subsection{Step 1 -- Receive Design and
+Specification}\label{step-1-receive-design-and-specification}}
+
+The first step in the reception of the design models and specifications
+from the INEDIT platform. The starting point of this activity is the
+reception of the respective documents that contains the 3D model to be
+manufactured by the use case.
+
+One of the outputs of the co-creation phase of INEDIT is the creation of
+a first initial model that can be exploitable fro the in the open
+manufacturing process. In that way, the model is received taking into
+account the specific requirements of the customer, and the required
+inputs to determine if the technologies available in the demonstrated
+have the capacity to produce the product. In the case that it cannot be
+produced, it is necessary to notify immediately together with the
+arguments why it cannot be produced and offer ways of improvement.
+
+\hypertarget{step-2-validation-of-the-technical-specifications-of-model-to-fabricate}{%
+\subsection{Step 2 -- Validation of the technical specifications of
+model to
+fabricate}\label{step-2-validation-of-the-technical-specifications-of-model-to-fabricate}}
+
+\hypertarget{step-3-identify-local-source-of-plastic-waste}{%
+\subsection{Step 3 -- Identify local source of plastic
+waste}\label{step-3-identify-local-source-of-plastic-waste}}
+
+\hypertarget{step-4-put-in-place-smart-collectors}{%
+\subsection{Step 4: Put in place smart
+collectors}\label{step-4-put-in-place-smart-collectors}}
+
+\hypertarget{step-5-transport-waste-material-to-the-recycling-facilities}{%
+\subsection{Step 5: Transport waste material to the recycling
+facilities}\label{step-5-transport-waste-material-to-the-recycling-facilities}}
+
+\hypertarget{step-6-adequation-and-preparation-of-the-material}{%
+\subsection{Step 6: Adequation and preparation of the
+material}\label{step-6-adequation-and-preparation-of-the-material}}
+
+\hypertarget{step-7-path-planning---3d-printing}{%
+\subsection{Step 7: Path planning - 3D
+Printing}\label{step-7-path-planning---3d-printing}}
+
+\hypertarget{step-8-post-processing}{%
+\subsection{Step 8 : Post-processing}\label{step-8-post-processing}}
+
+\hypertarget{step-9-post-processing}{%
+\subsection{Step 9 : Post-processing}\label{step-9-post-processing}}
+
+\hypertarget{step-9-test-by-use}{%
+\subsection{Step 9: Test by Use}\label{step-9-test-by-use}}
+
+\hypertarget{step-10-re-design-and-improvements-of-fabrication}{%
+\subsection{Step 10: Re-design and improvements of
+fabrication}\label{step-10-re-design-and-improvements-of-fabrication}}
+
+\hypertarget{step-11-validation}{%
+\subsection{Step 11: Validation}\label{step-11-validation}}
+
+\hypertarget{conclusions}{%
+\section{Conclusions}\label{conclusions}}
+
+Plastic waste as secondary ressources and possibilities for a secondary
+market
+
+Qualification of the waste
+
+Mains challenges to tackle
+
+Legislation of waste and
+
+More examples neeed it in the recycling for education purposes
 
 \newpage
 
@@ -748,11 +1241,21 @@ democratising innovation: {The} case of {3D} printing in makerspaces.
 Technological Forecasting and Social Change 163, 120453.
 \url{https://doi.org/10.1016/j.techfore.2020.120453}
 
+\leavevmode\vadjust pre{\hypertarget{ref-Birtchnell2013a}{}}%
+Birtchnell, T., Urry, J., 2013. Fabricating {Futures} and the {Movement}
+of {Objects}. Mobilities 8, 388--405.
+\url{https://doi.org/10.1080/17450101.2012.745697}
+
 \leavevmode\vadjust pre{\hypertarget{ref-BonninRoca2019}{}}%
 Bonnín Roca, J., Vaishnav, P., Laureijs, R.E., Mendonça, J., Fuchs,
 E.R.H., 2019. Technology cost drivers for a potential transition to
 decentralized manufacturing. Additive Manufacturing 28, 136--151.
 \url{https://doi.org/10.1016/j.addma.2019.04.010}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Boujut2003}{}}%
+Boujut, J.-F., Blanco, E., 2003. Intermediary {Objects} as a mean to
+foster {Co-operation}. Engineering Design Computer Supported Cooperative
+Work 205--219.
 
 \leavevmode\vadjust pre{\hypertarget{ref-Bourell2017}{}}%
 Bourell, D., Kruth, J.P., Leu, M., Levy, G., Rosen, D., Beese, A.M.,
@@ -764,6 +1267,11 @@ Brenken, B., Barocio, E., Favaloro, A., Kunc, V., Pipes, R.B., 2018.
 Fused filament fabrication of fiber-reinforced polymers: {A} review.
 Additive Manufacturing 21, 1--16.
 \url{https://doi.org/10.1016/j.addma.2018.01.002}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Canessa2017}{}}%
+Canessa, E., Baruzzo, M., Fonda, C., 2017. Study of {Moineau-based}
+pumps for the volumetric extrusion of pellets. Additive Manufacturing
+17, 143--150. \url{https://doi.org/10.1016/j.addma.2017.08.015}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Catania2014}{}}%
 Catania, V., Ventura, D., 2014. An approch for monitoring and smart
@@ -801,6 +1309,25 @@ Reed-Tsochas, F.P., Rowley, J., 2017. Unlocking value for a circular
 economy through {3D} printing: {A} research agenda. Technological
 Forecasting and Social Change 115, 75--84.
 \url{https://doi.org/10.1016/j.techfore.2016.09.021}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Dupont2014}{}}%
+Dupont, L., Morel, L., Hubert, J., Guidat, C., 2014. Study case: {Living
+Lab Mode} for urban project design: {Emergence} of an ad hoc methodology
+through collaborative innovation, in: 2014 {International Conference} on
+{Engineering}, {Technology} and {Innovation} ({ICE}). {IEEE}, {Bergamo},
+pp. 1--9. \url{https://doi.org/10.1109/ICE.2014.6871550}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Dupont2015b}{}}%
+Dupont, L., Morel, L., Lhoste, P., 2015. L ' innovation {Médiation}
+scientifique , territorialité et développement local. Actes des Journées
+Hubert Curien, session Médiation Scientifique, territorialité et
+développement local, Colloque Science \& You 2--8.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Dupont2016}{}}%
+Dupont, L., Pallot, M., Morel, L., Pallot, M., 2016. Exploring the
+{Appropriateness} of {Different Immersive Environments} in the {Context}
+of an {Innovation Process} for {Smart Cities}. 22nd ICE/IEEE
+International Technology Management Conference, 13--15.
 
 \leavevmode\vadjust pre{\hypertarget{ref-EC2018}{}}%
 European Commission, 2018. A european strategy for plastics in a
@@ -921,11 +1448,25 @@ composite materials and process parameters optimisation for the fused
 deposition modelling process. Virtual and Physical Prototyping 12,
 47--59. \url{https://doi.org/10.1080/17452759.2016.1274490}
 
+\leavevmode\vadjust pre{\hypertarget{ref-Ngo2018}{}}%
+Ngo, T.D., Kashani, A., Imbalzano, G., Nguyen, K.T.Q., Hui, D., 2018.
+Additive manufacturing ({3D} printing): {A} review of materials,
+methods, applications and challenges. Composites Part B: Engineering
+143, 172--196. \url{https://doi.org/10.1016/j.compositesb.2018.02.012}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Niaki2019}{}}%
 Niaki, M.K., Torabi, S.A., Nonino, F., 2019. Why manufacturers adopt
 additive manufacturing technologies: {The} role of sustainability.
 Journal of Cleaner Production 222, 381--392.
 \url{https://doi.org/10.1016/j.jclepro.2019.03.019}
+
+\leavevmode\vadjust pre{\hypertarget{ref-pallot2021}{}}%
+Pallot, M., Dupont, L., Fleury, S., Araque-Tellez, G., Richir, S., 2021.
+Investigating the {Impact} of {Visual Representations} during
+{Ideation}: {Towards Immersive eXperience Design}, in: 2021 {IEEE
+International Conference} on {Engineering}, {Technology} and
+{Innovation} ({ICE}/{ITMC}). {IEEE}, p. 1.
+\url{https://doi.org/10.1109/ICE/ITMC52061.2021.9570244}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Pearce2009}{}}%
 Pearce, J.M., Mushtaq, U., 2009. Overcoming technical constraints for
@@ -1006,6 +1547,13 @@ van Buren, N., Demmers, M., van der Heijden, R., Witlox, F., 2016.
 Towards a {Circular Economy}: {The Role} of {Dutch Logistics Industries}
 and {Governments}. Sustainability 8, 647.
 \url{https://doi.org/10.3390/su8070647}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Volpato2015}{}}%
+Volpato, N., Kretschek, D., Foggiatto, J.A., Gomez da Silva Cruz, C.M.,
+2015. Experimental analysis of an extrusion system for additive
+manufacturing based on polymer pellets. The International Journal of
+Advanced Manufacturing Technology 81, 1519--1531.
+\url{https://doi.org/10.1007/s00170-015-7300-2}
 
 \leavevmode\vadjust pre{\hypertarget{ref-West2016a}{}}%
 West, J., Kuk, G., 2016. The complementarity of openness: {How MakerBot}

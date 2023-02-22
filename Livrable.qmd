@@ -29,11 +29,15 @@ subparagraph: yes
 pdf-engine: lualatex
 ---
 
+```{r, echo=FALSE, include=FALSE}
+library(tidyverse)
+library(readxl)
+library(knitr)
+library(kableExtra)
+```
+
 
 # Introduction
-
-
-
 # Plastic Issues for the European Union
 
 Since 1950’, our society have gained enormous advantages in terms of quality of life thanks to the technical development of the development of plastic and polymer materials. Plastic is a material that is widely used in our daily lives and plays a fundamental role in industry and economic development. The plastic material are found in almost all our products: food packaging, cars, technological tools, clothing, among others. The main reason is that plastic materials offer a variety of chemical and mechanical properties to be useful for a wide array of applications. Plastics are extremely useful, but their mismanagement has affected the environment and our health. The over-consumption and especially bad practices (single use, difficulty of reuse, etc.), make plastics one of the major societal challenges of an ecological transition that has become imperative. The main problem is the end-of-life treatment which traditionally uses a centralized system where plastic waste often has to travel thousands of kilometers... to be incinerated or landfilled. In addition to the energy and environmental impact of their production, there is also the impact of the end of life. 
@@ -51,22 +55,93 @@ To tackle this accumulation waste problem, the European strategy for plastics in
 
 ## Presentation of the scale of the demostrator: Rives de Meurthe district (Nancy, France) 
 
+The demonstrator is placed at the City of Nancy - France. 
+Nancy is a city located in northeastern France, in the region of Lorraine. It is the capital of the Meurthe-et-Moselle department and has a population of approximately 105,000 inhabitants. 
+
+It is the capital of the Meurthe-et-Moselle department, on the Meurthe River in Lorraine. 
+Nancy was the capital of the steel industry until its collapse. In 1977, it created France's third largest technology park, Nancy-Brabois, which is very accessible thanks to the highway network.  
+
+
+Located in the east of the city, the Rives de Meurthe district extends from the banks of the Meurthe in the east to the boulevard Lobau and the boulevard of the 26th infantry regiment in the west. 
+To the south, it is bounded by the rue de Tomblaine and to the north by the rue du Crosne.
+It is separated from the rest of the city of Nancy by the canal from the Marne to the Rhine. It thus gives the impression of being an independent city, adjacent to Nancy. 
+
 ## Third place Octroi Nancy
 
-## Lorraine Fab Living Lab
+The third place Octroi Nancy is a part of the neighborhood of the Rives de Meurthe. 
+This project transforms the former slaughterhouses of the city of Nancy into *"cultural, creative and citizen"* third place with $4600~m^2$  of renovated buildings [@pallot2021].
+Four large buildings (@fig-ok) were adequated to provide a friendly and multidisciplinary meeting place between culture and innovation; open to experimentation and intended to operate as a creative laboratory for the city.
+This place is intended to be an open space allowing the connection of future occupants, such as artists and creatives, with the inhabitants of the city and companies. 
+
+
+
+::: {#fig-ok layout-ncol=2}
+![Description of the OK3 site](figures/ok3/OK3.png){#fig-oka width=45%} 
+
+![Photo of OK3](figures/ok3/OK3.png){#fig-okb width=45%} 
+
+The OK3 Site 
+:::
+ 
+
+At the 2023, this third place is an open ecosystem that will bring together artists, researchers and creative people with the public, the city's inhabitants and businesses. 
+
+ 
+## Lorraine Fab Living Lab\textregistered
+
+The **Lorraine Smart Cities Living Lab (LSCLL)** is a trans-disciplinary resource center of the Université de Lorraine, to support and link the different societal challenges of the Lorraine territory with the local resources.
+It enables the integration of different users, implementing collaborative and agile approaches in the service of *Research, Development of Innovations, Training and a Citizen Culture*.
+It experiments in terms of projects, governance and support platform since 2008,  involving several laboratories and other public and private partners as detailed in the @fig-LSCLL. 
+Since 2010, this project is member of the European Network of Living Labs (ENoLL)^[$4^{th}$ wave of labelisation)], seeking to develop public-private-population Partnerships (PPPPs) to disseminate innovation and related practices.
+
+
+::: {#fig-lscll layout-ncol=2}
+![Description of the Lo site](figures/lf2l/LSCLL.png){#fig-LSCLL width=45%} 
+
+![Photo of OK3](figures/ok3/OK3.png){#fig-okb width=45%} 
+
+The OK3 Site 
+:::
+
+
+Since 2014, the LSCLL formalizes its strategic intention with the the Lorraine Fab Living Lab\textregistered    (LF2L\textregistered) research platform for prospective assessment of innovative usages [@Dupont2016].  
+The LF2L physical environment is constituted by a collaborative and a fabLab space.
+The collaborative space allows users to foster co-operation in engineering design with different stakeholders in order to new create concepts/designs. 
+On the other hand, FabLab space allows users to materialize the concepts/designs  in an easy and quick way in order to have an prospective evaluation [@Boujut2003; @Dupont2014; @Dupont2015b].
+The synergy of these two spaces enables the project development in a living lab approach taking into account the User Centered Design principles. 
+
+The conceptual framework is composed of three main elements as illustrated in @fig-lf2l-methodology: 
+
+::: {layout-ncol=2}
+![The Lorraine Fab Living Lab methodlogy.](figures/lf2l/Methodology-01.jpg){#fig-lf2l-methodology}
+
+
+1. *Co-creation*: Creative process to find alternative resolution concepts to a problem-topic given integrating the key stakeholders in the process. 
+2. *Prototyping*: Materialization (virtual/real) of the concept in order to have a first and quick in- sight. 
+3. *Evaluation*: Establishment of the pertinence of the concepts in order to create a feedback/improvement process. 
+:::
+
+
+The conceptual innovation framework of LF2L takes into consideration the 2D (concept), 3D (object), 4D (over time) approaches involving different type of stakeholders (e.g. researches, companies, networks,) in order to have a foresight usage evaluation of a new concept, technology or project.
+The stages and 2D/3D/4D resources allowing prospective assessment of innovative usages in order to support this conceptual framework inside this “innovation space” as indicated in figure 2.3 [@Dupont2015b; @Dupont2016]: 
+This approach is useful to accelerate the deployment of industrial and/or urban demonstrators. 
+
+<!-- Fabrication laboratories (“Fab Labs”) are a global network of local labs, enabling invention by providing access to tools for digital fabrication. In that sense, Fab labs are a particularly relevant form of the shared machine shop, specifying a minimal inventory of devices and machine tools necessary to implement the founding idea of “how to make (almost) everything” in any one lab [@Troxler2016; @Gershenfeld2005]. The first Fab Lab was installed in 2002 at the Massachusetts Institute of Technology (MIT); today there is a network of more than 2000 active workshops according to the fablab network (https://www.fablabs.io/labs/map) throughout the world.  In 2007, an international Fab Lab charter2 was adopted, establishing the essential principles of the Fab Lab form—e.g., public access to tools and knowledge.  -->
+
+ 
 
 # 3D Printing of recycled plastic demonstrator: the “Green FabLab”
-
 ## Rationale for the technological system of the 3D printing  recycling demonstrator 
 
-Based on the context characteristics of the Lorraine Fab Living Lab® and the Octroi local ecosystems, the 3D printed demonstrator also called locally as the “Green Fablab”, it is an initial demonstrator of the distributed recycling approach that combines a living lab approach inside a citizen third place ecosystem.  
-The logistical validation of a closed-loop supply chain for plastic in DIT approach needs to relied to a certain technology.
+Based on the context characteristics of the (LF2L\textregistered) and the Octroi local ecosystems, the 3D printed demonstrator, also called locally as the "Green Fablab", it is an initial  socio-technical demonstrator of the distributed recycling approach that combines a living lab approach inside a citizen third place ecosystem.  
 
-The Green FabLab demonstrator aims to experiment the technical feasibility evaluation of a distributed and local plastic recycling for 3D printing technology in the context of these open innovation spaces such as fab labs, Hackerspaces or even industrial prototyping zones. In these geographically distributed spaces, the polymer recycling process of the surrounding areas (streets, neighbourhood, industrial zones) will be carried out at small lot sizes minimizing, energy consumptions, and carbon emissions compared to the tradition centralized systems, as some researches have already explored this path.
+The Green FabLab demonstrator aims to experiment the technical feasibility evaluation of a distributed and local plastic recycling for 3D printing technology in the context of these open innovation spaces such as fab labs, Hackerspaces or even industrial prototyping zones. In these geographically distributed spaces, the polymer recycling process of the surrounding areas (streets, neighbourhood, industrial zones) will be carried out at small lot sizes minimizing, energy consumptions, and carbon emissions compared to the tradition centralized systems, as some researches have already explored this path.  
 
-The main purpose of this demonstrator in the INEDIT project is to understand the conditions under which to deploy a notion of circular economy with the feedstock of the OS 3D printers. The outputs are, not only by minimizing use of the environment as a sink for residuals but – perhaps more importantly – by minimizing the use of virgin materials. Hence, the environmental impact of this technology is significantly reduced. Moreover, taking into account the exponential growth of these spaces (Fablab, Hakerspace, Makespace), they could help to increase the efficiency to the problem of polymer recycling through the development of a distributed recycling approach. 
+The main purpose of this demonstrator in the INEDIT project is to understand the conditions under which to deploy a notion of circular economy with the feedstock of the open source 3D printers and manual desktop injection.
+The outputs are, not only by minimizing use of the environment as a sink for residuals but – perhaps more importantly – by minimizing the use of virgin materials. Hence, the environmental impact of this technology is significantly reduced.
+Moreover, taking into account the exponential growth of these spaces (Fablab, Hakerspace, Makespace), they could help to increase the efficiency to the problem of polymer recycling through the development of a distributed recycling approach. 
 
-**The Green FabLab project aims to demonstrate that plastic waste material can have several uses, and therefore several values, during its life cycle**. The same material could be recycled and transformed into new raw material for different products. It is in this spirit that many associations, SMEs, local authorities and individuals are developing new local recycling practices that could allow us to aim for an economy that is more respectful of the environment, fairer for society and more engaging for local politicians 
+**The Green FabLab project aims to demonstrate that plastic waste material can have several uses, and therefore several values, during its life cycle**. The same material could be recycled and transformed into new raw material for different products. It is in this spirit that many associations, SMEs, local authorities and individuals are developing new local recycling practices that could allow us to aim for an economy that is more respectful of the environment, fairer for society and more engaging for local politicians.
 
 The Additive manufacturing (AM) -also known as 3D printing- is an important industrial vector in the and its direct (and distributed) manufacturing capabilities is becoming a key industrial process that could play a relevant role in the transition from a linear to circular economy [@Despeisse2016]. AM technologies is expected to transform the production process [@Rahman2018; @Chen2017; @Jiang2017] thanks to its ability to transform a numerical model into a deposition of material (points, lines or areas) to create a 3D part [@Bourell2017]. The expiration of the first patents has contributed to an increased interest, creating consumer value and potential for disruption [@Beltagui2020; @West2016a]. In economic terms, the global additive manufacturing market is expected to reach USD 23.33 billion by 2026 [@ReportsAndData2019]. However, determining when and how to take advantage of the benefits is a challenge for traditional means of production. From a societal viewpoint, @Jiang2017 reported that the product development could change from traditional stage-gate models to iterative, agile processes changing the scenario by 2030. 
 
@@ -76,7 +151,7 @@ DRAM is defined as the use of recycled materials by means of mechanical recyclin
 
 @fig-dram illustrates the conceptual model of DRAM.  
 
-![DRAM](figures/DRAM-10.png){#fig-dram width=80%}
+![DRAM](figures/DRAM-10.png){#fig-dram width=90%}
 
 
 In a general overview, the **Recovery (I)** phase concerns the logistic operations to consider to collect the plastic wastes to be reused in DRAM. 
@@ -85,40 +160,67 @@ The **Compounding (III)** phase refers to the development of mono- and composite
 The **Feedstock (IV)** phase identifies the actions to fabricate the material usable for the printing process, either filament for Fused Filament Fabrication (FFF) or the particle size for Fused Granular Fabrication (FGF). The **Printing (V)** stage identifies applications and process improvements for the recycled printed part. 
 The **Quality (VI)** phase identifies the multi-level technical characterization performed to the recycled material.
 
-
 In the DRAM methodology, consumers have an economic incentive to recycle.  This is because they can use their waste as feedstock for a wide range of consumer products that can be produced for a fraction of the conventional cost of the equivalent products. Moreover, 3D printing is especially well suited because it enables the production of parts with (almost) no waste, and could reduce the waste related to the material by more than 40 %, reusing 95% of the unused material [@Petrovic2011].  Currently, most of the cost of 3D printing is associated with filament [@Wittbrodt2013]. By recycling raw materials such as Polylactic acid (PLA), one of the most frequently used materials in 3D printing, it is possible to reduce the carbon dioxide emissions that are incurred by transport to landfills or shipping to customers, offering environmental benefits [@Santander2020]. 
 
 A large number of products can already be manufactured with AM, which affects the geographical spread and density of global value chains [@Laplume2016]. It is expected that the reach of AM printable products will be much greater in the future, as the production of multi-material and built-in functionalities (e.g. electronics) will be possible to a large extent. In addition, the production of spare parts can be carried out on-site, modifying the role of suppliers in the production lines [@Zanoni2019]. @Matt2015 explored the stages of distributed model factories and decentralized production types ranging from distributed capabilities to cloud production. Thus, the need of transport will be much more carefully because the fact that AM will enable decentralization of production to localities near customers or in the most extreme distributed scenario at the customer's premises [@Petersen2017a; @BonninRoca2019; @Wittbrodt2013]. Moreover, AM technology makes it possible to reduce market entry barriers, reduce capital requirements and achieve an efficient minimum scale of production to promote distributed, flexible forms of production [@Despeisse2016].  
 
- 
-
-This enables an alternative option from an economy-of-scale to an economy-of-scope, where the products are highly personalized satisfying niche communities or even individuals [@Petrick2014; @Hienerth2014]. For these reasons, the AM technology could be a driver for a shift in manufacturing from globally distributed production to local facilities. Significant efforts are being made by industry and the scientific community to move AM techniques from rapid prototyping and tooling stages towards direct digital manufacturing (DDM) [@Mueller2012; @Holmstrom2016], with the concomitant environmental and social benefits. Nevertheless, @Niaki2019 demonstrated that environmental and social benefits are not the key preferential factors in the adoption of AM technologies in different industrial sectors. Only the economic factor remains relevant in the AM implementation, considering time- and cost-saving as the most important reasons. 
+This enables an alternative option from an economy-of-scale to an economy-of-scope, where the products are highly personalized satisfying niche communities or even individuals [@Petrick2014; @Hienerth2014].
+For these reasons, the AM technology could be a driver for a shift in manufacturing from globally distributed production to local facilities. Significant efforts are being made by industry and the scientific community to move AM techniques from rapid prototyping and tooling stages towards direct digital manufacturing (DDM) [@Mueller2012; @Holmstrom2016], with the concomitant environmental and social benefits. 
+Nevertheless, @Niaki2019 demonstrated that environmental and social benefits are not the key preferential factors in the adoption of AM technologies in different industrial sectors. Only the economic factor remains relevant in the AM implementation, considering time- and cost-saving as the most important reasons. 
 
 ## Positionnement of Use case for OMDF Functions
 
-## Hypothesis of UL case for deployment in reality 
+![Connection of the 'Green Fablab Use case with the Open Manufacturing Demonstration Facilities (OMDF) functions ](figures/Sankey-GF-Global.jpg){#fig-dram width=95%}
 
+### Hypothesis of UL case for deployment in reality 
 
+The implementation of the Green Fablab needs to be done considering certain assumptions and simplifications to reduce the complexity of this socio-technical system. 
+The following assumptions were assumed in terms of geographical scale, material recollection and manufacturing aspects: 
+
++ From a material perspective, only certain types of plastic wastes are considered. Specifically, Polyethylene terephthalate (PET), High density Polyethylene (HDPE), Polypropylene (PP) and Polylactic Acid (PLA). The major reason is from the technical perspective relies on the availability of these materials at the local area around the physical demonstrator. 
+
+  - PLA is one of the most used plastics in 3D printing. As plastic waste sources, PLA waste from clean sources like printed prototypes or 3D printed parts scard has been considered.  
+
+  - HDPE is one of ??? 
+
++ The recycling system considers the sorting, separation and cleaning process as a high because the collected material corresponds to a non-contaminated waste. For example, discarded 3D printing parts used for prototyping. 
+
++ From a geographical point of view, only plastic waste collected from the smart collectors was considered. Nevertheless, as MVP use case demonstrator, this model can be extrapolated to  schools and high schools in the Lorraine region (France) have been considered, and the route of recovery and delivery considered is obtained in the work of [@Santander2020]. 
+
+The 3D printing activities carried out in these establishments have a specific purpose of making product prototypes and mock-ups, which allow to generate testing activities, design evaluations, functional evaluations, corrections. Therefore, after a short lifetime, 3D printing can be a source of significant amounts of plastic waste due to printed parts that do not possess the desired quality, unused raw materials, or products that have already fulfilled their life cycle [@Alexandre2020] 
+
+ 
+ 
 ## Technical characterization of the 3D printing of recycled demonstrator 
 
 ### Recovery I 
 
-The first step in the implementation of the OMDF of the Green Fablab is the activity of *Recovery I*.
+The first step in the implementation of the Green Fablab OMDF is the activity of *Recovery I*.
 This phase aims to establish a minimal baseline logistic operations to consider to collect the plastic wastes to be recycled in the process. 
-In the scientific literature, the recovery is one of the main activities to considered in the recycling process given that this structures a supply chain that certainly is variable (i.e. in fuction of the public supoprt to sort the material in the specific points of collection). This process is the first step to create a closed-loop supply network approach for the distributed manufacturing [@Santander2020].  
-
+In the scientific literature, the recovery is one of the main activities to considered in the recycling process given that this structures a supply chain that certainly is variable (i.e. in function of the public support to sort the material in the specific points of collection). 
+This process is the first step to create a closed-loop supply network approach for the distributed manufacturing [@Santander2020].  
 
 The collection tasks consists of collecting plastic waste at different established points, which are then transported to a treatment center where it is recycled. 
-The collection and recycling process aims to generate a recycling micro-network at the local level (neighborhood scale), which allows the recovery and revaluation of plastic waste through 3D printing. This allows to save impacts related to the traditional treatment of plastic waste, as well as to increase the recycling capacity in the city, giving more independence over the recycling process.
+The collection and recycling process aims to generate a recycling micro-network at the local level (neighborhood scale), which allows the recovery and revaluation of plastic waste through 3D printing. 
+This allows to save impacts related to the traditional treatment of plastic waste, as well as to increase the recycling capacity in the city, giving more independence over the recycling process.
 @fig-recovery illustrates the process model considered.
-
 
 ![Recovery processus of the Green Fablab](figures/Recovery.png){#fig-recovery}
 
 The main difficult relies in the pertinent identification and  the quality state of the plastic waste.
-Therefore, in the framework of the INEDIT project, the UL case demonstrator developed a “smart collector prototype”. The complete documentation of the technical device can be found in the following open access reference [@gabriel2023].
+Therefore, in the framework of the INEDIT project, the UL case demonstrator developed a “smart collector prototype” as illustrated in the @fig-smart-collector.
+The complete documentation of the technical device can be found in the following open access reference [@gabriel2023].
 Given the possible implementation in other contexts, the source files are shared in open-source repository with the purpose that open communities to take advantage the experiences developed at the Université de Lorraine. 
 Eventually, the open communities can propose improvements and better versions. 
+
+::: {#fig-smart-collector layout-nrow=2}
+![Description of the developed Smart collector](figures/SC/Abstract.png){#fig-abstract width=400}
+
+![Prototypes deployed at the local territory](figures/SC/2022-02-22 smart collectors.png){#fig-hanno width=300}
+
+Photos of the Smart collectors
+:::
+
 
 This is a relevant strategy given the cross-line of Industry 4.0 and circular economy, which is opening up fields such as smart waste management systems options to improve the effectiveness of different materials, including plastic waste [@Ranjbari2021] using information technology tools with the advent of the Internet of Things (IoT) [@fatimah2020, @rejeb2022].
 Smart waste management system (SWMS) consists of public garbage collectors with embedded technology that is used to monitor real-time level of garbage bins in public places [@Bano2020]. 
@@ -133,14 +235,6 @@ The main functional requirement of the smart collector is to collect and provide
 - Initiating a digitization process in the waste management process as the information system element present here is flexible and commonly used in various types of projects. 
 
 
-::: {#fig-elephants layout-ncol=2}
-
-![Description of the developed Smart collector](figures/SC/Abstract.png){#fig-abstract width=35%}
-
-![Prototypes deployed at the local territory](figures/SC/2022-02-22 smart collectors.png){#fig-hanno width=60%}
-
-Famous Elephants
-:::
 
 The device uses a controller compatible with batteries and use WAN technology to avoid the deployment of routers for data acquisition. 
 Although using various types of sensors allows us to achieve better results [@Catania2014] by crossing data, the main indicator remains the weight.   
@@ -178,7 +272,6 @@ The plastic waste preparation process aims to conditioned the collected plastic 
 
 
 
-
 ### Compounding III  
 
 The *Compounding* phase is related to the operation, strategies in the development of composite materials using recycled feedstock intended to be use in a printing process. There have been several literature reviews about the technical aspect of composite materials in the additive manufacturing context [@Singh2017, @Hofstatter2017, @Brenken2017, @Mohan2017]. 
@@ -196,10 +289,9 @@ One conclusion of these studies is the positive technical use of recycled mono-m
 However, it has to be highlighted that one major assumption of these studies relies in that the material used is already sorted, cleaned and using a same type of discarded product. For INEDIT project, the interest is to take into account the inner variability that could be in the recovery process, concerning the type of material given the fact, while there are seven types of recycling symbols for each type of polymer, one major constraint in the current systems is that each manufacturing company have a patented use of the additive in the polymer matrix, in order to fulfil its initial function of the product. 
  
 
-## Feedstock IV 
+### Feedstock IV 
 
 The Feedstock III phase refers to the processes in order to transform the plastic waste into usable material material for the fabrication stage. Two outputs are seen in this etape: 1) the filament feedstock and 2) the pellet feedstock. The use of filament or pellet material are in coherence with the machine process used in the fabrication (cf section 4.4.5). The figure XX present the modeling of the process: 
-
 
 
 The filament and pellet production process makes it possible to produce the necessary raw material from plastic waste. 
@@ -209,7 +301,190 @@ Before using these products (filaments and pellets) it is necessary to carry out
 
 Figure XX and table present the technical characteristics of the material equipement  
 
+### Fabrication process – Technological mix to valorize the recycled material 
+
+In this step, the major output is the valorisation of the plastic waste material using different two alternative paths: 1) Desktop injection process, and 2), 3D printing process. As matter of the validation of the demonstrator at TRL 6 level, the ambition of the demonstrator in the INEDIT project is to experiment and prove a technological ecosystem mix that seeks to valorise in a distributed approach different plastics for different purposes and stakeholders. Therefore, the initial choice is these two paths to create objects injected and 3D printed parts that are useful to the local ecosystem of the demonstrator. The technologies are presented in the following paragraphs.  
+
+
  
+
+#### Desktop injection moulding  
+
+Injection mouding is one of the most used technique to form plastic materials.  
+
+The major point in the ‘Green Fablab’ case is to propose a maual recycled aspecg to possible reutse the plastic waste  
+
  
+
+##### 3D printing process: Fused Filament & Granular Fabrication (FFF & FGF) 
+
+In the era of the additive manufacturing technology, without a doubt, the material extrusion-based systems such as the fused filament fabrication (FFF) has been one of the prominent processes.
+In fact, the technological development of open-source 3D printers is creating more affordable Additive Manufacturing (AM) machines for society in different applications. It provides the possibility of mass diffusion of this technology, and consequently, AM is being recognised as a disruptive that could up-end the last two centuries of approaches to design and manufacturing [@Pearce2014d, @Birtchnell2013a]. 
+
+<!-- Several studies in the literature validate the interest of this technology from the materials, process and applications perspectives.  Different studies show that these technologies given the low energy level for manufacturing, represented the technologies the most used in the industry for prototyping, functional prototyping and eventually final part fabrication.   -->
+
+In the Green Fablab demonstrator, we have two types of material-based systems: 
+1) Fused filament fabrication (FFF) and 2) Fused Granular Fabrication (FGF): 
+
+::: {#fig-smart-collector layout-ncol=2}
+![Fused filament fabrication -FFF- principle](figures/FFF-00.png){#fig-fff width=200}
+
+![Fused granular fabrication -FGF- principle](figures/Canessa2017.png){#fig-hanno width=200}
+
+Additive manufacturing of material-extrusion based systems
+:::
+
+ 
+<!-- FFF  -->
+The filament fabrication was developed and patented in 1989 by Scott Crump as *Fused Deposition Modelling*, and since 2009, the technology became open source [@Crump1992], known as Fused Filament Fabrication, to establish the difference betwwen the registred mark.
+A schematic representation of this technology is presented in @fig-fff. 
+This process usually uses thermoplastic polymer filaments that are heated until a temperature slightly higher than the melting temperature at the nozzle of the machine, reaching a semi-liquid state. 
+At this point, the polymer is extruded on the platform to create the first layer of the object and after that, the polymer continues to be printed on top of the previous layer, so that, filament fuses with the previous layer and then is solidified at room temperature after printing [@Ngo2018, @CruzSanchez2017]. 
+
+
+For the 
+
+<!-- FGF  -->
+On the other hand, the Fused Granular Fabrication is a direct extrusion systems of pellets is a key technical advancement to facilitate the use of recycled material in the printing process. 
+@Volpato2015 describes the development of a piston driven extrusion head that can extrude polypropylene granules into a filament. The head was designed to minimize the volume of material fused during the extrusion process and reduce the effect of material degradation.
+@Canessa2017 developed a mini extruder for pellets or granules of recycled plastic that can be used in a RepRap FDM 3D printer for rapid prototyping. 
+The use of Moineau pump technology to add precise volumetric control to the extrusion of pellets opens extraordinary new possibilities. It is important to mention that a Moineau pump has to be coupled to a first stage Auger screw. This ensures a continuous feed of melted plastic with-out inclusion of air bubbles, since the Moineau pump itself cannot guarantee such condition. However, it is also important to highlight that currently this technology is the phase of laboratory experimentation and initial market diffusion. The complexity  
+
+
+
+
+
+### Quality Assessment VI
+
+# Operationalization of Do-It-Together process for 3D Printing Recycled Plastic Use Case.
+
+
+Explanation of the INEDIT project but focusing on the Open Manufacturing Demonstration Facilities process 
+
+```{r table}
+Operationalization <- read_excel(path = "Tables/Tables.xlsx",
+                                 sheet = "Operationalization",
+                                 skip = 1)
+
+Operationalization %>% 
+   kbl(booktabs = T) %>% 
+   kable_styling(latex_options = "striped", font_size = 10) %>% 
+   column_spec(1, width = c("5cm")) %>% 
+   column_spec(2, width = c("10cm")) %>% 
+   column_spec(3, width = c("1.5cm"))
+   
+```
+ 
+
+
+
+## Step 1 – Receive Design and Specification 
+
+
+The first step in the reception of the design models and specifications from the INEDIT platform. 
+The starting point of this activity is the reception of the respective documents that contains the 
+3D model to be manufactured by the use case.
+
+One of the outputs of the co-creation phase of INEDIT is the creation of a first initial model that can be exploitable fro the in the open manufacturing process. 
+In that way, the model is received taking into account the specific requirements of the customer, and the required inputs to determine if the technologies available in the demonstrated have the capacity to produce the product. 
+In the case that it cannot be produced, it is necessary to notify immediately together with the arguments why it cannot be produced and offer ways of improvement. 
+
+
+## Step 2 – Validation of the technical specifications of model to fabricate 
+
+## Step 3 – Identify local source of plastic waste 
+
+
+## Step 4: Put in place smart collectors 
+
+
+## Step 5: Transport waste material to the recycling facilities 
+
+## Step 6: Adequation and preparation of the material 
+
+
+ 
+## Step 7: Path planning  - 3D Printing  
+
+## Step 8 : Post-processing 
+
+
+## Step 9 : Post-processing 
+
+## Step 9: Test by Use 
+
+## Step 10: Re-design and improvements of fabrication 
+
+## Step 11: Validation 
+
+
+
+
+# Conclusions
+
+ 
+
+Plastic waste as secondary ressources and possibilities for a secondary market 
+
+Qualification of the waste
+
+Mains challenges to tackle 
+
+Legislation of waste and  
+
+
+More examples neeed it in the  recycling for education purposes 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
 # Bibliography
