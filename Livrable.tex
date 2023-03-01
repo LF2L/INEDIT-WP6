@@ -131,6 +131,9 @@
 
 \usepackage{tabu}
 \usepackage{multirow}
+
+%\usepackage{lscape}
+\usepackage{pdflscape}
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{array}
@@ -145,6 +148,22 @@
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
 \usepackage{xcolor}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
 \makeatletter
 \makeatother
 \makeatletter
@@ -303,7 +322,7 @@ This document reflects only the authors' view and the Commission is not responsi
 
 \newpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, borderline west={3pt}{0pt}{shadecolor}, frame hidden, enhanced, breakable, sharp corners, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, sharp corners, interior hidden, breakable, enhanced, borderline west={3pt}{0pt}{shadecolor}, frame hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -317,9 +336,24 @@ This document reflects only the authors' view and the Commission is not responsi
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
-This is the introduction of the document
+This deliverable deals with the description and implementation test of
+the 3D printing of recycled plastic demonstrator. The ambition of this
+use case is to test the feasibility of the distributed recycling via
+additive manufacturing (DRAM)
+(\protect\hyperlink{ref-CruzSanchez2020}{Cruz Sanchez et al., 2020})
+concept with the purpose to integrate in the Do-It-Together approach.
+There are two main goals:
 
-ss
+Evaluate the technical and logistical feasibility of the distributed
+recycling approach for the furniture sector, highlighting the advantages
+and barriers found in the implementation process.
+
+Provide a explain the a methodology in order
+
+The document is structured in three main parts:
+
+A baseline introduction is made regarding the plastic recycling issues
+in order to
 
 \hypertarget{plastic-issues-for-the-european-union}{%
 \section{Plastic Issues for the European
@@ -384,6 +418,10 @@ promotion of cross-sectorial valorization of plastic wastes through
 Industrial symbiosis approaches seems to be a relevant strategy for the
 circular economy strategies of the EU
 (\protect\hyperlink{ref-Karaylan2021}{Karayılan et al., 2021})
+
+Based on this context, it is presented the demostration of the INEDIT
+project called `3D Printing of Recycling Plastic' that was developed and
+implemented. In the
 
 \hypertarget{context-of-the-3d-printing-of-recycled-plastic-demostrator}{%
 \section{Context of the 3D Printing of Recycled Plastic
@@ -606,40 +644,63 @@ demonstrator}\label{rationale-for-the-technological-system-of-the-3d-printing-re
 
 Based on the context characteristics of the (LF2L\textregistered) and
 the Octroi local ecosystems, the 3D printed demonstrator, also called
-locally as the ``Green Fablab'', it is an initial socio-technical
-demonstrator of the distributed recycling approach that combines a
-living lab approach inside a citizen third place ecosystem.
+locally as the \emph{``Green Fablab''} as illustrated in the
+Figure~\ref{fig-gf-2021}, it is an initial socio-technical demonstrator
+of the distributed recycling approach that combines a living lab
+approach inside a citizen third place ecosystem.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/2021-11-17-octroi.jpeg}
+
+}
+
+\caption{\label{fig-gf-2021}Initial overview of the Green Fablab at
+November 2021}
+
+\end{figure}
 
 The Green FabLab demonstrator aims to experiment the technical
-feasibility evaluation of a distributed and local plastic recycling for
-3D printing technology in the context of these open innovation spaces
-such as fab labs, Hackerspaces or even industrial prototyping zones. In
-these geographically distributed spaces, the polymer recycling process
-of the surrounding areas (streets, neighbourhood, industrial zones) will
-be carried out at small lot sizes minimizing, energy consumptions, and
-carbon emissions compared to the tradition centralized systems, as some
-researches have already explored this path.
+feasibility and evaluation of a distributed and local plastic recycling.
+The main purpose is to valorize plastic waste for 3D printing technology
+and manual injection moulding techniques in the context of an open
+innovation space such as the Octroi Nancy. The results of this
+experimentation can be a baseline for many archetypes of open
+communities such as fab labs, Hackerspaces or even industrial
+prototyping zones.
 
-The main purpose of this demonstrator in the INEDIT project is to
-understand the conditions under which to deploy a notion of circular
-economy with the feedstock of the open source 3D printers and manual
-desktop injection. The outputs are, not only by minimizing use of the
-environment as a sink for residuals but -- perhaps more importantly --
-by minimizing the use of virgin materials. Hence, the environmental
-impact of this technology is significantly reduced. Moreover, taking
-into account the exponential growth of these spaces (Fablab, Hakerspace,
-Makespace), they could help to increase the efficiency to the problem of
-polymer recycling through the development of a distributed recycling
-approach.
+The main purpose of this demonstrator in the INEDIT project is
+\textbf{to prove that plastic waste material can have several uses, and
+therefore several values, during its life cycle}. The same material
+could be recycled and transformed into new raw material for different
+products. It is in this spirit that many associations, SMEs, local
+authorities and individuals are developing new local recycling practices
+that could allow us to aim for an economy that is more respectful of the
+environment, fairer for society and more engaging for local politicians.
 
-\textbf{The Green FabLab project aims to demonstrate that plastic waste
-material can have several uses, and therefore several values, during its
-life cycle}. The same material could be recycled and transformed into
-new raw material for different products. It is in this spirit that many
-associations, SMEs, local authorities and individuals are developing new
-local recycling practices that could allow us to aim for an economy that
-is more respectful of the environment, fairer for society and more
-engaging for local politicians.
+Therefore, it is neccesary to understand the key conditions under which
+to deploy a notion of circular economy with plastic waste to possible
+establish a secondary raw material market for this asset. Likewise, it
+is required the study of technical parameters for the technological
+diversity to possible use the waste material including the open source
+3D printers and manual desktop injection. The outputs are, not only by
+minimizing use of the environment as a sink for residuals but -- perhaps
+more importantly -- by minimizing the use of virgin materials. Hence,
+the environmental impact of this technology is significantly reduced.
+
+Moreover, taking into account the exponential growth of these spaces
+(Fablab, Hakerspace, Makespace), they could help to increase the
+efficiency to the problem of polymer recycling through the development
+of a distributed recycling approach. In these geographically distributed
+spaces, the polymer recycling process of the surrounding areas (streets,
+neighbourhood, industrial zones) will be carried out at small lot sizes
+minimizing, energy consumptions, and carbon emissions compared to the
+tradition centralized systems, as some researches have already explored
+this path.
+
+\hypertarget{distributed-recycling-via-additive-manufacturing-dram}{%
+\subsection{Distributed recycling via Additive Manufacturing
+DRAM}\label{distributed-recycling-via-additive-manufacturing-dram}}
 
 The Additive manufacturing (AM) -also known as 3D printing- is an
 important industrial vector in the and its direct (and distributed)
@@ -667,10 +728,10 @@ development could change from traditional stage-gate models to
 iterative, agile processes changing the scenario by 2030.
 
 The technical development of INEDIT's demonstrator is based on the
-distributed recycling via additive manufacturing (DRAM) approach
+\textbf{distributed recycling via additive manufacturing (DRAM) approach
 (\protect\hyperlink{ref-CruzSanchez2020}{Cruz Sanchez et al., 2020}).
 This approach is a major scientific output from the INEDIT project as a
-proposition of the future industrial landscape.
+proposition of the future industrial landscape}.
 
 DRAM is defined as the use of recycled materials by means of mechanical
 recycling process in the 3D printing process chain. In the literature,
@@ -685,7 +746,7 @@ sustainable manufacturing (\protect\hyperlink{ref-Zhao2018}{Zhao et al.,
 
 Figure~\ref{fig-dram} illustrates the conceptual model of DRAM.
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/DRAM-10.png}
 
@@ -716,7 +777,7 @@ the conventional cost of the equivalent products. Moreover, 3D printing
 is especially well suited because it enables the production of parts
 with (almost) no waste, and could reduce the waste related to the
 material by more than 40 \%, reusing 95\% of the unused material
-(\protect\hyperlink{ref-Petrovic2011}{Petrovic et al., 2011}).
+(\protect\hyperlink{ref-Petrovic2011}{Petrovic et al., 2011}).\\
 Currently, most of the cost of 3D printing is associated with filament
 (\protect\hyperlink{ref-Wittbrodt2013}{Wittbrodt et al., 2013}). By
 recycling raw materials such as Polylactic acid (PLA), one of the most
@@ -748,12 +809,12 @@ barriers, reduce capital requirements and achieve an efficient minimum
 scale of production to promote distributed, flexible forms of production
 (\protect\hyperlink{ref-Despeisse2016}{Despeisse et al., 2017}).
 
-This enables an alternative option from an economy-of-scale to an
-economy-of-scope, where the products are highly personalized satisfying
-niche communities or even individuals
-(\protect\hyperlink{ref-Hienerth2014}{Hienerth et al., 2014};
-\protect\hyperlink{ref-Petrick2014}{\textbf{Petrick2014?}}). For these
-reasons, the AM technology could be a driver for a shift in
+The distributed manufacturing/recycling approach enables an alternative
+option from an economy-of-scale to an economy-of-scope, where the
+products are highly personalized satisfying niche communities or even
+individuals (\protect\hyperlink{ref-Hienerth2014}{Hienerth et al.,
+2014}; \protect\hyperlink{ref-Petrick2014}{\textbf{Petrick2014?}}). For
+these reasons, the AM technology could be a driver for a shift in
 manufacturing from globally distributed production to local facilities.
 Significant efforts are being made by industry and the scientific
 community to move AM techniques from rapid prototyping and tooling
@@ -771,7 +832,11 @@ considering time- and cost-saving as the most important reasons.
 \subsection{Positionnement of Use case for OMDF
 Functions}\label{positionnement-of-use-case-for-omdf-functions}}
 
-\begin{figure}
+Considering the Open Manufacturig Demonstrateion Facilities functions
+established in the Delivrable XX.X, the Green fablab proves the
+following functions:
+
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.95\textwidth,height=\textheight]{figures/Sankey-GF-Global.jpg}
 
@@ -802,17 +867,20 @@ of geographical scale, material recollection and manufacturing aspects:
 
   \begin{itemize}
   \item
-    PLA is one of the most used plastics in 3D printing. As plastic
-    waste sources, PLA waste from clean sources like printed prototypes
-    or 3D printed parts scard has been considered.
+    PLA is one of the most used plastics in 3D printing. Thus, as
+    plastic waste source, PLA waste can be found from printed prototypes
+    or 3D printed parts discarded.
   \item
     HDPE is one of ???
+  \item
+    PET
   \end{itemize}
 \item
-  The recycling system considers the sorting, separation and cleaning
-  process as a high because the collected material corresponds to a
-  non-contaminated waste. For example, discarded 3D printing parts used
-  for prototyping.
+  The sorting, separation and cleaning process of plastics wastes are
+  critical processes of the recycling. Therefore, this he recycling
+  system considers t as a high because the collected material
+  corresponds to a non-contaminated waste. For example, discarded 3D
+  printing parts used for prototyping.
 \item
   From a geographical point of view, only plastic waste collected from
   the smart collectors was considered. Nevertheless, as MVP use case
@@ -861,7 +929,7 @@ recycling capacity in the city, giving more independence over the
 recycling process. Figure~\ref{fig-recovery} illustrates the process
 model considered.
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics{figures/Recovery.png}
 
@@ -884,40 +952,14 @@ advantage the experiences developed at the Université de Lorraine.
 Eventually, the open communities can propose improvements and better
 versions.
 
-\begin{figure}
+\begin{figure}[H]
 
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics[width=4.16667in,height=\textheight]{figures/SC/Abstract.png}
+{\centering \includegraphics[width=4.16667in,height=\textheight]{figures/SC/Abstract.png}
 
 }
 
-}
-
-\subcaption{\label{fig-abstract}Description of the developed Smart
+\caption{\label{fig-smart-collector}Description of the developed Smart
 collector}
-\end{minipage}%
-\newline
-\begin{minipage}[t]{\linewidth}
-
-{\centering 
-
-\raisebox{-\height}{
-
-\includegraphics[width=3.125in,height=\textheight]{figures/SC/2022-02-22 smart collectors.png}
-
-}
-
-}
-
-\subcaption{\label{fig-hanno}Prototypes deployed at the local territory}
-\end{minipage}%
-
-\caption{\label{fig-smart-collector}Photos of the Smart collectors}
 
 \end{figure}
 
@@ -969,8 +1011,8 @@ Although using various types of sensors allows us to achieve better
 results (\protect\hyperlink{ref-Catania2014}{Catania and Ventura, 2014})
 by crossing data, the main indicator remains the weight.
 
-The process illustrated by the Figure~\ref{fig-abstract} can be
-described in the as follows:
+The process illustrated by the \textbf{?@fig-abstract} can be described
+in the as follows:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1135,11 +1177,10 @@ presented in the following paragraphs.
 \paragraph{Desktop injection
 moulding}\label{desktop-injection-moulding}}
 
-Injection mouding is one of the most used technique to form plastic
-materials.
-
-The major point in the `Green Fablab' case is to propose a maual
-recycled aspecg to possible reutse the plastic waste
+Injection moulding is one of the most used technique to form plastic
+materials.\\
+The major point in the `Green Fablab' case is to propose a manual
+recycled aspect to possible reuse the plastic waste into sheet
 
 \hypertarget{d-printing-process-fused-filament-granular-fabrication-fff-fgf}{%
 \paragraph{3D printing process: Fused Filament \& Granular Fabrication
@@ -1158,8 +1199,15 @@ manufacturing Birtchnell and Urry
 (\protect\hyperlink{ref-Birtchnell2013a}{2013}).
 
 In the Green Fablab demonstrator, we have two types of material-based
-systems: 1) Fused filament fabrication (FFF) and 2) Fused Granular
-Fabrication (FGF):
+systems:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Fused filament fabrication (FFF) and 2) Fused Granular Fabrication
+  (FGF):
+\end{enumerate}
 
 \begin{figure}
 
@@ -1202,7 +1250,7 @@ The filament fabrication was developed and patented in 1989 by Scott
 Crump as \emph{Fused Deposition Modelling}, and since 2009, the
 technology became open source
 (\protect\hyperlink{ref-Crump1992}{\textbf{Crump1992?}}), known as Fused
-Filament Fabrication, to establish the difference betwwen the registred
+Filament Fabrication, to establish the difference between the registred
 mark. A schematic representation of this technology is presented in
 Figure~\ref{fig-fff}. This process usually uses thermoplastic polymer
 filaments that are heated until a temperature slightly higher than the
@@ -1213,6 +1261,18 @@ be printed on top of the previous layer, so that, filament fuses with
 the previous layer and then is solidified at room temperature after
 printing Cruz Sanchez et al.
 (\protect\hyperlink{ref-CruzSanchez2017}{2017}).
+
+At the green Fablab
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=2.08333in,height=\textheight]{figures/FFF-00.png}
+
+}
+
+\caption{\label{fig-fff}Fused filament fabrication -FFF- principle}
+
+\end{figure}
 
 For the
 
@@ -1236,18 +1296,58 @@ However, it is also important to highlight that currently this
 technology is the phase of laboratory experimentation and initial market
 diffusion. The complexity
 
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=2.08333in,height=\textheight]{figures/Canessa2017.png}
+
+}
+
+}
+
+\subcaption{\label{fig-hanno}Fused granular fabrication -FGF- principle}
+\end{minipage}%
+
+\caption{\label{fig-smart-collector}Additive manufacturing of
+material-extrusion based systems}
+
+\end{figure}
+
+This machine has a compressions screw which makes pellets or granules of
+thermoplastic materials feasible to be 3D printed.
+
+Gigabot X XL machine extruder has a long barrel with 3 heating elements
+or zone which helps in uniformly melting and viscosity control of the
+thermoplastic. T1 being the heating block near the nozzle while T2 being
+in the middle of T1 and T3. Gigabot X XL is equipped with nozzle of
+1.75mm diameter which provides good deposition rate. As 3D printing
+smaller cross-section is very hard without a cooling system near the
+nozzle {[}13{]},{[}14{]} therefore a cooling system was designed, 3D
+printed using ABS material and installed onto the system Figure 1
+
 \hypertarget{quality-assessment-vi}{%
 \subsubsection{Quality Assessment VI}\label{quality-assessment-vi}}
 
-\hypertarget{operationalization-of-do-it-together-process-for-3d-printing-recycled-plastic-use-case.}{%
-\section{Operationalization of Do-It-Together process for 3D Printing
-Recycled Plastic Use
-Case.}\label{operationalization-of-do-it-together-process-for-3d-printing-recycled-plastic-use-case.}}
+The quality assessment phase is the process to assess the technical
+feasibility of the recycled part.
+
+\hypertarget{operationalization-of-dit-process-for-the-use-case}{%
+\section{Operationalization of DIT process for the Use
+Case}\label{operationalization-of-dit-process-for-the-use-case}}
+
+\hypertarget{integration-of-the-3d-printing-recycled-plastic}{%
+\subsection{Integration of the 3D Printing Recycled
+Plastic}\label{integration-of-the-3d-printing-recycled-plastic}}
 
 Explanation of the INEDIT project but focusing on the Open Manufacturing
 Demonstration Facilities process
 
-\begin{table}
+\begin{table}[H]
 \centering\begingroup\fontsize{10}{12}\selectfont
 
 \begin{tabular}[t]{>{\raggedright\arraybackslash}p{5cm}>{\raggedright\arraybackslash}p{10cm}>{\raggedright\arraybackslash}p{1.5cm}}
@@ -1282,18 +1382,34 @@ reception of the respective documents that contains the 3D model to be
 manufactured by the use case.
 
 One of the outputs of the co-creation phase of INEDIT is the creation of
-a first initial model that can be exploitable fro the in the open
-manufacturing process. In that way, the model is received taking into
-account the specific requirements of the customer, and the required
-inputs to determine if the technologies available in the demonstrated
-have the capacity to produce the product. In the case that it cannot be
-produced, it is necessary to notify immediately together with the
-arguments why it cannot be produced and offer ways of improvement.
+a first initial model that can be exploitable in the open manufacturing
+process. In that way, the model is received taking into account the
+specific requirements of the customer, and the required inputs to
+determine if the technologies available in the demonstrated have the
+capacity to produce the product. In the case that it cannot be produced,
+it is necessary to notify immediately together with the arguments why it
+cannot be produced and offer ways of improvement.
 
 \hypertarget{step-2-validation-of-the-technical-specifications-of-model-to-fabricate}{%
 \subsection{Step 2 -- Validation of the technical specifications of
 model to
 fabricate}\label{step-2-validation-of-the-technical-specifications-of-model-to-fabricate}}
+
+In this step, the main purpose is to establish the criteria for the
+validation specifications of the model to faricate.
+
+In the case of the Green FabLab, three main criteria were established
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Concerning the dimmensions
+\item
+  Concerning the material
+\item
+  Concerning the printability
+\end{enumerate}
 
 \hypertarget{step-3-identify-local-source-of-plastic-waste}{%
 \subsection{Step 3 -- Identify local source of plastic
@@ -1303,105 +1419,509 @@ This step seeks to establish a first network of plastic wastes source
 from the local ecosystem. The task of the identification of local source
 of plastic is fundamental as the first stage in the recovery process.\\
 As illustrated in the Figure~\ref{fig-fedoua-00}, the methodological
-approach included the following steps: 1) Pre-diagnosis of the
-territorial context, 2) Identification of the actors, 3) Analysis of the
-actors' involvement and implementation of the smart collector, and
-finally, 4) Implementation \& monitoring.
+approach included the following steps:
 
-\begin{figure}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Pre-diagnosis of the territorial context,
+\item
+  Identification of the actors,
+\item
+  Analysis of the actors' involvement and implementation of the smart
+  collector, and finally,
+\item
+  Implementation \& monitoring.
+\end{enumerate}
 
-{\centering \includegraphics{figures/Fedoua-00.pdf}
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/Fedoua-00.pdf}
 
 }
 
-\caption{\label{fig-fedoua-00}MEthodlogical steps for the}
+\caption{\label{fig-fedoua-00}Methodological steps for the
+identification of local sources of plastic wastes}
 
 \end{figure}
 
 Regarding the pre-diagnosis phase, the purpose was to align the INEDIT
-project with the territorial context. To do so, between Oct 2021 and
-June 2022, the UL team had exchange with key actors of territorial
-development and the priorities in terms of sustainable development.
-Association ATP, Echogeste, Agence Scalen. The main output of this phase
-was the establishment of a initial Swot-Pestel analysis for the thatn
-can
+project with the territorial context. To do so, between XX-2021 and
+YY-2022, the UL team had exchange with key actors of territorial
+development agencies and associations (Annex XX for more details) and
+the priorities in terms of sustainable development. The main output of
+this phase was the establishment of an initial Swot-Pestel analysis for
+the implementation of a local recycling network of plastic waste at the
+neighborhood of Rives de Meurthe at Nancy.
 
-Based on this first step, it was possible to identify a target of actors
-subtle to be relevant according to the following criteria. The main goal
-was Mapping of actual and potential actors
-
-Identification of the role of each actor
-
-Identification of the sources of plastic waste collection
-
-Identification of 3D printing sources and potential synergies with Lf2L
-
-First, they need to be in a geographical range perimeter (less than 2km
-around the Green Fablab) following the observations of Santander et al.
+Based on this first step, it was possible to identify relevant
+stakehoders in the local ecosystems to inquire on the issue of plastic
+wastes source. First, they needeed to be in a geographical range
+perimeter (less than 2km around the Green Fablab) following the
+observations of Santander et al.
 (\protect\hyperlink{ref-Santander2020}{2020}). Limiting the geographical
 perimeter of collection helps in the reduction of environmental impact
-because of the transport means. Second, the diversification of the actor
-profile (general public, spectators, students\ldots) and/or stakeholder
-activity (Public, Private, Associative) was an important criteria to
-guarantee a significant quantity of collection and a sensitization to
-the management of the plastic. In function of their profile, it can be
-hypothesize that there a are a different rate of frequentation in the
-establishments with diversified profiles of actors.
+because of the reduction of transport impact. Second, the
+diversification of the actor profile that can be sensibilized to the
+participation of the collection (general public, employees, students)
+and/or stakeholder's status (Public, Private, Associative) where the
+smart collector can be deployed. These two elements were essential to
+consider because the experimentation seeks to establish a baseline of
+the recovery process given the uncertainties of participation of the
+local context and the sensitization to the management of the plastic by
+the general public.
 
-A total of XX actors were interviewed in the period of time of XX-2020 -
-YY-2022. They were mainly companies (X\% small and Y\% medium size),
-associative entities (sports, cultural, academic, economic\ldots),
-academic and training institutions. The diversity of the public was an
-interesting criterion for our study. Participants in the economic,
-cultural and social dynamics of the district through their membership in
-the local association of economic actors of the territory (ATP Rives de
-Meurthes). 23 out of the fifty actors solicited to participate in the
-survey agreed to participate (of which 21 by physical or telephone
-interview and 2 by electronic questionnaire). The scope of activity of
-most of the respondents is local (at the level of the neighborhood or
-city) which may reflect a strong territorial anchoring and a commitment
-to local concerns and issues (waste management, social welfare, local
-job creation\ldots). The majority of their business decisions are made
-locally, which reduces the risk of depending on the interests of
-entities outside the territory
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/fedoua/Ecosystem-01.pdf}
+
+}
+
+}
+
+\subcaption{\label{fig-ecosystem-00}Local ecosystem interviewed about
+the implementation ofa 3D printing recycled demostrator}
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/fedoua/Ecosystem-00.pdf}
+
+}
+
+}
+
+\subcaption{\label{fig-ecosystem-01}Type of stakeholders for the}
+\end{minipage}%
+
+\caption{\label{fig-ecosystem}LOcal ecosystem enquired}
+
+\end{figure}
+
+A total of 23 actors were interviewed in the period of time of XX-2020 -
+YY-2022, of which 21 by physical or telephone interview and 2 by
+electronic questionnaire They were mainly companies (X\% small and Y\%
+medium size), associative entities, academic sector. The diversity of
+the public was an interesting criterion for the study. Participants in
+the economic, cultural and social dynamics of the district through their
+membership in the local association of economic actors of the territory.
+
+The scope of activity of most of the respondents is local (at the level
+of the neighborhood or city) which may reflect a strong territorial
+anchoring and a commitment to local concerns and issues (waste
+management, social welfare, local job creation\ldots). The majority of
+their business decisions are made locally, which reduces the risk of
+depending on the interests of entities outside the territory.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/fedoua/Acceptability-01.pdf}
+
+}
+
+\caption{\label{fig-acceptability-01}Local ecosystem interviewed about
+the implementation ofa 3D printing recycled demostrator}
+
+\end{figure}
 
 To do this, we identified the role of each actor, then the sources of
 plastic waste collection, and then identify the sources of 3D printing
 and potential synergies with LF2L. In order to achieve these results, an
 exchange with key actors in territorial development was necessary.
 
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/fedoua/Acceptability-02.pdf}
+
+}
+
+\caption{\label{fig-acceptability-02}Acceptability of the possible use
+of `smart collector' for the}
+
+\end{figure}
+
+Thanks to this approach, we have identified eigth collection sites at
+the local territory for the deployment of the smart collector.
+
 \hypertarget{step-4-put-in-place-smart-collectors}{%
 \subsection{Step 4: Put in place smart
 collectors}\label{step-4-put-in-place-smart-collectors}}
+
+In this step the main purpose is the deployment of a set of \emph{smart
+collectors} around the neighborhood. Figure~\ref{fig-sc-deployment}
+presents the selected points around the Green FabLab for the
+installation of the prototype. The smart collector is produced and
+mounted manually. The specific details and step-by-step assemble process
+can be found in the technical paper
+(\protect\hyperlink{ref-gabriel2023}{Gabriel and Cruz, 2023}).
+
+\begin{figure}[H]
+
+{\centering \includegraphics{figures/SC/Deployment.png}
+
+}
+
+\caption{\label{fig-sc-deployment}Deployment of the Smart Collectors.}
+
+\end{figure}
+
+The selection of the places were based on the steps 3. For the
+experimentation, 8 sites were selected for the deployment as listed in
+the Table~\ref{tbl-deployment}.
+
+\hypertarget{tbl-deployment}{}
+\begin{table}[H]
+\caption{\label{tbl-deployment}Selected points of deployment of the smart collector in the
+neighboorhood of Rives de Meurthe, Nancy - France. }\tabularnewline
+
+\centering\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabular}[t]{r>{\raggedright\arraybackslash}p{3cm}l>{\raggedright\arraybackslash}p{2cm}>{\raggedright\arraybackslash}p{4cm}}
+\toprule
+ID &  Name & Type​  & Potential public​  & Main activity\\
+\midrule
+\cellcolor{gray!6}{1} & \cellcolor{gray!6}{MCJ Bazin ​ } & \cellcolor{gray!6}{Association​ } & \cellcolor{gray!6}{+300​ } & \cellcolor{gray!6}{Activités culturelles/loisirs​ }\\
+2 & Octroi​  & Association ​  & +1000​  & Tiers lieu, accueil de porteurs de projets et espaces de coworking​ \\
+\cellcolor{gray!6}{3} & \cellcolor{gray!6}{Curves​ } & \cellcolor{gray!6}{Private Entreprise​ } & \cellcolor{gray!6}{+100​ } & \cellcolor{gray!6}{Salle de sport​ }\\
+4 & ENSGSI​  & University  & 300​  & Ecole d’ingénieurs - Enseignement supérieur et recherche​ \\
+\cellcolor{gray!6}{5} & \cellcolor{gray!6}{MAIF (bat.1)​ } & \cellcolor{gray!6}{Private Enterprise} & \cellcolor{gray!6}{50​ } & \cellcolor{gray!6}{Assurance mutuelle​ }\\
+\addlinespace
+6 & EEIGM​  & University  & 500​  & Ecole d'ingénieurs - Formation et enseignement d'ingénieurs en Génie des Matériaux ​ \\
+\cellcolor{gray!6}{7} & \cellcolor{gray!6}{Voie Navigable de France​ } & \cellcolor{gray!6}{Public Entreprise​ } & \cellcolor{gray!6}{50​ } & \cellcolor{gray!6}{Gestion du réseau des voies navigables de France​ }\\
+8 & Sport Nautique de Nancy​  & Association​  & +100​  & Club de sport (aviron )​ \\
+\bottomrule
+\end{tabular}
+\endgroup{}
+\end{table}
+
+First, face-to-face meetings with the local actors were made to obtain
+the agreement for the installation of the prototype. As a relevant
+criteria, the installation needed to be in a location were the
+visitors/employees/customers of the selected point are able to see the
+device. We designed an appropriate communication that enables to explain
+the purpose of the device and connect to the information of INEDIT
+projet (see Figure~\ref{fig-smart})
+
+\begin{figure}
+
+\begin{minipage}[t]{0.62\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=2.5in,height=\textheight]{figures/SC/curves.jpeg}
+
+}
+
+}
+
+\subcaption{\label{fig-sc-curves}Picture of the Smart collector at the
+collection point}
+\end{minipage}%
+%
+\begin{minipage}[t]{0.38\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=1.5in,height=\textheight]{figures/SC/comm.png}
+
+}
+
+}
+
+\subcaption{\label{fig-sc-flyer}Communication strategy of the smart
+collector}
+\end{minipage}%
+
+\caption{\label{fig-smart}Smart collector}
+
+\end{figure}
+
+Then, a system activation is putted in place to begin the collection
+gate. Once the smart collector is online, it is necessary to survey the
+online dashboard to control the waste plastic quantity. In the moment
+that the dashboard present a weight more than 3 kg, we mapped the
+collection point in the stage of \emph{`to collect'} and we plan the
+recovery. The distance of the collection place is less than \(2~km\) so
+is carried out by bicycle or on foot to avoid the possible impact
+produced for a combustion or electric vehicle. Once the recovery process
+is made, at the Green Fablab When the waste plastic is collected, it is
+stored at the facilities of the Green FabaLab before posterior treatment
+and adequation.\\
+we have build a central collector where the material is stored before it
+is treated.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{figures/SC/Smart-Collectors.pdf}
+
+}
+
+\caption{\label{fig-sc-flyer}Smart collectors deployed in the territory}
+
+\end{figure}
 
 \hypertarget{step-5-transport-waste-material-to-the-recycling-facilities}{%
 \subsection{Step 5: Transport waste material to the recycling
 facilities}\label{step-5-transport-waste-material-to-the-recycling-facilities}}
 
+The recovery process took place once a week on average. The plastic
+waste is collected and transported to Green Fablab facilities, and then
+it is stored in a central collector as illustrated by the figure
+Figure~\ref{fig-sc-recovery}.
+
+\begin{figure}
+
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=2in,height=\textheight]{figures/SC/Collector-bouchons-00.jpeg}
+
+}
+
+}
+
+\subcaption{\label{fig-sc-collector-00}Centrla collector of plastic
+waste}
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics[width=2in,height=\textheight]{figures/SC/Collector-bouchons-01.jpeg}
+
+}
+
+}
+
+\subcaption{\label{fig-sc-collector-01}Communication flyer for the smart
+collector}
+\end{minipage}%
+
+\caption{\label{fig-sc-collector}Smart collector}
+
+\end{figure}
+
+Throughout the experimentation of the deployment, we have mapped the
+quantity of collected material. Figure~\ref{fig-sc-recovery} corresponds
+to the profile of quantity collection per month. In average, we have
+collected XX\textasciitilde kg per month.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/SC/Recovery.jpg}
+
+}
+
+\caption{\label{fig-sc-recovery}Recovery profile of plastic}
+
+\end{figure}
+
+\begin{tcolorbox}[enhanced jigsaw, colback=white, bottomtitle=1mm, colframe=quarto-callout-note-color-frame, arc=.35mm, toptitle=1mm, colbacktitle=quarto-callout-note-color!10!white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Key Performance Indicator of the Recovery process}, leftrule=.75mm, breakable, opacityback=0, titlerule=0mm, toprule=.15mm, left=2mm, bottomrule=.15mm, coltitle=black, rightrule=.15mm, opacitybacktitle=0.6]
+
+In terms of \emph{KPI} of the recovery, from February 2022 to February
+2023, we have collected a total of \(94.37~kg\) of plastic waste using 8
+collectors in the territory of Rives de Meurthe, Nancy-France.
+
+\end{tcolorbox}
+
 \hypertarget{step-6-adequation-and-preparation-of-the-material}{%
 \subsection{Step 6: Adequation and preparation of the
 material}\label{step-6-adequation-and-preparation-of-the-material}}
+
+This is the first stage carried out inside the Green FabLab. This stage
+is the set of activities required for the plastic waste to be adapted
+for further use. The Green FabLab works mainly with 4 types of plastic
+at the moment. The most common are high density polyethylene (HDPE) and
+polypropylene (PP), which are the main plastics used in the production
+of bottle caps and they are collected in the smart collector. The
+plastic waste from unused/damaged 3D printing parts are mainly of
+polylactic acid (PLA) are collected from mainly from the Lorraine Fab
+Living Lab. And finally, the plastic bottles also are collected which
+are polyethylene terephthalate (PET).
+
+The preparation process begins with the separation and identification of
+each plastic collected. As already mentioned, the plastics used in the
+Green FabLab are 4 (HDPE, PP, PET and PLA) and are separated by type of
+plastic and colour. This process is carried out manually.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/Image-to-add.png}
+
+}
+
+\caption{Photo of the sorting process}
+
+\end{figure}
+
+The second step is the cleaning phase. Cleaning and washing plastic cups
+and bottles is crucial step for effective recycling because plastics are
+mainly post-consumer waste, they are not in an adequate state of
+cleanliness. It is required that to ensure the plastic is as clean as
+possible because dirty material can affect the quality of the extrusion
+/ printing process, which at the end affects the recycled product.
+Therefore, we aims to remove adhesives, leftover waste, and labels. HDPE
+and PP are mainly used in the plastic injection molding process, while
+PLA and PET (Mixed with 9\% HDPE) are used in 3D printing.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{figures/Image-to-add.png}
+
+}
+
+\caption{Photo of the cleaning process}
+
+\end{figure}
+
+In a first moment, the manual cleaning is used in the Green Fablab to
+remove the most of the majors contaminant present in the material. For
+plastic injection moulding, where mainly PP and HDPE are used, the
+plastic is washed in a sink with hot water.\\
+The water consumption per gram is approximately \(4L/1000g\). The drying
+of the plastic is done by natural convection in the open air.
+
+For additive manufacturing, where mainly PLA, HDPE and PET blends are
+used, the cleaning process is much more controlled. The process is
+carried out in a small ultrasonic cleaning machine, to ensure that
+impurities are removed. The cleaner ultrasonic machine wash 200gr de
+plástico en 1 L of water. This process takes 20 mins with a consuption
+of 2kWh.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{figures/Image-to-add.png}
+
+}
+
+\caption{Photo of the Ultrasonic cleaning}
+
+\end{figure}
+
+The second step in the preparation of the waste material is the size
+reduction process. In this step, the washed and sorted plastic is sent
+through shredding machine where it is grounded into smaller pieces of
+plastic. A critical parameters in the control of the granulometry. The
+purpose of the size reduction is to obtain plastic waste where the
+granulometry correspond to the extrusion / printing. The plastic waste
+need to be in reduced from a range of between 25-50 mm to 3-5mm
+approximately after grinding. A cutting mill machine SM 300
+Retsch\textsuperscript{\textregistered} with a selectable speed range
+from 700 to 3,000 \(rpm\) was used. The selected speed was \(1500~rpm\).
+Normally we use a rotational speed of 1500 which produces an energy
+consumption of 0.7 kWh. The process takes 15 minutes per kilogram of
+material with a loss of approximately 10\%. For direct additive
+manufacturing the optimum size for the granulometry for printing is
+between 3 and 5mm. Therefore, after shredding it is necessary to
+sieve.\\
+In terms of plastic injection moulding, the plastic flakes can be
+slightly larger than those required for 3D printing.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{figures/Image-to-add.png}
+
+}
+
+\caption{Photo of the Shredding process}
+
+\end{figure}
+
+Filament is produced at 0.4 kg/h using 0.24 kWh/kg with a diameter
+±4.6\%. 3Devo
+
+To remove all the moisture from the plastic it is necessary to carry out
+a drying process in a conventional oven.\\
+In the drying phase, the plastic is putted in the oven at 60°C during
+15h with a consumption of 0,061 Kwh.
+
+Finally, the drying process is last step to prepare the material.
 
 \hypertarget{step-7-path-planning---3d-printing}{%
 \subsection{Step 7: Path planning - 3D
 Printing}\label{step-7-path-planning---3d-printing}}
 
+Once, we have the model to concerning the
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{figures/Image-to-add.png}
+
+}
+
+\caption{Photo of the Slicer of the Gigzbot}
+
+\end{figure}
+
 \hypertarget{step-8-post-processing}{%
 \subsection{Step 8 : Post-processing}\label{step-8-post-processing}}
+
+Post-processing relies to the treatment of the injected and/or printed
+part. Regarding the injection part, the post-processing relies in the
+
+Concerning the 3D printing part, one of the most
 
 \hypertarget{step-9-implementation-examples}{%
 \subsection{Step 9: Implementation
 Examples}\label{step-9-implementation-examples}}
 
-\hypertarget{test-by-use}{%
-\subsubsection{Test by Use}\label{test-by-use}}
+\hypertarget{case-workbech-1}{%
+\subsubsection{Case Workbech 1}\label{case-workbech-1}}
+
+This user case aims the validation of the for personalization of the
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.20833in,height=\textheight]{figures/Image-to-add.png}
+
+}
+
+\caption{Photo of the Slicer of the Gigzbot}
+
+\end{figure}
+
+\hypertarget{case-workbech-1-1}{%
+\subsubsection{Case Workbech 1}\label{case-workbech-1-1}}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/demos/workbench/2022-02-24 Processus INEDIT.png}
+
+}
+
+\caption{Photo of the Slicer of the Gigzbot}
+
+\end{figure}
 
 \hypertarget{step-10-re-design-and-improvements-of-fabrication}{%
-\subsubsection{Step 10: Re-design and improvements of
+\subsection{Step 10: Re-design and improvements of
 fabrication}\label{step-10-re-design-and-improvements-of-fabrication}}
 
 \hypertarget{step-11-validation}{%
-\subsubsection{Step 11: Validation}\label{step-11-validation}}
+\subsection{Step 11: Validation}\label{step-11-validation}}
+
+\newpage
 
 \hypertarget{conclusions}{%
 \section{Conclusions}\label{conclusions}}

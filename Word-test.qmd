@@ -1,0 +1,106 @@
+---
+title: "Step 4"
+format: docx
+prefer-html: true
+---
+
+
+```{r, echo=FALSE, include=FALSE}
+library(tidyverse)
+library(readxl)
+library(knitr)
+library(kableExtra)
+```
+
+
+## Step 3 – Identify local source of plastic waste 
+
+This step seeks to establish a first network of plastic wastes source from the local ecosystem.
+The task of the identification of local source of plastic is fundamental as the first stage in the recovery process.  
+As illustrated in the @fig-fedoua-00, the methodological approach included the following steps: 
+
+1. Pre-diagnosis of the territorial context, 
+2. Identification of the actors, 
+3. Analysis of the actors' involvement and implementation of the smart collector, and finally, 
+4. Implementation & monitoring.
+
+![Methodological steps for the identification of local sources of plastic wastes](figures/Fedoua-00.pdf){#fig-fedoua-00 width=90%}
+ 
+<!-- 1) Pre-diagnosis of the territorial context,  -->
+Regarding the pre-diagnosis phase, the purpose was to align the INEDIT project with the territorial context.
+To do so, between XX-2021 and YY-2022,  the UL team had exchange with key actors of territorial development agencies and associations (Annex XX for more details) and the priorities in terms of sustainable development. 
+The main output of this phase was the establishment of an initial Swot-Pestel analysis for the implementation of a local recycling network of plastic waste at the neighborhood of Rives de Meurthe at Nancy.
+
+
+
+```{r table.SWOT, include=FALSE}
+SWOT <- read_excel(path = "Tables/Tables.xlsx",
+                                 sheet = "SWOT",
+                                 skip = 0)
+
+SWOT %>% select(-Reference) %>% 
+   kbl(booktabs = T) %>% 
+   kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 9) %>% 
+   column_spec(1, width = c("1.5cm")) %>% 
+   column_spec(2, width = c("1.5cm")) %>% 
+   column_spec(3, width = c("15cm")) %>% 
+   landscape()
+   
+```
+
+
+
+<!-- 2) Identification of the actors,  -->
+Based on this first step, it was possible to identify relevant stakehoders in the local ecosystems to inquire on the issue of plastic wastes source. 
+   <!-- Criteria 1 -->
+First, they needeed to be in a  geographical range perimeter (less than 2km around the Green Fablab) following the observations of [@CruzSanchez2020, @Santander2020].
+Limiting the geographical perimeter of collection helps in the reduction of environmental impact because of the reduction of transport impact. 
+   <!-- Criteria 1 -->
+Second, the diversification of the actor profile that can be sensibilized to the participation of the collection (general public, employees,  students) and/or stakeholder's status (Public, Private, Associative) where the smart collector can be deployed. 
+These two elements were essential to consider because the experimentation seeks to establish a baseline of the recovery process given the uncertainties of participation of the local context and the sensitization to the management of the plastic by the general public. 
+
+
+
+
+::: {#fig-ecosystem layout-ncol=2}
+
+
+![Local ecosystem interviewed about the implementation ofa 3D printing recycled demostrator](figures/fedoua/Ecosystem-01.pdf){#fig-ecosystem-00 width=100%}
+
+![Type of stakeholders for the ](figures/fedoua/Ecosystem-00.pdf){#fig-ecosystem-01 width=100%}
+
+
+LOcal ecosystem enquired
+:::
+
+<!-- We could obtain access to 23 relevant actors according to the following criteria.  -->
+A total of 23 actors were interviewed in the period of time of XX-2020 - YY-2022, of which 21 by physical or telephone interview and 2 by electronic questionnaire
+<!-- 23 out of the fifty actors solicited to participate in the survey agreed to participate ().  -->
+They were mainly companies (X% small and Y% medium size), associative entities, academic sector. 
+The diversity of the public was an interesting criterion for the study.
+Participants in the economic, cultural and social dynamics of the district through their membership in the local association of economic actors of the territory.
+
+The scope of activity of most of the respondents is local (at the level of the neighborhood or city) which may reflect a strong territorial anchoring and a commitment to local concerns and issues (waste management, social welfare, local job creation...). 
+The majority of their business decisions are made locally, which reduces the risk of depending on the interests of entities outside the territory.
+
+
+<!-- Acceptability  -->
+
+![Local ecosystem interviewed about the implementation ofa 3D printing recycled demostrator](figures/fedoua/Acceptability-01.pdf){#fig-acceptability-01 width=90%}
+
+
+
+
+
+<!-- ![Local actor interviewed ](){#fig-fedoua-00 width=50%} -->
+
+
+To do this, we identified the role of each actor, then the sources of plastic waste collection, and then identify the sources of 3D printing and potential synergies with LF2L. 
+In order to achieve these results, an exchange with key actors in territorial development was necessary.  
+
+![Acceptability of the possible use of 'smart collector' for the ](figures/fedoua/Acceptability-02.pdf){#fig-acceptability-02 width=90%}
+
+
+<!-- Conclusion -->
+Thanks to this approach, we have identified eigth collection sites at the local territory for the deployment of the smart collector.
+

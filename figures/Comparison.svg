@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="148mm"
    viewBox="0 0 210 148"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
    sodipodi:docname="Comparison.svg"
    inkscape:export-filename="/Users/fabio/Documents/4-Projects/everest-bio/00-ES/Article/Figures/Comparison.png"
    inkscape:export-xdpi="153.69505"
-   inkscape:export-ydpi="153.69505">
+   inkscape:export-ydpi="153.69505"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3794353"
-     inkscape:cx="396.85039"
-     inkscape:cy="279.68504"
+     inkscape:cx="379.50312"
+     inkscape:cy="300.12281"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -37,7 +37,8 @@
      inkscape:window-height="1099"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -46,7 +47,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,7 +60,10 @@
        width="200.82039"
        height="132.92123"
        x="7.864027"
-       y="9.0148611" />
+       y="9.0148611"
+       inkscape:export-filename="/Users/fabio/Documents/4-Projects/INEDIT/INEDIT-WP6/figures/Image-to-add.png"
+       inkscape:export-xdpi="153.69505"
+       inkscape:export-ydpi="153.69505" />
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:7.05556px;line-height:1.25;font-family:Avenir;-inkscape-font-specification:'Avenir Medium';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -74,11 +77,15 @@
          x="26.172144"
          y="69.02034"
          style="font-size:7.05556px;fill:#ff0000;stroke-width:0.264583"
-         id="tspan867">Figure on ES structure</tspan><tspan
+         id="tspan20">Image to add here</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:10.5833px;line-height:1.05;font-family:Avenir;-inkscape-font-specification:'Avenir Medium';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="43.348053"
+       y="96.861794"
+       id="text4687"><tspan
          sodipodi:role="line"
-         x="26.172144"
-         y="77.83979"
-         style="font-size:7.05556px;fill:#ff0000;stroke-width:0.264583"
-         id="tspan20"> to do..</tspan></text>
+         id="tspan4685"
+         style="stroke-width:0.264583"></tspan></text>
   </g>
 </svg>
