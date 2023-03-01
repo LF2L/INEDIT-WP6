@@ -1,5 +1,7 @@
 ---
-title: "Delivrable"
+title: "Delivrable WP IN construction \n Version: `r format(Sys.time(), '%B %d / %Y' )`"
+#subtitle: "Version"
+#date: "Version Delivrable: "
 #format: docx
 format:
   pdf:
