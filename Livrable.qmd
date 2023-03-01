@@ -21,7 +21,7 @@ format:
     link-citations: yes
     include-in-header: [assets/packages.tex]
     include-before-body: [assets/titlepage.tex]
-    keep-tex: true
+    keep-tex: false
     # include-in-header:
     #   - assets/packages.tex
 
@@ -464,7 +464,7 @@ The starting point of this activity is the downloading the respective documents 
 
 ![Reception of the exploitable documents for the fabrication process](figures/Step-1.png){#fig-step1 width=80%}
 
-One of the outputs of the co-creation phase of INEDIT is the creation of a first initial model that can be exploitable in the open manufacturing process. 
+One of the outputs of the co-creation phase of INEDIT plateform is the creation of a first initial model that can be exploitable in the open manufacturing process. 
 In that way, the model is received taking into account the specific requirements of the customer, and the required inputs to determine if the technologies available in the demonstrated have the capacity to produce the product. 
 In the case that it cannot be produced, it is necessary to notify immediately together with the arguments why it cannot be produced and offer ways of improvement. 
 
@@ -477,31 +477,35 @@ In the case of the Green FabLab, three main criteria were established:
 ![Validation of the printing conditions](figures/Step-2.png){#fig-step2 width=90%}
 
 1. Concerning the dimmensions
-2. Concerning the material
+2. Concerning the orientation and quality of the STL
 3. Concerning the printability
 
-Using the software for the , we are in measure to validate the global dimmensions of the proposed part.
+Using the software SuperSlicer and the machine-specific configuration (e.g. for Gigabot or for ), it is validated that the global dimensions of the proposed part are coherent.
 This needs to be in the range of the maximal working dimensions of the 3D printers. 
+
 Another aspect, relies on the orientation of the part.
 
 
-Concerning the printability, based on the characteristics of the material and the variables of the machine (namely, the temperatures of the barrel, the rotation of the stepper motors and the diamter of the nozzle).
+
+Lastly, the printability test are based on the characteristics of the material and the variables of the machine (namely, the temperatures of the barrel, the rotation of the stepper motors and the diamter of the nozzle).
 Different tests of printability were made in order to have a baseline of usable printed part as illustrated in the @fig-printability.
 
-::: {#fig-printability  layout-nrow=2 fig.pos='H'}
 
-![Test of printability](figures/Results-00.jpg){#fig-printability1 width=90%}
+:::{#fig-printability  layout-nrow=2 fig.pos='H'}
+![Test of printability](figures/Swapnil-Results-01.jpg){#fig-printability1 width=90%}
 
-![Validation of the printability](figures/Swapnil-Results-00.png){#fig-printability2 width=90%}
+![Validation of the printability](figures/Swapnil-Results-02.jpg){#fig-printability2 width=90%}
 
 Experimental protocol to validate the printability tests.
-
 :::
 
-The test of printability consist in the selection the technical parameters of the machine ()
-Using a Design of Experiments (DoE) approach, and a basic benchmarking models (for instance lines, cubes, pyramides in @fig-printability2), it is possible to identify the errors in the printing process.
+
+The test of printability consist in the selection the technical parameters of the machine (e.g. print speed, extrusion factor, temperature, layer heigth) using a Design of Experiments (DoE) approach. 
+Then, with a basic benchmarking model (e.g. lines, cubes, pyramides in @fig-printability2), it is possible to identify the errors in the printing process using statistical approaoches as ANOVA and measures of standard error.
+
 <!-- conclusion -->
 A technical paper to describe in more detail the results of this printability approach is being prepared at the time of writing this final rapport.
+
 
 ## Step 3 – Identify local source of plastic waste 
 
@@ -787,37 +791,49 @@ Concerning the 3D printing part, one of the most
 
 ###  Personilzation of existing furniture
 
-This experimentation aims to prove the feasiblit of personlze
+This first experimentation aimed to prove the design of a customized product.
+Based on the printability tests, the initial model was developed using the CAD software Onshape to validate the technical printability of PLA virgin assets. 
+Using the case of a personalization of a commericla furniture-arranging tool as displayed in @fig-demo1, several printed parts were manufactured to evaluate the technical pertinence of the reults as part a existing furniture.
 
-::: { layout="[[1,2]]"}
-In this experimentation the purpose was to validate the possibility of the 
+![Personlizing a existing furniture](figures/Demo-01.jpg){#fig-demo1 width=90%}
 
-![Personlizing a existing furniture](figures/Demo-01.png){width=90%}
-:::
-
-
-Therefore
-
+In this case, only 3D printer gigabot was used to validate the robutsness and the quality of the printed part.
 
 
 ###  Refurbishing of the an old furniture
 
-This user case aims the validation of the for personalization of the 
+In this case, the experimentation was a step further.
+The main idea was to refurbishing of the an old wood workbench, connecting the tools of INEDIT.
+Therefore, the idea was to use  the scanner option and the sketch feature of the  DesignTogether tool developed by the colleges of ENSAM / TTPS, with the manufacturing tools at the green fablab.
+
+First, once the workbench was dismantled, it was scanned using the an IPad Pro according to the technical characteristics needed for the application.
+Then, the model was upload in the DesignTogether application in order to make a brainstorming ideas of features that are neccesary to consider for the refurbishing. 
+
+:::{#fig-demo2 layout="[[1,1], [1]]"}
+![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1 }
+
+![Refurbished workbench](figures/demos/workbench/Final.jpeg){#fig-demo2.2 }
+
+![Refurbishing an old wood workbench using the INEDIT technologies](figures/demos/workbench/2022-02-24 Processus INEDIT.png){#fig-demo2.3 width=90%}
+:::
+
+Afterwards, this model enables a firs materialization of the of the proposition that could be made. So, the different manual task started in function
 
 
-![Photo of the Slicer of the Gigzbot](figures/Image-to-add.png){width=100%}
+### Connecting the Recycling part and the Smartification
+
+Connecting the Uninova
+
+In this third experimentation, we connected the process of the Smartification process in the frame of the ICE-IAMOT conference demostrator.
+
+### Connecting the Recycling part and the Smartification
 
 
-![Photo of the Slicer of the Gigzbot](figures/demos/workbench/2022-02-24 Processus INEDIT.png){width=90%}
 
 
-###  Creation of a 
+<!-- ## Step 10: Re-design and improvements of fabrication  -->
 
-## Step 10: Re-design and improvements of fabrication 
-
-
-
-## Step 11: Validation 
+<!-- ## Step 11: Validation  -->
 
 
 
