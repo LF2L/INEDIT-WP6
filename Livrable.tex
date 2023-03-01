@@ -322,7 +322,7 @@ This document reflects only the authors' view and the Commission is not responsi
 
 \newpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, breakable, enhanced, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, frame hidden, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, interior hidden, sharp corners, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, enhanced, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -1484,7 +1484,9 @@ The test of printability consist in the selection the technical
 parameters of the machine () Using a Design of Experiments (DoE)
 approach, and a basic benchmarking models (for instance lines, cubes,
 pyramides in Figure~\ref{fig-printability2}), it is possible to identify
-the errors in the printing process.
+the errors in the printing process. A technical paper to describe in
+more detail the results of this printability approach is being prepared
+at the time of writing this final rapport.
 
 \hypertarget{step-3-identify-local-source-of-plastic-waste}{%
 \subsection{Step 3 -- Identify local source of plastic
@@ -1599,14 +1601,43 @@ management, social welfare, local job creation\ldots). The majority of
 their business decisions are made locally, which reduces the risk of
 depending on the interests of entities outside the territory.
 
-\begin{figure}[H]
+\begin{figure}
 
-{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/fedoua/Acceptability-01.pdf}
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/fedoua/Acceptability-01.pdf}
 
 }
 
-\caption{\label{fig-acceptability-01}Local ecosystem interviewed about
-the implementation ofa 3D printing recycled demostrator}
+}
+
+\subcaption{\label{fig-acceptability-01}Local ecosystem interviewed
+about the implementation ofa 3D printing recycled demostrator}
+\end{minipage}%
+%
+\begin{minipage}[t]{0.50\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/fedoua/Acceptability-02.pdf}
+
+}
+
+}
+
+\subcaption{\label{fig-acceptability-02}Acceptability of the possible
+use of `smart collector' for the}
+\end{minipage}%
+
+\caption{\label{fig-acceptability}Answers of the local ecosystem
+enquired about the implementation of a through the smart collector
+prototype}
 
 \end{figure}
 
@@ -1614,17 +1645,6 @@ To do this, we identified the role of each actor, then the sources of
 plastic waste collection, and then identify the sources of 3D printing
 and potential synergies with LF2L. In order to achieve these results, an
 exchange with key actors in territorial development was necessary.
-
-\begin{figure}[H]
-
-{\centering \includegraphics[width=0.9\textwidth,height=\textheight]{figures/fedoua/Acceptability-02.pdf}
-
-}
-
-\caption{\label{fig-acceptability-02}Acceptability of the possible use
-of `smart collector' for the}
-
-\end{figure}
 
 Thanks to this approach, we have identified eigth collection sites at
 the local territory for the deployment of the smart collector.
@@ -1812,7 +1832,7 @@ collected XX\textasciitilde kg per month.
 
 \end{figure}
 
-\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Key Performance Indicator of the Recovery process}, colback=white, colbacktitle=quarto-callout-note-color!10!white, coltitle=black, bottomtitle=1mm, rightrule=.15mm, left=2mm, colframe=quarto-callout-note-color-frame, opacityback=0, titlerule=0mm, arc=.35mm, bottomrule=.15mm, leftrule=.75mm, toprule=.15mm, breakable, opacitybacktitle=0.6, toptitle=1mm]
+\begin{tcolorbox}[enhanced jigsaw, breakable, colbacktitle=quarto-callout-note-color!10!white, left=2mm, bottomtitle=1mm, coltitle=black, colframe=quarto-callout-note-color-frame, toprule=.15mm, bottomrule=.15mm, toptitle=1mm, leftrule=.75mm, titlerule=0mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Key Performance Indicator of the Recovery process}, opacitybacktitle=0.6, colback=white, rightrule=.15mm, opacityback=0, arc=.35mm]
 
 In terms of \emph{KPI} of the recovery, from February 2022 to February
 2023, we have collected a total of \(94.37~kg\) of plastic waste using 8
@@ -1961,23 +1981,60 @@ Concerning the 3D printing part, one of the most
 \subsection{Step 9: Implementation
 Examples}\label{step-9-implementation-examples}}
 
-\hypertarget{case-workbech-1}{%
-\subsubsection{Case Workbech 1}\label{case-workbech-1}}
+\hypertarget{personilzation-of-existing-furniture}{%
+\subsubsection{Personilzation of existing
+furniture}\label{personilzation-of-existing-furniture}}
+
+This experimentation aims to prove the feasiblit of personlze
+
+\begin{figure}
+
+\begin{minipage}[t]{0.33\linewidth}
+
+{\centering 
+
+In this experimentation the purpose was to validate the possibility of
+the
+
+}
+
+\end{minipage}%
+%
+\begin{minipage}[t]{0.67\linewidth}
+
+{\centering 
+
+\raisebox{-\height}{
+
+\includegraphics{figures/Demo-01.png}
+
+}
+
+\caption{Personlizing a existing furniture}
+
+}
+
+\end{minipage}%
+
+\end{figure}
+
+Therefore
+
+\hypertarget{refurbishing-of-the-an-old-furniture}{%
+\subsubsection{Refurbishing of the an old
+furniture}\label{refurbishing-of-the-an-old-furniture}}
 
 This user case aims the validation of the for personalization of the
 
 \begin{figure}[H]
 
-{\centering \includegraphics[width=5.20833in,height=\textheight]{figures/Image-to-add.png}
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{figures/Image-to-add.png}
 
 }
 
 \caption{Photo of the Slicer of the Gigzbot}
 
 \end{figure}
-
-\hypertarget{case-workbech-1-1}{%
-\subsubsection{Case Workbech 1}\label{case-workbech-1-1}}
 
 \begin{figure}[H]
 
@@ -1988,6 +2045,9 @@ This user case aims the validation of the for personalization of the
 \caption{Photo of the Slicer of the Gigzbot}
 
 \end{figure}
+
+\hypertarget{creation-of-a}{%
+\subsubsection{Creation of a}\label{creation-of-a}}
 
 \hypertarget{step-10-re-design-and-improvements-of-fabrication}{%
 \subsection{Step 10: Re-design and improvements of

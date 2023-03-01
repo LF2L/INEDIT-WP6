@@ -500,7 +500,8 @@ Experimental protocol to validate the printability tests.
 
 The test of printability consist in the selection the technical parameters of the machine ()
 Using a Design of Experiments (DoE) approach, and a basic benchmarking models (for instance lines, cubes, pyramides in @fig-printability2), it is possible to identify the errors in the printing process.
-
+<!-- conclusion -->
+A technical paper to describe in more detail the results of this printability approach is being prepared at the time of writing this final rapport.
 
 ## Step 3 – Identify local source of plastic waste 
 
@@ -783,16 +784,34 @@ Concerning the 3D printing part, one of the most
 
 ## Step 9: Implementation Examples 
 
-###  Case Workbech 1
+
+###  Personilzation of existing furniture
+
+This experimentation aims to prove the feasiblit of personlze
+
+::: { layout="[[1,2]]"}
+In this experimentation the purpose was to validate the possibility of the 
+
+![Personlizing a existing furniture](figures/Demo-01.png){width=90%}
+:::
+
+
+Therefore
+
+
+
+###  Refurbishing of the an old furniture
 
 This user case aims the validation of the for personalization of the 
 
 
-![Photo of the Slicer of the Gigzbot](figures/Image-to-add.png){width=500}
+![Photo of the Slicer of the Gigzbot](figures/Image-to-add.png){width=100%}
 
-###  Case Workbech 1
 
 ![Photo of the Slicer of the Gigzbot](figures/demos/workbench/2022-02-24 Processus INEDIT.png){width=90%}
+
+
+###  Creation of a 
 
 ## Step 10: Re-design and improvements of fabrication 
 
