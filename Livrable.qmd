@@ -460,25 +460,46 @@ Operationalization %>%
 
 
 The first step in the reception of the design models and specifications from the INEDIT platform. 
-The starting point of this activity is the reception of the respective documents that contains the 3D model to be manufactured by the use case.
+The starting point of this activity is the downloading the respective documents that contains the 3D model to be manufactured by the use case as presented in the @fig-step1.
+
+![Reception of the exploitable documents for the fabrication process](figures/Step-1.png){#fig-step1 width=80%}
 
 One of the outputs of the co-creation phase of INEDIT is the creation of a first initial model that can be exploitable in the open manufacturing process. 
 In that way, the model is received taking into account the specific requirements of the customer, and the required inputs to determine if the technologies available in the demonstrated have the capacity to produce the product. 
 In the case that it cannot be produced, it is necessary to notify immediately together with the arguments why it cannot be produced and offer ways of improvement. 
 
 
-![Reception of the exploitable documents for the fabrication process](figures/Step-1.png){#fig-step1 width = '50%'}
-
-
 ## Step 2 – Validation of the technical specifications of model to fabricate 
 
-In this step, the main purpose is to establish the criteria for the  validation specifications of the model to fabricate.
+The main purpose of the second step is to establish the criteria for the  validation specifications of the model to fabricate.
+In the case of the Green FabLab, three main criteria were established: 
 
-In the case of the Green FabLab, three main criteria were established
+![Validation of the printing conditions](figures/Step-2.png){#fig-step2 width=90%}
 
 1. Concerning the dimmensions
 2. Concerning the material
 3. Concerning the printability
+
+Using the software for the , we are in measure to validate the global dimmensions of the proposed part.
+This needs to be in the range of the maximal working dimensions of the 3D printers. 
+Another aspect, relies on the orientation of the part.
+
+
+Concerning the printability, based on the characteristics of the material and the variables of the machine (namely, the temperatures of the barrel, the rotation of the stepper motors and the diamter of the nozzle).
+Different tests of printability were made in order to have a baseline of usable printed part as illustrated in the @fig-printability.
+
+::: {#fig-printability  layout-nrow=2 fig.pos='H'}
+
+![Test of printability](figures/Results-00.jpg){#fig-printability1 width=90%}
+
+![Validation of the printability](figures/Swapnil-Results-00.png){#fig-printability2 width=90%}
+
+Experimental protocol to validate the printability tests.
+
+:::
+
+The test of printability consist in the selection the technical parameters of the machine ()
+Using a Design of Experiments (DoE) approach, and a basic benchmarking models (for instance lines, cubes, pyramides in @fig-printability2), it is possible to identify the errors in the printing process.
 
 
 ## Step 3 – Identify local source of plastic waste 
@@ -519,9 +540,9 @@ SWOT %>% select(-Reference) %>%
 
 
 <!-- 2) Identification of the actors,  -->
-Based on this first step, it was possible to identify relevant stakehoders in the local ecosystems to inquire on the issue of plastic wastes source. 
+Based on this first step, it was possible to identify relevant stakeholders in the local ecosystems to inquire on the issue of plastic wastes source. 
    <!-- Criteria 1 -->
-First, they needeed to be in a  geographical range perimeter (less than 2km around the Green Fablab) following the observations of [@CruzSanchez2020, @Santander2020].
+First, they needeed to be in a  geographical range perimeter (less than 2km around the facilities) following the observations of [@CruzSanchez2020; @Santander2020].
 Limiting the geographical perimeter of collection helps in the reduction of environmental impact because of the reduction of transport impact. 
    <!-- Criteria 1 -->
 Second, the diversification of the actor profile that can be sensibilized to the participation of the collection (general public, employees,  students) and/or stakeholder's status (Public, Private, Associative) where the smart collector can be deployed. 
@@ -554,19 +575,20 @@ The majority of their business decisions are made locally, which reduces the ris
 
 <!-- Acceptability  -->
 
+
+::: {#fig-acceptability layout-ncol=2}
+
 ![Local ecosystem interviewed about the implementation ofa 3D printing recycled demostrator](figures/fedoua/Acceptability-01.pdf){#fig-acceptability-01 width=90%}
 
+![Acceptability of the possible use of 'smart collector' for the ](figures/fedoua/Acceptability-02.pdf){#fig-acceptability-02 width=90%}
 
-
-
-
-<!-- ![Local actor interviewed ](){#fig-fedoua-00 width=50%} -->
+Answers of the local ecosystem enquired about the implementation of a through the smart collector prototype
+:::
 
 
 To do this, we identified the role of each actor, then the sources of plastic waste collection, and then identify the sources of 3D printing and potential synergies with LF2L. 
 In order to achieve these results, an exchange with key actors in territorial development was necessary.  
 
-![Acceptability of the possible use of 'smart collector' for the ](figures/fedoua/Acceptability-02.pdf){#fig-acceptability-02 width=90%}
 
 
 <!-- Conclusion -->
@@ -675,7 +697,8 @@ In terms of *KPI* of the recovery, from February 2022 to February 2023, we have 
 
 
 This is the first stage carried out inside the Green FabLab.
-This stage is the set of activities required for the plastic waste to be adapted for further use. The Green FabLab works mainly with 4 types of plastic at the moment. 
+This stage is the set of activities required for the plastic waste to be adapted for further use. 
+The Green FabLab works mainly with 4 types of plastic at the moment. 
 The most common are high density polyethylene (HDPE) and polypropylene (PP), which are the main plastics used in the production of bottle caps and they are collected in the smart collector. 
 The plastic waste from unused/damaged 3D printing parts are mainly of polylactic acid (PLA) are collected from mainly from the Lorraine Fab Living Lab.
 And finally, the plastic bottles also are collected which are polyethylene terephthalate (PET).
