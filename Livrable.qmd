@@ -364,7 +364,10 @@ In this step, the major output is the valorisation of the plastic waste material
 #### Desktop injection moulding  
 
 Injection moulding is one of the most used technique to form plastic materials.  
-The major point in the ‘Green Fablab’ case is to propose a manual recycled aspect to possible reuse the plastic waste into sheet  
+The major point in the ‘Green Fablab’ case is to propose a manual recycled aspect to possible reuse the plastic waste into sheet.
+
+
+
 
  
 
@@ -456,18 +459,20 @@ Operationalization %>%
 ## Step 1 – Receive Design and Specification 
 
 
-The first step in the reception of the design models and specifications from the INEDIT platform. The starting point of this activity is the reception of the respective documents that contains the 3D model to be manufactured by the use case.
+The first step in the reception of the design models and specifications from the INEDIT platform. 
+The starting point of this activity is the reception of the respective documents that contains the 3D model to be manufactured by the use case.
 
 One of the outputs of the co-creation phase of INEDIT is the creation of a first initial model that can be exploitable in the open manufacturing process. 
 In that way, the model is received taking into account the specific requirements of the customer, and the required inputs to determine if the technologies available in the demonstrated have the capacity to produce the product. 
 In the case that it cannot be produced, it is necessary to notify immediately together with the arguments why it cannot be produced and offer ways of improvement. 
 
 
+![Reception of the exploitable documents for the fabrication process](figures/Step-1.png){#fig-step1 width = '50%'}
 
 
 ## Step 2 – Validation of the technical specifications of model to fabricate 
 
-In this step, the main purpose is to establish the criteria for the  validation specifications of the model to faricate.
+In this step, the main purpose is to establish the criteria for the  validation specifications of the model to fabricate.
 
 In the case of the Green FabLab, three main criteria were established
 
