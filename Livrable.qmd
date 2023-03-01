@@ -1,6 +1,6 @@
 ---
-title: "Delivrable WP IN construction \n Version: `r format(Sys.time(), '%B %d / %Y' )`"
-#subtitle: "Version"
+title: "Delivrable WP IN construction "
+subtitle: "Version: `r format(Sys.time(), '%B %d / %Y - %H : %M' )`"
 #date: "Version Delivrable: "
 #format: docx
 format:
@@ -800,24 +800,28 @@ Using the case of a personalization of a commericla furniture-arranging tool as 
 In this case, only 3D printer gigabot was used to validate the robutsness and the quality of the printed part.
 
 
+
 ###  Refurbishing of the an old furniture
 
 In this case, the experimentation was a step further.
 The main idea was to refurbishing of the an old wood workbench, connecting the tools of INEDIT.
-Therefore, the idea was to use  the scanner option and the sketch feature of the  DesignTogether tool developed by the colleges of ENSAM / TTPS, with the manufacturing tools at the green fablab.
+Therefore, the idea was to use the scanner and the sketch features of the DesignTogether tool developed by the colleges of ENSAM / TTPS.
+Based on that iputs, the manufacturing tools at the Green fablab including the 3D printing were mobilized.
 
-First, once the workbench was dismantled, it was scanned using the an IPad Pro according to the technical characteristics needed for the application.
-Then, the model was upload in the DesignTogether application in order to make a brainstorming ideas of features that are neccesary to consider for the refurbishing. 
+First, once the workbench was dismantled, it was scanned using the an Ipad Pro considering  the technical characteristics needed for the application.
+Then, the model was upload in the DesignTogether application in order to make a brainstorming ideas of features that are required to consider for the refurbishing. 
+This was in input in the co-creation aspect of the process
 
 :::{#fig-demo2 layout="[[1,1], [1]]"}
 ![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1 }
 
 ![Refurbished workbench](figures/demos/workbench/Final.jpeg){#fig-demo2.2 }
 
+
 ![Refurbishing an old wood workbench using the INEDIT technologies](figures/demos/workbench/2022-02-24 Processus INEDIT.png){#fig-demo2.3 width=90%}
 :::
 
-Afterwards, this model enables a firs materialization of the of the proposition that could be made. So, the different manual task started in function
+Afterwards, the model enables a first materialization of the of the proposition that could be made. So, the different manual task started in function
 
 
 ### Connecting the Recycling part and the Smartification
@@ -826,7 +830,17 @@ Connecting the Uninova
 
 In this third experimentation, we connected the process of the Smartification process in the frame of the ICE-IAMOT conference demostrator.
 
-### Connecting the Recycling part and the Smartification
+### Desk
+
+### L'appaillet
+
+### Eddy?
+
+### Bookshelf
+
+### Future Liam
+
+
 
 
 
