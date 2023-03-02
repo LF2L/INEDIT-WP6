@@ -91,13 +91,22 @@ In the
 
 The demonstrator is placed at the City of Nancy - France,  in the region of Lorraine at the  northeastern France.
 Nancy is the capital of the Meurthe-et-Moselle department and has a population of approximately 105,000 inhabitants. 
-More precisely, our interest is the  the Rives de Meurthe district.
+More precisely, our interest is the  Rives de Meurthe district as presented by the @fig-rives.
 It extends between the city center and the Meurthe River for about 7 km from north to south (extending into the municipalities of Jarville-la-Malgrange upstream and Maxéville downstream) and is between 250 and 1,000 m wide.
 
-![Figures on the Rives the Meurthe Quartier](figures/Image-to-add.png) 
+::: {#fig-rives layout="[35,-5,65]"}
+![](figures/ok3/Rives-of-meurthe.png) 
+
+![](figures/Image-to-add.png) 
+
+Localization of the Rives the Meurthe distric
+:::
+
+
+
 
 Nancy was not born around a waterway and its commercial potential. Its port and river side has long been rather reduced, contrary to the great majority of cities. 
-However, the main interest of the Rives de Meurthe  district concerns that it has been a case study in the light of urban regeneration due to flood risk presented in this area [@chiffre2014, @edelblutte2006]. 
+However, the main interest of the Rives de Meurthe  district concerns that it has been a case study in the light of urban regeneration due to flood risk presented in this area [@chiffre2014; @edelblutte2006]. 
 Therefore, since end of 1980's, there have been a series of policies of the renewal of the  district  to go beyond a simple reconversion by broadly rethinking the role of the central and pericentral space.
 
 
@@ -131,34 +140,34 @@ Finnaly, the fourth bilding (4) is the 'La Halle ouverte' (*the Open Hall*) whic
 ![The Octroi Site](figures/ok3/OK3-01.jpg){#fig-ok1 width=90% }
 
 
-In summary, this type of third places are open ecosystems that will bring together artists, researchers and creative people with the public, the city's inhabitants and businesses.
-
+In summary, these type of third places are open ecosystems that will bring together artists, researchers and creative people with the public, the city's inhabitants and businesses.
 This can be considerd as a socio-technical imaginary projects with new goals and development paths that depart from the existing that can give an an opportunity for socially inclusive and environmentally desirable urban transitions  in Europe [@Fratini2019] in terms of new roles of the local actors reagarding the city development.
 
  
 ## Lorraine Fab Living Lab\textregistered
 
-The **Lorraine Smart Cities Living Lab (LSCLL)** is a trans-disciplinary resource center of the Université de Lorraine.
+Connected to the Octroi ecosystem, the **Lorraine Smart Cities Living Lab (LSCLL)** is  a trans-disciplinary resource center of the Université de Lorraine.
 It aims to support and link the different societal challenges of the Lorraine territory with the local resources.
 It enables the integration of different users, implementing collaborative and agile approaches in the service of *Research, Development of Innovations, Training and a Citizen Culture*.
-It experiments in terms of projects, governance and support platform since 2008,  involving several laboratories and other public and private partners as detailed in the @fig-LSCLL. 
-Since 2010, this project is member of the European Network of Living Labs (ENoLL)^[$4^{th}$ wave of labelisation)], seeking to develop public-private-population Partnerships (PPPPs) to disseminate innovation and related practices.
+It experiments in terms of projects, governance and support platform since 2008,  involving several laboratories and other public and private partners as detailed in the @fig-lscll. 
+Since 2010, this initiative is member of the European Network of Living Labs (ENoLL)^[4$^{th}$ wave of labelisation)], seeking to develop public-private-population Partnerships (PPPPs) to disseminate innovation and related practices.
 
-
-::: {#fig-lscll layout-ncol=2}
-![Description of the Lo site](figures/lf2l/LSCLL.png){#fig-LSCLL width=45%} 
-
-![Photo of OK3](figures/ok3/OK3.png){#fig-okb width=45%} 
-
-The OK3 Site 
-:::
+![Description of the Lo site](figures/lf2l/LSCLL.png){#fig-lscll width=65%} 
 
 
 Since 2014, the LSCLL formalizes its strategic intention with the the Lorraine Fab Living Lab\textregistered (LF2L\textregistered) research platform for prospective assessment of innovative usages [@Dupont2016].  
+
+
+![Photo of the LF2L](figures/lf2l/Methodology-complet-00.jpg){#fig-lscll width=65%} 
+
+
+
 The LF2L physical environment is constituted by a collaborative and a fabLab space.
 The collaborative space allows users to foster co-operation in engineering design with different stakeholders in order to new create concepts/designs. 
 On the other hand, FabLab space allows users to materialize the concepts/designs  in an easy and quick way in order to have an prospective evaluation [@Boujut2003; @Dupont2014; @Dupont2015b].
 The synergy of these two spaces enables the project development in a living lab approach taking into account the User Centered Design principles. 
+
+
 
 The conceptual framework is composed of three main elements as illustrated in @fig-lf2l-methodology: 
 
@@ -247,6 +256,8 @@ Nevertheless, @Niaki2019 demonstrated that environmental and social benefits are
 
 Considering the Open Manufacturig Demonstrateion Facilities functions established in the Delivrable XX.X, the Green fablab proves the following functions:
 
+
+
 ![Connection of the 'Green Fablab Use case with the Open Manufacturing Demonstration Facilities (OMDF) functions ](figures/Sankey-GF-Global.jpg){#fig-dram width=95%}
 
 
@@ -323,7 +334,7 @@ The process illustrated by the @fig-abstract  can be described in the as follows
 
  
 In the scientific literature, the reverse logistic and closed loop supply chains have been extensively studied in the scientific literature. 
-For instance, @Santander2021 evaluated the benefits of a near loop and closed loop recycling network focused on additive manufacturing, mainly producing recycled filament. The main results show an economic and environmental benefit of sourcing filament from recycled plastic rather than purchasing exported virgin filament.  
+For instance, @Santander2022 evaluated the benefits of a near loop and closed loop recycling network focused on additive manufacturing, mainly producing recycled filament. The main results show an economic and environmental benefit of sourcing filament from recycled plastic rather than purchasing exported virgin filament.  
 
 
 
@@ -630,7 +641,7 @@ The smart collector is produced and mounted manually.
 The specific details and step-by-step assemble process can be found in the technical paper [@gabriel2023].
 
 
-![Deployment of the Smart Collectors.](figures/SC/Deployment.png){#fig-sc-deployment}
+![Deployment of the Smart Collectors.](figures/SC/Deployment.jpg){#fig-sc-deployment}
 
 
 The selection of the places were based on the steps 3.
@@ -667,7 +678,7 @@ We designed an appropriate communication  that enables to explain the purpose of
 
 ![Picture of the Smart collector at the collection point](figures/SC/curves.jpeg){#fig-sc-curves width=2.5in}
 
-![Communication strategy of the smart collector](figures/SC/comm.png){#fig-sc-flyer width=1.5in}
+![Communication strategy of the smart collector](figures/SC/comm.jpg){#fig-sc-flyer width=1.5in}
 
 Smart collector
 ::: 
