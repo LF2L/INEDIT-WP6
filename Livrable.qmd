@@ -492,9 +492,9 @@ Different tests of printability were made in order to have a baseline of usable 
 
 
 :::{#fig-printability  layout-nrow=2 fig.pos='H'}
-![Test of printability](figures/Swapnil-Results-01.jpg){#fig-printability1 width=90%}
+![Test of printability](figures/Swapnil-Results-01.jpg){#fig-printability1 width=300}
 
-![Validation of the printability](figures/Swapnil-Results-02.jpg){#fig-printability2 width=90%}
+![Validation of the printability](figures/Swapnil-Results-02.jpg){#fig-printability2 width=300}
 
 Experimental protocol to validate the printability tests.
 :::
@@ -811,13 +811,15 @@ First, once the workbench was dismantled, it was scanned using the an Ipad Pro c
 Then, the model was upload in the DesignTogether application in order to make a brainstorming ideas of features that are required to consider for the refurbishing. 
 This was in input in the co-creation aspect of the process
 
-:::{#fig-demo2 layout="[[1,1], [1]]"}
-![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1 height=1in }
+:::{#fig-demo2 layout="[[35,-5,60], [1]]"}
+![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1  }
 
-![Refurbished workbench](figures/demos/workbench/Final.jpeg){#fig-demo2.2 height=1in}
+![Refurbished workbench](figures/demos/workbench/Final.jpeg){#fig-demo2.2}
 
 
 ![Refurbishing an old wood workbench using the INEDIT technologies](figures/demos/workbench/2022-02-24 Processus INEDIT.png){#fig-demo2.3 width=90%}
+
+Experimentation on refurbishing an wood workbench model
 :::
 
 Afterwards, the model enables a first materialization of the of the proposition that could be made. So, the different manual task started in function
@@ -831,7 +833,7 @@ Therefore, as a part of the ICE-IAMOT conference demonstrator that took place on
 we have built the structure of a kitchen furniture as presented in the @fig-fig-uninova. 
 
 
-::: {#fig-uninova layout-ncol=2}
+::: {#fig-uninova layout="[25,-5,70]"}
 ![Smartification of a kitchen](figures/demos/Uninova/uninova-00.jpg){#fig-uninova-00 }
 
 ![Smartification function in a recycled part](figures/demos/Uninova/uninova.jpg){#fig-uninova-01 }
@@ -882,12 +884,12 @@ This experimentation was then confronted with the consortium to obtain a feedbac
 But more importantly, to identify the possible continuum and interaction between the different technologies and models.
 Figure
 
-:::{#fig-desk-final layout="[[2,1]]"}
-![Final assembling of the desk ](figures/demos/desk/desk-04.jpg){#fig-desk-04 width=300}
+:::{#fig-desk-final layout="[60,-5, 35]"}
+![Final assembling of the desk ](figures/demos/desk/desk-04.jpg){#fig-desk-04 }
 
 ![Exchange and discussion on the interaction and possible improvements](figures/demos/desk/desk-05.jpg){#fig-desk-05 }
 
-Exchange on the 
+Feedbacks on the 
 :::
 
 
@@ -904,12 +906,14 @@ One important element of INEDIT project is the interaction with external designe
 The implementation of the Green Fablab inside a citizen third place make this interaction valuable and fruitful to better align the expectations of designer and architect, with the possible maturity that the different technologies can have inside the INEDIT project.
 
 The integration of the Green Fablab with the ecosystem of Octroi is a fruitful exchange of knowledge and interaction of know-how.
-In that frame, we have the possibility of the experimentation with the local association of designers called **L’A.Paillette** at Octroi reagarding the design and build 3 mobile and movable modules to establish a kitchen corner for the association. 
-
+For intance, we have the possibility of the experimentation with the local association of designers called **L’A.Paillette** reagarding the design and build 3 mobile and movable modules to establish a kitchen corner for the association. 
 In that case, the production consisted on 3 sheet in recycled plastic (400g per sheet), 96 plastic pin joints (20g per pin), having a total recycled plastic used about 3,1 kg. aprox.(around 800 bottle taps)
 
+The initial model proposed by the association is presented on the left of the  @fig-apa-00.
+Several iterations were need in order to transfor the initial requirement into possible manufactured pieces given the possiblitities of the technology presented of our use case.
 
-![Final assembling of the desk ](figures/demos/desk/desk-04.jpg){#fig-desk-04 width=300}
+
+![Final assembling of the desk ](figures/demos/apa/apa-00.jpg){#fig-apa-00 width=90%}
 
 
 
