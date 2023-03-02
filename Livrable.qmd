@@ -788,6 +788,10 @@ Concerning the 3D printing part, one of the most
 
 ## Step 9: Implementation Examples 
 
+The different examples of implementation of the use case are presented in the following sections.
+Each example aims to tackle step by step the complexity of the implementation of the DIT process at a TRL6 level.
+Therefore, each example has a specific purpose.
+
 
 ###  Personalization of existing furniture
 
