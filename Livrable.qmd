@@ -773,7 +773,7 @@ Finally, the drying process is last step to prepare the material.
 Once, we have the model to concerning the 
 
 
-![Photo of the Slicer of the Gigzbot](figures/Image-to-add.png){width=500}
+![Photo of the SuperSlicer ](figures/Image-to-add.png){width=500}
 
 
 ## Step 8 : Post-processing 
@@ -789,7 +789,7 @@ Concerning the 3D printing part, one of the most
 ## Step 9: Implementation Examples 
 
 
-###  Personilzation of existing furniture
+###  Personalization of existing furniture
 
 This first experimentation aimed to prove the design of a customized product.
 Based on the printability tests, the initial model was developed using the CAD software Onshape to validate the technical printability of PLA virgin assets. 
@@ -797,8 +797,7 @@ Using the case of a personalization of a commericla furniture-arranging tool as 
 
 ![Personlizing a existing furniture](figures/Demo-01.jpg){#fig-demo1 width=90%}
 
-In this case, only 3D printer gigabot was used to validate the robutsness and the quality of the printed part.
-
+In this case, only 3D printer Gigabot was used to validate the robutsness and the quality of the printed part.
 
 
 ###  Refurbishing of the an old furniture
@@ -806,16 +805,16 @@ In this case, only 3D printer gigabot was used to validate the robutsness and th
 In this case, the experimentation was a step further.
 The main idea was to refurbishing of the an old wood workbench, connecting the tools of INEDIT.
 Therefore, the idea was to use the scanner and the sketch features of the DesignTogether tool developed by the colleges of ENSAM / TTPS.
-Based on that iputs, the manufacturing tools at the Green fablab including the 3D printing were mobilized.
+Based on that inputs, the manufacturing tools at the Green fablab including the 3D printing were mobilized.
 
 First, once the workbench was dismantled, it was scanned using the an Ipad Pro considering  the technical characteristics needed for the application.
 Then, the model was upload in the DesignTogether application in order to make a brainstorming ideas of features that are required to consider for the refurbishing. 
 This was in input in the co-creation aspect of the process
 
 :::{#fig-demo2 layout="[[1,1], [1]]"}
-![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1 }
+![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1 height=1in }
 
-![Refurbished workbench](figures/demos/workbench/Final.jpeg){#fig-demo2.2 }
+![Refurbished workbench](figures/demos/workbench/Final.jpeg){#fig-demo2.2 height=1in}
 
 
 ![Refurbishing an old wood workbench using the INEDIT technologies](figures/demos/workbench/2022-02-24 Processus INEDIT.png){#fig-demo2.3 width=90%}
@@ -826,19 +825,95 @@ Afterwards, the model enables a first materialization of the of the proposition 
 
 ### Connecting the Recycling part and the Smartification
 
-Connecting the Uninova
 
-In this third experimentation, we connected the process of the Smartification process in the frame of the ICE-IAMOT conference demostrator.
+In this third experimentation, the idea was to connect the smartification process developed by the Uninova partners with our capabilities of manufacturing.
+Therefore, as a part of the ICE-IAMOT conference demonstrator that took place on June 2022 at Nancy, 
+we have built the structure of a kitchen furniture as presented in the @fig-fig-uninova. 
 
-### Desk
 
-### L'appaillet
+::: {#fig-uninova layout-ncol=2}
+![Smartification of a kitchen](figures/demos/Uninova/uninova-00.jpg){#fig-uninova-00 }
 
-### Eddy?
+![Smartification function in a recycled part](figures/demos/Uninova/uninova.jpg){#fig-uninova-01 }
+
+Experimentation of smartification and 3D printing recycled use cases.
+:::
+
+The purpose was to built this piece of furniture to test the integration of the plastic and smartification technologies.
+In this case, a recycled plastic bar was specifically made to be part of the entire furniture. 
+There, it enables the sensor protection and masking of the sensor needed in the electrical mounting. 
+Moreover, the value of the recycled material added a personalization finishing of the
+
+
+### Collaborative Desk building 
+
+At the consortium, it was decided to build a collaborative desk.
+The challenge in this experimentation was to connect all the different competences that are present in the different use cases.
+Regarding our use case, we supported the creation of the prototype of this desk in a reduced scale using recycled filament.
+Additionally, it was also the opportunity to make recycled production from printing and injection processes for the customization pieces.
+
+Firstly, @fig-desk-00 illustrates several attempts made using the DesignTogether tool for ideas of personalization of the furniture. 
+A workshop with 20 students of the National National School in Industrial Systems Engineering (ENSGSI) was organized to create several ideas on the same object.
+
+![Co-creation stage on the personalization for the ](figures/demos/desk/desk-00.jpg){#fig-desk-00 width=95%}
+
+
+Once the ideation phase was made, a second step was focused on the manufacturing of a small prototype of the desk using plastic assets as presented in figure @fig-desk-01.
+This made possible to define the components that were manufacturing at real scale.
+
+![Prototype of the desk](figures/demos/desk/desk-01.jpg){#fig-desk-01 width=95%}
+
+
+The prototype enabled to identify three main customization object, namely a 1) PC monitor support, 2) an ajustable folder separation and the drawer handler. 
+The PC monitor support was built entirely using the manual injection molding.
+The drawer handler was completly 3D printed.
+On the other hand, the ajustable folder was a combination of injection and 3D printed processes
+
+::: {#fig-desk-proto layout-nrow=2}
+![3D model of the recycled pieces to be made ](figures/demos/desk/desk-02.jpg){#fig-uninova-00 }
+
+![Manufacturing of the recycled parts (PC support, adjustable folder separation and drawer handler)](figures/demos/desk/desk-03.jpg){#fig-uninova-01 }
+
+Experimentation of the desk with the complete use cases of INEDIT.
+:::
+
+
+This experimentation was then confronted with the consortium to obtain a feedback about the possible improvements in the echnicall level.
+But more importantly, to identify the possible continuum and interaction between the different technologies and models.
+Figure
+
+:::{#fig-desk-final layout="[[2,1]]"}
+![Final assembling of the desk ](figures/demos/desk/desk-04.jpg){#fig-desk-04 width=300}
+
+![Exchange and discussion on the interaction and possible improvements](figures/demos/desk/desk-05.jpg){#fig-desk-05 }
+
+Exchange on the 
+:::
+
+
 
 ### Bookshelf
 
-### Future Liam
+Finnally
+
+
+
+### Local collaboration with the Green fablab: the case of the 'L'appaillet'
+
+One important element of INEDIT project is the interaction with external designers and local ecosystem.
+The implementation of the Green Fablab inside a citizen third place make this interaction valuable and fruitful to better align the expectations of designer and architect, with the possible maturity that the different technologies can have inside the INEDIT project.
+
+The integration of the Green Fablab with the ecosystem of Octroi is a fruitful exchange of knowledge and interaction of know-how.
+In that frame, we have the possibility of the experimentation with the local association of designers called **L’A.Paillette** at Octroi reagarding the design and build 3 mobile and movable modules to establish a kitchen corner for the association. 
+
+In that case, the production consisted on 3 sheet in recycled plastic (400g per sheet), 96 plastic pin joints (20g per pin), having a total recycled plastic used about 3,1 kg. aprox.(around 800 bottle taps)
+
+
+![Final assembling of the desk ](figures/demos/desk/desk-04.jpg){#fig-desk-04 width=300}
+
+
+
+### Future collaborationgs Liam
 
 
 
