@@ -358,6 +358,10 @@ The main result is to guaratee a constant supply chain of raw material that can 
 ### Preparation II  
 
 The second phase of the corresponds to the actions and processes to identify, separate, sort, size reduce and clean waste plastic to guarantee with the purpose to obtain feedstock material that is adequate for the distributed recycling process. 
+@fig-adequation displays an overview of the space and the machines used presented in the Green Fablab facilities to treat the plastic waste. 
+
+![Adequation spaces for the preparation of the waste material](figures/preparation/adequation.jpg){#fig-adequation}
+
 
 The plastic waste preparation process aims to conditioned the collected plastic to the requirements of 3D printing. For this process 3 main sub-processes are considered:  
 
@@ -369,14 +373,13 @@ The plastic waste preparation process aims to conditioned the collected plastic 
 
 - **Drying phase**: This step prevents the formation of bubbles in the recycled material when it is melted during the following extrusion or densification step [@Niaounakis2013]. Moreover, complete elimination of water prevent hydrolytic decomposition of the molecular chains during the melting or plasticization, so that the treated material has to be as dry as possible. 
 
-![Adequation spaces for the preparation of the waste material](figures/preparation/adequation.jpg)
 
 ### Compounding III  
 
 The *Compounding* phase is related to the operation, strategies in the development of composite materials using recycled feedstock intended to be use in a printing process. 
-There have been several literature reviews about the technical aspect of composite materials in the additive manufacturing context [@Singh2017, @Hofstatter2017, @Brenken2017, @Mohan2017]. 
+There have been several literature reviews about the technical aspect of composite materials in the additive manufacturing context [@Singh2017; @Hofstatter2017; @Brenken2017; @Mohan2017]. 
 
-Special attention has been paid on material extrusion technologies in the production of polymer/composite feedstocks as it is economical, environmentally advantageous and adaptable to flexible filament material [@Singh2017]. For example, @Mohan2017 presented a review on composite materials and process parameters optimisation for the fused deposition modelling (FDM) process for improving the mechanical properties (i.e. tensile strength, fatigue). @Brenken2017 reported a detailed summary of mechanical properties of printed parts for different composite material for fused filament fabrication. Five majors strategies are elucidated from the literature review such as: 
+<!-- Special attention has been paid on material extrusion technologies in the production of polymer/composite feedstocks as it is economical, environmentally advantageous and adaptable to flexible filament material [@Singh2017]. For example, @Mohan2017 presented a review on composite materials and process parameters optimisation for the fused deposition modelling (FDM) process for improving the mechanical properties (i.e. tensile strength, fatigue). @Brenken2017 reported a detailed summary of mechanical properties of printed parts for different composite material for fused filament fabrication. Five majors strategies are elucidated from the literature review such as:  -->
 
 In the context of the Green Fablab demonstrator of INEDIT project, the focus is to study the 
 1) mono-recycled material and 2) the virgin-recycled blend material. 
@@ -399,12 +402,21 @@ The production of these intermediate products allows the use of different techno
 Before using these products (filaments and pellets) it is necessary to carry out evaluation tests to assess the geometrical characteristics that are necessary in the printing process. 
 <!-- In the prosumer domain, there have been a models to create open source versions of extruder in order to create plastic filament: Lyman Filament Extruder [@Lyman2014], the Filabot [@McN2012], Recyclebot [@Baechler2013], RepRap Recycle Add-on [@Braanker2010], Precious plastic [@Hakkens2016]. @Woern2018a published a waste plastic extruder capable of making commercial quality 3-D printing filament. The filament production is made using a semi-open source commercial desktop extruder. -->
 
-Figure XX and table present the technical characteristics of the material equipement  
+@fig-feedstock and table present the technical characteristics of the material equipement  
+
+
+![Extrusion machine to fabricate recycled filament feedstock](figures/feedstock/3devo-00.jpg){#fig-feedstock width=90%}
+
 
 ### Fabrication process – Technological mix to valorize the recycled material 
 
-In this step, the major output is the valorisation of the plastic waste material using different two alternative paths: 1) Desktop injection process, and 2), 3D printing process. As matter of the validation of the demonstrator at TRL 6 level, the ambition of the demonstrator in the INEDIT project is to experiment and prove a technological ecosystem mix that seeks to valorise in a distributed approach different plastics for different purposes and stakeholders. Therefore, the initial choice is these two paths to create objects injected and 3D printed parts that are useful to the local ecosystem of the demonstrator. The technologies are presented in the following paragraphs.  
+In this step, the major output is the valorisation of the plastic waste material using different two alternative paths:
+1) Desktop injection process, and 2), 3D printing process. 
 
+As matter of the validation of the demonstrator at TRL 6 level, the ambition of the demonstrator in the INEDIT project is to experiment and prove a technological ecosystem mix that seeks to valorise in a distributed approach different plastics for different purposes and stakeholders. Therefore, the initial choice is these two paths to create objects injected and 3D printed parts that are useful to the local ecosystem of the demonstrator. The technologies are presented in the following paragraphs.  
+
+
+![Extrusion machine to fabricate recycled filament feedstock](figures/printing/technologies.jpg){#fig-printing width=90%}
 
  
 
@@ -413,10 +425,9 @@ In this step, the major output is the valorisation of the plastic waste material
 Injection moulding is one of the most used technique to form plastic materials.  
 The major point in the ‘Green Fablab’ case is to propose a manual recycled aspect to possible reuse the plastic waste into sheet.
 
+![Extrusion machine to fabricate recycled filament feedstock](figures/printing/technologies.jpg){#fig-printing width=90%}
 
 
-
- 
 
 #### 3D printing process: Fused Filament & Granular Fabrication (FFF & FGF) 
 
