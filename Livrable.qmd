@@ -411,21 +411,23 @@ Before using these products (filaments and pellets) it is necessary to carry out
 ### Fabrication process – Technological mix to valorize the recycled material 
 
 In this step, the major output is the valorisation of the plastic waste material using different two alternative paths:
-1) Desktop injection process, and 2), 3D printing process. 
+1) desktop injection moulding process (small and medium sizes), and 2), 3D printing process (fused filament fabrication --FF- and fused granular fabrication --FGF-). 
 
-As matter of the validation of the demonstrator at TRL 6 level, the ambition of the demonstrator in the INEDIT project is to experiment and prove a technological ecosystem mix that seeks to valorise in a distributed approach different plastics for different purposes and stakeholders. Therefore, the initial choice is these two paths to create objects injected and 3D printed parts that are useful to the local ecosystem of the demonstrator. The technologies are presented in the following paragraphs.  
+As matter of the validation of the demonstrator at TRL 6 level, the ambition of the demonstrator in the INEDIT project is to experiment and prove a technological ecosystem mix that seeks to valorise in a distributed approach different plastics for different purposes and stakeholders. 
+Therefore, the initial choice is these two paths to create objects injected and 3D printed parts that are useful to the local ecosystem of the demonstrator. 
+The technologies are presented in the following paragraphs.  
 
 
-![Extrusion machine to fabricate recycled filament feedstock](figures/printing/technologies.jpg){#fig-printing width=90%}
+![Technological choices to recycle](figures/printing/technologies.jpg){#fig-printing width=90%}
 
  
 
 #### Desktop injection moulding  
 
 Injection moulding is one of the most used technique to form plastic materials.  
-The major point in the ‘Green Fablab’ case is to propose a manual recycled aspect to possible reuse the plastic waste into sheet.
+@fig-injection present the major technolgoies in the ‘Green Fablab’ case to propose a manual recycled aspect to possible reuse the plastic waste into small and medium plastics sheets.
 
-![Extrusion machine to fabricate recycled filament feedstock](figures/printing/technologies.jpg){#fig-printing width=90%}
+![Manual injection in small and medium sizes](figures/printing/injectin-00.jpg){#fig-injection width=90%}
 
 
 
@@ -436,53 +438,45 @@ In fact, the technological development of open-source 3D printers is creating mo
 
 <!-- Several studies in the literature validate the interest of this technology from the materials, process and applications perspectives.  Different studies show that these technologies given the low energy level for manufacturing, represented the technologies the most used in the industry for prototyping, functional prototyping and eventually final part fabrication.   -->
 
-In the Green Fablab demonstrator, we have two types of material-based systems: 
+In the Green Fablab demonstrator, we have two types of material-based systems: 1) Fused filament fabrication (FFF) and 2) Fused Granular Fabrication (FGF): 
 
-1) Fused filament fabrication (FFF) and 2) Fused Granular Fabrication (FGF): 
-
-::: {#fig-smart-collector layout-ncol=2}
-![Fused filament fabrication -FFF- principle](figures/FFF-00.png){#fig-fff width=200}
-
-![Fused granular fabrication -FGF- principle](figures/Canessa2017.png){#fig-hanno width=200}
-
-Additive manufacturing of material-extrusion based systems
-:::
-
- 
 <!-- FFF  -->
-The filament fabrication was developed and patented in 1989 by Scott Crump as *Fused Deposition Modelling*, and since 2009, the technology became open source [@Crump1992], known as Fused Filament Fabrication, to establish the difference between the registred mark.
+The principle of the filament fabrication was developed and patented in 1989 by Scott Crump as *Fused Deposition Modelling*, and since 2009, the technology became open source [@Crump1992], known as Fused Filament Fabrication, to establish the difference between the registred mark.
 A schematic representation of this technology is presented in @fig-fff. 
 This process usually uses thermoplastic polymer filaments that are heated until a temperature slightly higher than the melting temperature at the nozzle of the machine, reaching a semi-liquid state. 
 At this point, the polymer is extruded on the platform to create the first layer of the object and after that, the polymer continues to be printed on top of the previous layer, so that, filament fuses with the previous layer and then is solidified at room temperature after printing [@Ngo2018, @CruzSanchez2017]. 
 
-At the green Fablab
-
+::: {#fig-fff layout-ncol=2}
 ![Fused filament fabrication -FFF- principle](figures/FFF-00.png){#fig-fff width=200}
 
-For the 
+![3D printinter machines](figures/printing/FFF.jpg){#fig-fff width=100}
+
+Fused filament fabrication systems
+:::
+
 
 <!-- FGF  -->
-On the other hand, the Fused Granular Fabrication is a direct extrusion systems of pellets is a key technical advancement to facilitate the use of recycled material in the printing process. 
+On the other hand, the Fused Granular Fabrication is a direct extrusion systems of pellets is a key technical advancement to facilitate the use of recycled material in the printing process.
+A schematic representation of this technology is presented in @fig-fgf. 
 @Volpato2015 describes the development of a piston driven extrusion head that can extrude polypropylene granules into a filament. The head was designed to minimize the volume of material fused during the extrusion process and reduce the effect of material degradation.
 @Canessa2017 developed a mini extruder for pellets or granules of recycled plastic that can be used in a RepRap FDM 3D printer for rapid prototyping. 
 The use of Moineau pump technology to add precise volumetric control to the extrusion of pellets opens extraordinary new possibilities. It is important to mention that a Moineau pump has to be coupled to a first stage Auger screw. This ensures a continuous feed of melted plastic with-out inclusion of air bubbles, since the Moineau pump itself cannot guarantee such condition. However, it is also important to highlight that currently this technology is the phase of laboratory experimentation and initial market diffusion. The complexity  
 
 
-
-::: {#fig-smart-collector layout-ncol=2}
-
-
+::: {#fig-fgf layout-ncol=2}
 ![Fused granular fabrication -FGF- principle](figures/Canessa2017.png){#fig-hanno width=200}
+
+![Fused filament fabrication -FFF- principle](figures/printing/Gigabot-05.jpg){#fig-fff width=200}
+
 
 Additive manufacturing of material-extrusion based systems
 :::
 
 
-
-This machine has a compressions screw which makes pellets or granules of thermoplastic materials feasible to be 3D printed. 
-
-
-Gigabot X XL machine extruder has a long barrel with 3 heating elements or zone which helps in uniformly melting and viscosity control of the thermoplastic. T1 being the heating block near the nozzle while T2 being in the middle of T1 and T3. Gigabot X XL is equipped with nozzle of 1.75mm diameter which provides good deposition rate. As 3D printing smaller cross-section is very hard without a cooling system near the nozzle [13],[14] therefore a cooling system was designed, 3D printed using ABS material and installed onto the system Figure 1
+Gigabot X XL machine extruder has a long barrel with 3 heating elements or zone which helps in uniformly melting and viscosity control of the thermoplastic. 
+T1 being the heating block near the nozzle while T2 being in the middle of T1 and T3. 
+Gigabot X XL is equipped with nozzle of 1.75mm diameter which provides good deposition rate. 
+As 3D printing smaller cross-section is very hard without a cooling system near the nozzle therefore a cooling system was designed, 3D printed using ABS material and installed onto the system
 
 
 ### Quality Assessment VI
@@ -550,9 +544,9 @@ Different tests of printability were made in order to have a baseline of usable 
 
 
 :::{#fig-printability  layout-nrow=2 fig.pos='H'}
-![Test of printability](figures/Swapnil-Results-01.jpg){#fig-printability1 width=300}
+![Test of printability](figures/Swapnil-Results-01.jpg){#fig-printability1 width=500}
 
-![Validation of the printability](figures/Swapnil-Results-02.jpg){#fig-printability2 width=300}
+![Validation of the printability](figures/Swapnil-Results-02.jpg){#fig-printability2 width=500}
 
 Experimental protocol to validate the printability tests.
 :::
@@ -664,7 +658,6 @@ In this step the main purpose is the deployment of a set of *smart collectors* a
 @fig-sc-deployment presents the selected points around the Green FabLab for the installation of the prototype. 
 The smart collector is produced and mounted manually. 
 The specific details and step-by-step assemble process can be found in the technical paper [@gabriel2023].
-
 
 ![Deployment of the Smart Collectors.](figures/SC/Deployment.jpg){#fig-sc-deployment}
 
@@ -859,7 +852,7 @@ This first experimentation aimed to prove the design of a customized product.
 Based on the printability tests, the initial model was developed using the CAD software Onshape to validate the technical printability of PLA virgin assets. 
 Using the case of a personalization of a commercial furniture-arranging tool as displayed in @fig-demo1, several printed parts were manufactured to evaluate the technical pertinence of the reults as part a existing furniture.
 
-![Personlizing a existing furniture](figures/Demo-01.jpg){#fig-demo1 width=90%}
+![Personlizing a existing furniture](figures/Demo-01.jpg){#fig-demo1 width=80%}
 
 In this case, only 3D printer Gigabot was used to validate the robutsness and the quality of the printed part.
 
@@ -875,29 +868,28 @@ First, once the workbench was dismantled, it was scanned using the an Ipad Pro c
 Then, the model was upload in the DesignTogether application in order to make a brainstorming ideas of features that are required to consider for the refurbishing. 
 This was in input in the co-creation aspect of the process
 
-:::{#fig-demo2 layout="[[35,-5,60], [1]]"}
-![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1  }
+:::{#fig-demo2 layout="[[35,-5,60], [1]]" fig.pos='H'}
+![Initial recovered workbench](figures/demos/workbench/Initial.jpg){#fig-demo2.1 }
 
 ![Refurbished workbench](figures/demos/workbench/Final.jpeg){#fig-demo2.2}
 
 
-![Refurbishing an old wood workbench using the INEDIT technologies](figures/demos/workbench/2022-02-24 Processus INEDIT.png){#fig-demo2.3 width=90%}
+![Refurbishing an old wood workbench using the INEDIT technologies](figures/demos/workbench/2022-02-24 Processus INEDIT.png){#fig-demo2.3 width=500}
 
 Experimentation on refurbishing an wood workbench model
 :::
 
 Afterwards, the model enables a first materialization of the of the proposition that could be made. So, the different manual task started in function
 
-
+\newpage
 ### Connecting the Recycling part and the Smartification
-
 
 In this third experimentation, the idea was to connect the smartification process developed by the Uninova partners with our capabilities of manufacturing.
 Therefore, as a part of the ICE-IAMOT conference demonstrator that took place on June 2022 at Nancy, 
 we have built the structure of a kitchen furniture as presented in the @fig-fig-uninova. 
 
 
-::: {#fig-uninova layout="[25,-5,70]"}
+::: {#fig-uninova layout="[25,-5,70]" fig.pos='H'}
 ![Smartification of a kitchen](figures/demos/Uninova/uninova-00.jpg){#fig-uninova-00 }
 
 ![Smartification function in a recycled part](figures/demos/Uninova/uninova.jpg){#fig-uninova-01 }
@@ -910,7 +902,7 @@ In this case, a recycled plastic bar was specifically made to be part of the ent
 There, it enables the sensor protection and masking of the sensor needed in the electrical mounting. 
 Moreover, the value of the recycled material added a personalization finishing of the
 
-
+\newpage
 ### Collaborative Desk building 
 
 At the consortium, it was decided to build a collaborative desk.
@@ -957,13 +949,13 @@ Feedbacks on the
 :::
 
 
-
+\newpage
 ### Bookshelf
 
 Finnally
 
 
-
+\newpage
 ### Local collaboration with the Green fablab: the case of the 'L'appaillet'
 
 One important element of INEDIT project is the interaction with external designers and local ecosystem.
@@ -980,7 +972,7 @@ Several iterations were need in order to transfor the initial requirement into p
 ![Final assembling of the desk ](figures/demos/apa/apa-00.jpg){#fig-apa-00 width=90%}
 
 
-
+\newpage
 ### Future collaborationgs Liam
 
 
