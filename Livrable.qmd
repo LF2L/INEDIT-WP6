@@ -257,6 +257,8 @@ Nevertheless, @Niaki2019 demonstrated that environmental and social benefits are
 Considering the Open Manufacturig Demonstrateion Facilities functions established in the Delivrable XX.X, the Green fablab proves the following functions:
 
 
+![Coonection of the DIT with the INEDIT approach](figures/DIT-UL.jpg){#fig-dit-ul width=90%}
+
 
 ![Connection of the 'Green Fablab Use case with the Open Manufacturing Demonstration Facilities (OMDF) functions ](figures/Sankey-GF-Global.jpg){#fig-dram width=95%}
 
