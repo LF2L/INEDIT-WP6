@@ -52,7 +52,7 @@ This re
 
 # Introduction
 
-This deliverable deals with the description and implementation test of the 3D printing of recycled plastic demonstrator. 
+This deliverable deals with the description implementation  and validation of the 3D printing of recycled plastic demonstrator. 
 The ambition of this use case is to test the feasibility of the distributed recycling via additive manufacturing (DRAM) [@CruzSanchez2020] concept with the purpose to integrate in the Do-It-Together approach. 
 
 According to the descritve of action, there are two main goals of the delivrable : 
@@ -64,6 +64,33 @@ Provide a explain the a methodology in order
 The document is structured in three main parts: 
 
 A baseline introduction is made regarding the plastic recycling issues in order to  
+
+
+INEDIT aims to create an open innovation European DIT ecosystem for sustainable furniture co-creation. 
+The novel model lies in involving and providing a range of services that allow consumers to make their own furniture, engaging different types of stakeholders throughout the process. 
+The INEDIT platform, managing the communication among all the involved stakeholders, needs to supply services that easily and modularly
+attract, involve, support and enable the user to use all the technologies and tools that characterise the
+INEDIT ecosystem. Task 2.4 aims to outline, starting from the profiling of the typical platform and ecosystem
+users, the customized service packages that can be offered by combining the opportunities brought by the
+co-creation platform and by the participation to the DIT ecosystem for specific bundles of needs and
+expectations. The task is organized into two separated phases:
+ From month 6 to month 10: design of services portfolio where, for each service, the delivery process
+and its positioning are described from the customer's perspective in the form of a service-blueprint;
+ From month 27 to month 34: revision of the designed services on the basis of feedback collected
+during the involvement of users’ and experts’ communities in the dissemination activities.
+This document reports the activities performed and gained results in the first phase. In particular, the
+services designed in this report are in response to the high-level objectives that the INEDIT project aims to
+achieve:
+ To unleash the creativity of consumers and designers towards co-creation of new pieces of furniture
+addressing the needs of the single user in an industrial context.
+ To democratise the access to production resources in the furniture sector.
+ To support SME operating in the furniture sector in finding new business opportunities.
+ To create a framework of solutions for creation, engineering and distributed production of customerdriven pieces of furniture.
+ To define, design and manufacturing strategies focusing on lowering ecological impact and addressing
+societal challenges.
+ To create an ecosystem of all stakeholders within Europe.
+In order to achieve all these objectives and to meet the stakeholders needs identified in D2.1, four different
+services, suitable for different types of stakeholders, have been identified
 
  
 
@@ -241,7 +268,7 @@ In the literature, DRAM approach emphasizes the technical steps required to reus
 The use of recycled material, either in the form of raw material or blended with virgin material, is a method of special interest to contribute to sustainable manufacturing [@Zhao2018].  
 @fig-dram illustrates the conceptual model of DRAM.  
 
-![Distributed recycling via additive manufacturing (DRAM) approach [@CruzSanchez2020](figures/DRAM-10.png){#fig-dram width=90%}
+![Distributed recycling via additive manufacturing (DRAM) approach [@CruzSanchez2020]](figures/DRAM-10.png){#fig-dram width=90%}
 
 
 In a general overview, the **Recovery (I)** phase concerns the logistic operations to consider to collect the plastic wastes to be reused in DRAM. 
@@ -423,7 +450,8 @@ Before using these products (filaments and pellets) it is necessary to carry out
 ### Manufacturing process – Technological mix to valorize the recycled material 
 
 In this step, the major output is the valorisation of the plastic waste material using different two alternative paths:
-1) desktop injection moulding process (small and medium sizes), and 2), 3D printing process (fused filament fabrication --FFF- and fused granular fabrication --FGF-). 
+1) desktop injection moulding process (small and medium sizes), 
+and 2), 3D printing process (fused filament fabrication --FFF- and fused granular fabrication --FGF-). 
 
 As matter of the validation of the demonstrator at TRL 6 level, the ambition of the demonstrator in the INEDIT project is to experiment and prove a technological ecosystem mix that seeks to valorise in a distributed approach different plastics for different purposes and stakeholders. 
 Therefore, the initial choice is these two paths to create objects injected and 3D printed parts that are useful to the local ecosystem of the demonstrator. 
@@ -433,7 +461,6 @@ The technologies are presented in the following paragraphs.
 <!-- ![Technological choices to recycle](figures/printing/technologies.jpg){#fig-printing width=90%} -->
 
  
-
 #### Desktop injection moulding  
 
 Injection moulding is one of the most used technique to form plastic materials.  
@@ -461,9 +488,9 @@ At this point, the polymer is extruded on the platform to create the first layer
 ::: {#fig-fff layout-ncol=2}
 ![Fused filament fabrication -FFF- principle](figures/FFF-00.png){#fig-fff width=200}
 
-![3D printinter machines](figures/printing/FFF.jpg){#fig-fff width=100}
+![3D printinter machines](figures/printing/FFF.jpg){#fig-fff  width=10 height=10}
 
-Fused filament fabrication systems
+Fused filament fabrication machines 
 :::
 
 
@@ -485,10 +512,12 @@ Additive manufacturing of material-extrusion based systems
 :::
 
 
-Gigabot X XL machine extruder has a long barrel with 3 heating elements or zone which helps in uniformly melting and viscosity control of the thermoplastic. 
-T1 being the heating block near the nozzle while T2 being in the middle of T1 and T3. 
+Gigabot X XL machine extruder has a long barrel with 3 heating elements or zone which helps in the melting of the thermoplastic. 
+There are three main temperatures T1 being the heating block near the nozzle while T2 being in the middle of T1 and T3. 
 Gigabot X XL is equipped with nozzle of 1.75mm diameter which provides good deposition rate. 
 As 3D printing smaller cross-section is very hard without a cooling system near the nozzle therefore a cooling system was designed, 3D printed using ABS material and installed onto the system
+
+
 
 
 ### Quality Assessment VI
@@ -540,7 +569,7 @@ In the case of the Green FabLab, three main criteria were established concering:
 
 ![Validation of the printing conditions](figures/Step-2.png){#fig-step2 width=90%}
 
-1.  the dimensions of the part
+1. the dimensions of the part
 2. the orientation and quality of the STL
 3. the printability of the material
 
@@ -548,8 +577,6 @@ Using the software SuperSlicer and the machine-specific configuration (e.g. for 
 This needs to be in the range of the maximal working dimensions of the 3D printers. 
 
 <!-- Another aspect, relies on the orientation of the part. -->
-
-
 
 Lastly, the printability test are based on the characteristics of the material and the variables of the machine (namely, the temperatures of the barrel, the rotation of the stepper motors and the diameter of the nozzle).
 Different tests of printability were made in order to have a baseline of usable printed part as illustrated in the @fig-printability.
@@ -575,6 +602,8 @@ A technical paper to describe in more detail the results of this printability ap
 
 This step seeks to establish a first network of plastic wastes source from the local ecosystem.
 The task of the identification of local source of plastic is fundamental as the first stage in the recovery process.  
+An exchange with key actors in territorial development was necessary in order to achieve this task.   
+
 <!-- As illustrated in the @fig-fedoua-00,  The methodological approach included the following steps:  -->
 
 <!-- 1. Pre-diagnosis of the territorial context,  -->
@@ -620,6 +649,7 @@ Second, the diversification of the actor profile that can be sensibilized to the
 These two elements were essential to consider because the experimentation seeks to establish a baseline of the recovery process given the uncertainties of participation of the local context and the sensitization to the management of the plastic by the general public. 
 
 
+
 ::: {#fig-ecosystem layout-ncol=2}
 
 ![Local ecosystem interviewed about the implementation ofa 3D printing recycled demostrator](figures/fedoua/Ecosystem-01.pdf){#fig-ecosystem-00 width=100%}
@@ -652,39 +682,44 @@ The majority of their business decisions are made locally, which reduces the ris
 Answers of the local ecosystem enquired about the implementation of a through the smart collector prototype
 :::
 
+<!-- Based on these insights, we made a mapping of the role of each actor that could have in the recovery process. -->
+<!-- Secondly, we identified the sources of plastic waste collection, and then identify the sources of 3D printing and potential synergies with the Green Fablab.  -->
 
-To do this, we identified the role of each actor, then the sources of plastic waste collection, and then identify the sources of 3D printing and potential synergies with LF2L. 
-In order to achieve these results, an exchange with key actors in territorial development was necessary.  
 
 First, an inventory of their plastic waste practices was carried out.  
 The majority of the establishments surveyed generate plastic waste which is mainly food waste (bottles and packaging). 
 However, they do not all have a specific system for the management of this waste, but above all they sort glass and cardboard/paper.
 This can be explained by a lack of internal resources, such as the absence of suitable materials for sorting plastic, or the lack of dedicated skills (only 5 establishments have staff in charge of waste management).
-In some cases, the sorting process is not complete, as the sorted waste is mixed with other types of waste at the time of collection due to a lack of awareness. Other establishments depend on the system of public or private collection companies, which limits their involvement in the management of this plastic, and sometimes leads to a lack of information on what happens to this waste after collection. 
-The majority of respondents confirm that they are ready to participate in civic initiatives, to commit to environmental protection and to participate in the dissemination of these good practices to their local ecosystem.
+In some cases, the sorting process is not complete, as the sorted waste is mixed with other types of waste at the time of collection due to a lack of awareness. 
+Other establishments depend on the system of public or private collection companies, which limits their involvement in the management of this plastic, and sometimes leads to a lack of information on what happens to this waste after collection. 
+The majority of respondents confirm that they were favorable to participate in civic initiatives, to commit to environmental protection and to participate in the dissemination of these good practices to their local ecosystem.
+
 
 When mentioning a smart collector to the interviewees, this means for them a collector "*that does the sorting by itself*" or a technology that allows to "*count plastic waste on a territory scale*". 
 These terms reflect a need for such equipment to help these facilities manage their waste more easily, especially when most of them do not have plastic-specific sorting equipment. 
-Most of the interviewees were motivated to receive one or more smart collectors: "*a large quantity of plastic caps and bottles are available at our place*", "*very good, we'll go for it!*", "*why not all that goes in the direction of the improvement of the daily life...*", "it's good that it's local", "very good idea... to be tested!".
+Most of the interviewees were motivated to receive one or more smart collectors: "*a large quantity of plastic caps and bottles are available at our place*", "*very good, we'll go for it!*", "*why not all that goes in the direction of the improvement of the daily life...*".
+<!-- "it's good that it's local", "very good idea... to be tested!". -->
 However, these comments are accompanied by some fears such as the difficulty in managing the external public to respect the material, that other waste is mixed with plastic, or the need to take the time to explain the approach to the internal and external people of the institutions.
-The minority refusing to receive a smart collector or to participate in the experimentation can also be explained by some constraints such as the low frequentation of the building, the lack of time to manage such an approach, the need to have a consensus at the level of all the occupants decision-makers of the building, lack of visibility on the technique, or by personal conviction "*I am not too electronic and assisted, I like it when people manage by themselves*".
+The minority refusing to receive a smart collector or to participate in the experimentation.
+The stated reasons  and constraints such as the low frequentation of the building, the lack of time to manage such an approach, the need to have a consensus at the level of all the occupants decision-makers of the building, lack of visibility on the technique, or by personal conviction (e.g. "*I am not too electronic and assisted, I like it when people manage by themselves*").
 
-<!-- Conclusion -->
-Thanks to this approach, we have identified eigth collection sites at the local territory for the deployment of the smart collector.
+Based on these insights, we could made a mapping of the role of each actor that could have in the recovery process.
+Secondly, we identified the sources of plastic waste collection, and then identify the sources of 3D printing and potential synergies with the Green Fablab.
 
 
 ## Step 4: Put in place smart collectors 
 
-In this step the main purpose is the deployment of a set of *smart collectors* around the neighborhood.
+Thanks to the step 3, we have identified the collection sites at the local territory for the deployment of the smart collector.
+In this step the main purpose was the deployment of a set of *smart collectors* around the neighborhood.
 @fig-sc-deployment presents the selected points around the Green FabLab for the installation of the prototype. 
-The smart collector is produced and mounted manually. 
+The smart collector is produced and mounted manually at Green FabLab facilities. 
 The specific details and step-by-step assemble process can be found in the technical paper [@gabriel2023].
 
-![Deployment of the Smart Collectors.](figures/SC/Deployment.jpg){#fig-sc-deployment}
+![Deployment of the Smart Collectors.](figures/SC/Deployment.jpg){#fig-sc-deployment width=700}
 
 
 The selection of the places were based on the steps 3.
-For the experimentation, 8 sites were selected for the deployment as listed in the @tbl-deployment.
+For the experimentation, eight sites were selected for the deployment as listed in the @tbl-deployment.
 
 
 ```{r}
@@ -737,7 +772,7 @@ we have build a central collector where the material is stored before it is trea
 ## Step 5: Transport waste material to the recycling facilities
 
 The recovery process took place once a week on average. 
-The plastic waste is collected and transported to Green Fablab facilities, and then it is stored in a central collector as illustrated by the figure @fig-sc-recovery.
+The plastic waste is collected and transported to facilities, and then it is stored in a central collector as illustrated by the figure @fig-sc-recovery.
 
 ::: {#fig-sc-collector layout="[[1,1], [1]]" fig.pos='H'}
 
@@ -749,11 +784,9 @@ Smart collector
 ::: 
 
 
-
-
 Throughout the experimentation of the deployment, we have mapped the quantity of collected material. 
 @fig-sc-recovery corresponds to the profile of quantity collection per month. 
-In average, we have collected XX~kg per month.
+In average, we have collected 3kg per week.
  
 
 ![Recovery profile of plastic](figures/SC/Recovery.jpg){#fig-sc-recovery width=90%}
@@ -763,29 +796,25 @@ In average, we have collected XX~kg per month.
 #### Key Performance Indicator of the Recovery process
 
 In terms of *KPI* of the recovery, from February 2022 to February 2023, we have collected a total of $94.37~kg$ of plastic waste using 8 collectors in the territory of Rives de Meurthe, Nancy-France. 
-
 :::
-
 
 
 
 
 ## Step 6: Adequation and preparation of the material 
 
-
-This is the first stage carried out inside the Green FabLab.
-This stage is the set of activities required for the plastic waste to be adapted for further use. 
+This is the first stage carried out inside the Green Fablab.
+This stage corresponds to the set of activities required for the plastic waste to be adapted for further use. 
 The Green FabLab works mainly with 4 types of plastic at the moment. 
 The most common are high density polyethylene (HDPE) and polypropylene (PP), which are the main plastics used in the production of bottle caps and they are collected in the smart collector. 
 The plastic waste from unused/damaged 3D printing parts are mainly of polylactic acid (PLA) are collected from mainly from the Lorraine Fab Living Lab.
 And finally, the plastic bottles also are collected which are polyethylene terephthalate (PET).
 
-
 <!-- Sorting -->
 The preparation process begins with the separation and identification of each plastic collected. As already mentioned, the plastics used in the Green FabLab are 4 (HDPE, PP, PET and PLA) and are separated by type of plastic and colour. This process is carried out manually. 
 
 
-![Photo of the sorting process](figures/Image-to-add.png){width=50%}
+![Photo of the sorting process](figures/sorting/sorting.jpg){width=60%}
 
  
 <!-- Cleaning -->
