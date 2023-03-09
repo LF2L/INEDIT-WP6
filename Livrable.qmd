@@ -715,7 +715,7 @@ In this step the main purpose was the deployment of a set of *smart collectors* 
 The smart collector is produced and mounted manually at Green FabLab facilities. 
 The specific details and step-by-step assemble process can be found in the technical paper [@gabriel2023].
 
-![Deployment of the Smart Collectors.](figures/SC/Deployment.jpg){#fig-sc-deployment width=700}
+![Deployment of the Smart Collectors.](figures/SC/Deployment.jpg){#fig-sc-deployment width=600}
 
 
 The selection of the places were based on the steps 3.
@@ -729,13 +729,13 @@ For the experimentation, eight sites were selected for the deployment as listed 
 
 Deployment <- read_excel(path = "Tables/Tables.xlsx",
                                  sheet = "Deployment")
-
-Deployment %>% filter(Status == "OK") %>% select(-Status) %>% 
+#names(Deployment)
+Deployment %>% filter(Status == "OK") %>% select(c(1,3:5)) %>% 
    kbl(booktabs = T) %>% 
    kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 10) %>% 
    column_spec(2, width = c("3cm")) %>% 
-   column_spec(4, width = c("2cm")) %>% 
-   column_spec(5, width = c("4cm")) 
+   column_spec(4, width = c("5cm")) #%>% 
+   #column_spec(5, width = c("4cm")) 
    # column_spec(2, width = c("10cm")) %>% 
    # column_spec(3, width = c("1.5cm"))
 
@@ -748,13 +748,13 @@ We designed an appropriate communication  that enables to explain the purpose of
 
 
 
-::: {#fig-smart layout-ncol=2 fig.pos='H'}
+::: {#fig-smart layout-ncol=2 fig.pos='H' layout-valign="bottom"}
 
-![Picture of the Smart collector at the collection point](figures/SC/curves.jpeg){#fig-sc-curves width=2.5in}
+![Smart collector at the collection point](figures/SC/curves-00.jpeg){#fig-sc-curves width=2.5in}
 
-![Communication strategy of the smart collector](figures/SC/comm.jpg){#fig-sc-flyer width=1.5in}
+![Communication strategy of the device](figures/SC/comm.jpg){#fig-sc-flyer  width=2.5in }
 
-Smart collector
+Deployment example of the smart collector at the collection point
 ::: 
 
 Then, a system activation is putted in place to begin the collection gate. 
@@ -765,7 +765,7 @@ Once the recovery process is made, at the Green Fablab
 When the waste plastic is collected, it is stored at the facilities of the Green FabaLab before posterior treatment and adequation.  
 we have build a central collector where the material is stored before it is treated. 
 
-![Smart collectors deployed in the territory](figures/SC/Smart-Collectors.pdf){#fig-sc-flyer width=100%}
+![Smart collectors deployed in the territory](figures/SC/Smart-Collectors.jpg){#fig-sc-flyer width=100%}
 
 
 
@@ -774,9 +774,9 @@ we have build a central collector where the material is stored before it is trea
 The recovery process took place once a week on average. 
 The plastic waste is collected and transported to facilities, and then it is stored in a central collector as illustrated by the figure @fig-sc-recovery.
 
-::: {#fig-sc-collector layout="[[1,1], [1]]" fig.pos='H'}
+::: {#fig-sc-collector layout="[[1,1], [1]]" fig.pos='H' layout-valign="bottom"}
 
-![Centrla collector of plastic waste](figures/SC/Collector-bouchons-00.jpeg){#fig-sc-collector-00 width=2in}
+![Central storage of plastic waste](figures/SC/Collector-bouchons-00.jpeg){#fig-sc-collector-00 width=2in}
 
 ![Communication flyer for the smart collector](figures/SC/Collector-bouchons-01.jpeg){#fig-sc-collector-01 width=2in}
 
@@ -814,7 +814,7 @@ And finally, the plastic bottles also are collected which are polyethylene terep
 The preparation process begins with the separation and identification of each plastic collected. As already mentioned, the plastics used in the Green FabLab are 4 (HDPE, PP, PET and PLA) and are separated by type of plastic and colour. This process is carried out manually. 
 
 
-![Photo of the sorting process](figures/sorting/sorting.jpg){width=60%}
+![Sorting process of the plastic cups in function of the type of plastic accordig to the standard identification](figures/sorting/Step-6.jpg){width=90%}
 
  
 <!-- Cleaning -->
