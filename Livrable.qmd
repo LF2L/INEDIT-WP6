@@ -819,27 +819,24 @@ The preparation process begins with the separation and identification of each pl
  
 <!-- Cleaning -->
 The second step is the cleaning phase.
-Cleaning and washing plastic cups and bottles is crucial step for effective recycling because plastics are mainly post-consumer waste, they are not in an adequate state of cleanliness. 
+Cleaning and washing plastic cups and bottles is crucial step for effective recycling. Plastics are mainly post-consumer waste, thus they are not in an adequate state of cleanliness to be introduced in the technical machines. 
 It is required that to ensure the plastic is as clean as possible because dirty material can affect the quality of the extrusion / printing process, which at the end affects the recycled product. 
 Therefore, we aims to remove adhesives, leftover waste, and labels. 
 HDPE and PP are mainly used in the plastic injection molding process, while PLA and PET (Mixed with 9% HDPE) are used in 3D printing.  
 
+![Manual and ultrasonic cleaning processes](figures/cleaning/cleanning.jpg){width=70%}
 
-![Photo of the cleaning process](figures/Image-to-add.png){width=50%}
-
-
-In a first moment, the manual cleaning is used in the Green Fablab to remove the most of the majors contaminant present in the material. 
+In a first moment, the manual cleaning is used to remove the most of the majors contaminant present in the material. 
 For plastic injection moulding, where mainly PP and HDPE are used, the plastic is washed in a sink with hot water.  
-The water consumption per gram is approximately $4L/1000g$. 
+The water consumption per gram is approximately 4 liters per one kilogram. 
 The drying of the plastic is done by natural convection in the open air. 
-
 
 For additive manufacturing, where mainly PLA, HDPE and PET blends are used, the cleaning process is much more controlled. 
 The process is carried out in a small ultrasonic cleaning machine, to ensure that impurities are removed. 
-The cleaner ultrasonic machine wash 200gr de plástico en 1 L of water.
+The cleaner ultrasonic machine wash 200gr of plastic en 1 L of water.
 This process takes 20 mins with a consuption of 2kWh. 
 
-![Photo of the Ultrasonic cleaning](figures/Image-to-add.png){width=500}
+![Technical characterization of the ultrasonic cleaning](figures/cleaning/cleanning-01.jpg){width=90%}
 
 
 <!-- Size reduction -->
@@ -857,7 +854,6 @@ In terms of plastic injection moulding, the plastic flakes can be slightly large
 
 
 ![Photo of the Shredding process](figures/Image-to-add.png){width=500}
-
 
 
 Filament is produced at 0.4 kg/h using 0.24 kWh/kg with a diameter ±4.6\%. 3Devo 
@@ -955,7 +951,7 @@ Moreover, the value of the recycled material added a personalization finishing o
 \newpage
 ### Collaborative Desk building 
 
-At the consortium, it was decided to build a collaborative desk.
+At the INEDIT consortium, it was decided to build a collaborative desk.
 The challenge in this experimentation was to connect all the different competences that are present in the different use cases.
 Regarding our use case, we supported the creation of the prototype of this desk in a reduced scale using recycled filament.
 Additionally, it was also the opportunity to make recycled production from printing and injection processes for the customization pieces.
@@ -972,18 +968,21 @@ This made possible to define the components that were manufacturing at real scal
 ![Prototype of the desk](figures/demos/desk/desk-01.jpg){#fig-desk-01 width=95%}
 
 
-The prototype enabled to identify three main customization object, namely a 1) PC monitor support, 2) an ajustable folder separation and the drawer handler. 
+The prototype enabled to identify three main customization object, namely 
+1) PC monitor support, 2) an ajustable folder separation and 3) the drawer handler.
+as displayed in the @fig-desk-01.
 The PC monitor support was built entirely using the manual injection molding.
 The drawer handler was completly 3D printed.
-On the other hand, the ajustable folder was a combination of injection and 3D printed processes
+On finnaly, the ajustable folder was a combination of injection and 3D printed processes
 
-::: {#fig-desk-proto layout-nrow=2}
-![3D model of the recycled pieces to be made ](figures/demos/desk/desk-02.jpg){#fig-uninova-00 }
+![3D model of the recycled pieces to be made ](figures/demos/desk/desk-02.jpg){#fig-desk-01 }
+
+
+
+
+
 
 ![Manufacturing of the recycled parts (PC support, adjustable folder separation and drawer handler)](figures/demos/desk/desk-03.jpg){#fig-uninova-01 }
-
-Experimentation of the desk with the complete use cases of INEDIT.
-:::
 
 
 This experimentation was then confronted with the consortium to obtain a feedback about the possible improvements in the echnicall level.
@@ -1009,10 +1008,17 @@ Finnally
 ### Local collaboration with the Green fablab: the case of the 'L'appaillet'
 
 One important element of INEDIT project is the interaction with external designers and local ecosystem.
-The implementation of the Green Fablab inside a citizen third place make this interaction valuable and fruitful to better align the expectations of designer and architect, with the possible maturity that the different technologies can have inside the INEDIT project.
+The implementation of the Green Fablab inside the Octroi ecosystem make this interaction valuable and fruitful to better align the expectations of designers and architects with the possible maturity that the different technologies can have inside the INEDIT project.
 
-The integration of the Green Fablab with the ecosystem of Octroi is a fruitful exchange of knowledge and interaction of know-how.
-For intance, we have the possibility of the experimentation with the local association of designers called **L’A.Paillette** reagarding the design and build 3 mobile and movable modules to establish a kitchen corner for the association. 
+For instance, we made an experimentation project with the local association of designers called **L’A.Paillette**^[See The communication page at https://www.facebook.com/L.A.Paillettes/].
+The project was to design and build 3 mobile modules and movable for a kitchen for the Octroi community.
+These modules will allow heating equipment, preparation equipment and cleaning equipment to be placed and moved.
+The first proposition was made in the @fig-apa-00.
+
+![Sketch models proposed by the local actor L'A.Paillette](figures/demos/apa/Modeles-Furniture-00.jpg){#fig-apa-00 width = 90%}
+
+
+
 In that case, the production consisted on 3 sheet in recycled plastic (400g per sheet), 96 plastic pin joints (20g per pin), having a total recycled plastic used about 3,1 kg. aprox.(around 800 bottle taps)
 
 The initial model proposed by the association is presented on the left of the  @fig-apa-00.
@@ -1052,17 +1058,6 @@ Legislation of waste and
 
 
 More examples neeed it in the  recycling for education purposes 
-
- 
-
-
-
-
-
-
-
-
-
 
 
 
