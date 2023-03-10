@@ -45,61 +45,43 @@ library(kableExtra)
 
 \color{darkgray}
 
-# Executive summary
-
-This re
-
+\linenumbers
 
 # Introduction
 
-This deliverable deals with the description implementation  and validation of the 3D printing of recycled plastic demonstrator. 
+
+<!-- INEDIT project aims to  -->
+
+This deliverable deals with the description and implementation  of the 3D printing of recycled plastic demonstrator. 
+This corresponds to the task 6.4 according to the descriptive of actions.
+The main goal of this task is to validate the logistical and technical feasibility of recycled assets to be used in the DIT approach.. 
+These technical and logistical elements were implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around Open Manufacturing Demonstration Facilities (OMDF).
 The ambition of this use case is to test the feasibility of the distributed recycling via additive manufacturing (DRAM) [@CruzSanchez2020] concept with the purpose to integrate in the Do-It-Together approach. 
-
-According to the descritve of action, there are two main goals of the delivrable : 
-
-Evaluate the technical and logistical feasibility of the distributed recycling approach for the furniture sector, highlighting the advantages and barriers found in the implementation process. 
-
-Provide a explain the a methodology in order  
-
-The document is structured in three main parts: 
-
-A baseline introduction is made regarding the plastic recycling issues in order to  
+Thanks to the INEDIT projet,  a pilot plateform calle the 'Green Fablab' was developed based on open design approach in order to be replicable to other countries.
 
 
-INEDIT aims to create an open innovation European DIT ecosystem for sustainable furniture co-creation. 
-The novel model lies in involving and providing a range of services that allow consumers to make their own furniture, engaging different types of stakeholders throughout the process. 
-The INEDIT platform, managing the communication among all the involved stakeholders, needs to supply services that easily and modularly
-attract, involve, support and enable the user to use all the technologies and tools that characterise the
-INEDIT ecosystem. Task 2.4 aims to outline, starting from the profiling of the typical platform and ecosystem
-users, the customized service packages that can be offered by combining the opportunities brought by the
-co-creation platform and by the participation to the DIT ecosystem for specific bundles of needs and
-expectations. The task is organized into two separated phases:
- From month 6 to month 10: design of services portfolio where, for each service, the delivery process
-and its positioning are described from the customer's perspective in the form of a service-blueprint;
- From month 27 to month 34: revision of the designed services on the basis of feedback collected
-during the involvement of users’ and experts’ communities in the dissemination activities.
-This document reports the activities performed and gained results in the first phase. In particular, the
-services designed in this report are in response to the high-level objectives that the INEDIT project aims to
+The outputs of this use case aims to illustrate how the 3D printing of recycling recycled plastic demonstrator give a concrete results on the the high-level objectives that the INEDIT project aims to
 achieve:
- To unleash the creativity of consumers and designers towards co-creation of new pieces of furniture
-addressing the needs of the single user in an industrial context.
- To democratise the access to production resources in the furniture sector.
- To support SME operating in the furniture sector in finding new business opportunities.
- To create a framework of solutions for creation, engineering and distributed production of customerdriven pieces of furniture.
- To define, design and manufacturing strategies focusing on lowering ecological impact and addressing
-societal challenges.
- To create an ecosystem of all stakeholders within Europe.
-In order to achieve all these objectives and to meet the stakeholders needs identified in D2.1, four different
-services, suitable for different types of stakeholders, have been identified
 
- 
+- To unleash the creativity of consumers and designers towards co-creation of new pieces of furniture
+addressing the needs of the single user in an industrial context.
+- To democratise the access to production resources in the furniture sector.
+- To support SME operating in the furniture sector in finding new business opportunities.
+- To create a framework of solutions for creation, engineering and distributed production of customer driven pieces of furniture.
+- To define, design and manufacturing strategies focusing on lowering ecological impact and addressing
+societal challenges.
+- To create an ecosystem of all stakeholders within Europe.
+
 
 ## Outline
 The report is structured into three main parts
+The section @sec-plastic provides a baseline introduction regarding the plastic recycling issues in European Union
+The section @sec-context gives an overview of the context that the 3D printing Recycled demonstrator have in order to give the main technical and methodlogical features. 
+The section @sec-dit presents in detaill the operationalization of the demonstrator in the DIT approach. This is illustrated the step-by-step technical elements to consider and the illustrateive experimentation made.
+The rapport finish with a conclusion section.
 
-The section @ 
 
-# Plastic Issues for the European Union
+# Plastic Issues for the European Union {#sec-plastic}
 
 Since 1950’, our society have gained enormous advantages in terms of quality of life thanks to the technical development of the development of plastic and polymer materials. Plastic is a material that is widely used in our daily lives and plays a fundamental role in industry and economic development. The plastic material are found in almost all our products: food packaging, cars, technological tools, clothing, among others. The main reason is that plastic materials offer a variety of chemical and mechanical properties to be useful for a wide array of applications. Plastics are extremely useful, but their mismanagement has affected the environment and our health. The over-consumption and especially bad practices (single use, difficulty of reuse, etc.), make plastics one of the major societal challenges of an ecological transition that has become imperative. The main problem is the end-of-life treatment which traditionally uses a centralized system where plastic waste often has to travel thousands of kilometers... to be incinerated or landfilled. In addition to the energy and environmental impact of their production, there is also the impact of the end of life. 
 
@@ -117,7 +99,7 @@ In the
 
  
 
-# Context of the 3D Printing of Recycled Plastic Demostrator 
+# Context of the 3D Printing of Recycled Plastic Demostrator {#sec-context} 
 
 ## Presentation of the scale of the demonstrator: Rives de Meurthe district (Nancy, France) 
 
@@ -126,12 +108,12 @@ Nancy is the capital of the Meurthe-et-Moselle department and has a population o
 More precisely, our interest is the *Rives de Meurthe* district as presented by the @fig-rives.
 This district extends between the city center and the Meurthe River for about 7 km from north to south (extending into the municipalities of Jarville-la-Malgrange upstream and Maxéville downstream) and is between 250 and 1,000 m wide.
 
-::: {#fig-rives layout="[35,-5,65]"}
+::: {#fig-rives layout="[40,-5,40]"}
+![](figures/Nancy-00.png) 
+
 ![](figures/ok3/Rives-of-meurthe.png) 
 
-![](figures/Image-to-add.png) 
-
-Localization of the Rives the Meurthe distric
+Localization of the Rives the Meurthe district at Nancy, France.
 :::
 
 
@@ -139,7 +121,7 @@ Localization of the Rives the Meurthe distric
 Nancy was not born around a waterway and its commercial potential. 
 Its port and river side has long been rather reduced, contrary to the great majority of cities. 
 However, the main interest of the Rives de Meurthe  district concerns that it has been a case study in the light of urban regeneration due to flood risk presented in this area [@chiffre2014; @edelblutte2006]. 
-Therefore, since end of 1980's, there have been a series of  renewal policies of the  district  with the purpose of going beyond a simple reconversion by broadly rethinking the role of the central and pericentral space ofo the city.
+Therefore, since end of 1980's, there have been a series of  renewal policies of the  district  with the purpose of going beyond a simple reconversion by broadly rethinking the role of the central and pericentral space of the city.
 
 
 Among the multiples choices, one of the strategic actions taken by the government have been the transformation of the old site of the slaughterhouses in the heart of the Rives de Meurthe district.
@@ -198,16 +180,13 @@ The LF2L physical environment is constituted by a collaborative and a fablab spa
 The collaborative space allows users to foster co-operation in engineering design with different stakeholders in order to new create concepts/designs. 
 On the other hand, the fablab space allows users to materialize the concepts/designs  in an easy and quick way in order to have an prospective evaluation [@Boujut2003; @Dupont2014; @Dupont2015b].
 The synergy of these two spaces enables the project development in a living lab approach taking into account the user centered design principles. 
-
 The conceptual framework is composed of three main elements as illustrated in @fig-lf2l-methodology: 
 
-::: {layout-ncol=2}
-![The Lorraine Fab Living Lab methodlogy.](figures/lf2l/Methodology-01.jpg){#fig-lf2l-methodology}
+![The Lorraine Fab Living Lab methodlogy.](figures/lf2l/Methodology-01.jpg){#fig-lf2l-methodology width=300}
 
 1. *Co-creation*: Creative process to find alternative resolution concepts to a problem-topic given integrating the key stakeholders in the process. 
 2. *Prototyping*: Materialization (virtual/real) of the concept in order to have a first and quick in- sight. 
 3. *Evaluation*: Establishment of the pertinence of the concepts in order to create a feedback/improvement process. 
-:::
 
 
 The conceptual innovation framework of LF2L takes into consideration the 2D (concept), 3D (object), 4D (over time) approaches involving different type of stakeholders (e.g. researches, companies, networks,) in order to have a foresight usage evaluation of a new concept, technology or project.
@@ -529,7 +508,7 @@ As 3D printing smaller cross-section is very hard without a cooling system near 
 
 In the following section, we present how was the operationalization of the DIT for the 3D printing of recycled Plastic demonstrator.
 
-# Operationalization of DIT process for the Use Case 
+# Operationalization of DIT process for the Use Case {#sec-dit}
 ## Integration of the 3D Printing Recycled Plastic
 
 
