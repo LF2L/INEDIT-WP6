@@ -47,38 +47,76 @@ library(kableExtra)
 
 \linenumbers
 
+# Executive Summary
+
+<!-- ::: {.callout-note} -->
+<!-- #### Description of the task 6.4 from the proposal -->
+
+<!-- These two elements will be implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around OMDF. This integration will be validated according the KPI. UL will develop the recycling pilot platform based on open design approach in order to be replicable to other countries. -->
+<!-- ::: -->
+
+This report describes the open manufacturing demonstration facility of "*3D printing of recycled plastic demonstrator*' developed in the INEDIT project. 
+The main goal is to validate the logistical and technical feasibility of recycled assets to be used in the Do-It-Together (DIT) approach. 
+Therefore, a complete technical description is presented to transform certains plastic wastes into functional objects using 3D printing and desktop plastic injections through multiple experimentations. 
+The activities were oriented to produce objects for the purpose of 1) manufacture prototypes for validation prior to production stage, 2) customized objects for personalization of furniture and 3) spare part for reparability to enlarge the life of discarded furniture.
+
+These technical and logistical elements were implemented in a recycling pilot platform known locally as the *'Green FabLab'* at the city of Nancy, France. 
+The technical development was based on open design approach in order to be replicable to other countries. 
+The integration was validated according the Key Performance Indicators.
+
+
+There are two majors outcomes of the work done within task 6.4 and documented in this report:
+
+1. Describe the methodological concept of the distributed recycling via additive manufacturing (DRAM) system oriented to the revaluation of plastic. 
+2. Demonstrate in a relevant environment to prove the integration of a distributed and local plastic recycling with the INEDIT process.
+
+The development of open-source technologies that enables to carry out the main stages for plastic recycling constitute a first chain validation.
+Moreover, the implementation and development of Use Case 3 proved to validate the technology maturity 
+level from TRL4 to TRL6 and market readiness level from MRL 1 to 3/4 for technologies used such as the smart collector and fused granular fabrication.
+In addition, the creation of a local and distributed plastic recycling chain in a territorial level   constitute an important output for the impact of the project given the high level objectives of INEDIT.
+
+
+
+## Outline
+The report is structured into three main parts.
+The section @sec-plastic provides a baseline introduction regarding the plastic recycling issues in European Union. 
+Then, section @sec-context gives an overview of the context where the 3D printing of recycled plastic demonstrator have been developed, characterizing its main methodological and technical features. 
+After, the section @sec-dit presents in detail the operationalization of the demonstrator in the DIT approach. This is illustrated the step-by-step technical elements to consider each element and the illustrative experimentations made to validate each of the DIT process.
+The rapport finish with a conclusion section.
+
+
 # Introduction
 
-
 <!-- INEDIT project aims to  -->
+INEDIT develops a multi-sided platform pursuing the goal of a new sustainable manufacturing processes integrated in agile manufacturing networks to simplify personalization of furniture.
+To do that, a numeric platform is devoted to connect consumers, designers, makers, and manufacturers. 
+in order to pushes further the access to production means improving the creativity and design in open innovation ecosystems.
+This trend is enframed in the concept of mass customization, identified as a key major trend by the EU for 2030. 
+In fact, the on-demand production capacity (all around Europe) enabled by the DIT approach seeks to be environmentally responsible.
 
-This deliverable deals with the description and implementation  of the 3D printing of recycled plastic demonstrator. 
-This corresponds to the task 6.4 according to the descriptive of actions.
-The main goal of this task is to validate the logistical and technical feasibility of recycled assets to be used in the DIT approach.. 
-These technical and logistical elements were implemented in relevant environment in order to prove the integration of a distributed and local plastic recycling chain around Open Manufacturing Demonstration Facilities (OMDF).
+
+The Université de Lorraine developed a pilot platform called locally as the ‘Green Fablab’ with the aim to the describe and implement a 3D printing of recycled plastic demonstrator. 
 The ambition of this use case is to test the feasibility of the distributed recycling via additive manufacturing (DRAM) [@CruzSanchez2020] concept with the purpose to integrate in the Do-It-Together approach. 
-Thanks to the INEDIT projet,  a pilot plateform calle the 'Green Fablab' was developed based on open design approach in order to be replicable to other countries.
+The technical feasibility of the plastic recycling via additive manufacturing was based  on a open design approach that could facilitate the replicability and appropriation in different countries. 
 
+Therefore, the main goal of this task is to validate the logistical and technical feasibility of recycled assets to be used in the DIT approach.
+These technical and logistical elements were implemented in relevant environment. 
+More precisely in a cultural and citizen third place at Nancy, France.
+<!-- The integration of a distributed and local plastic recycling chain around Open Manufacturing Demonstration Facilities (OMDF). -->
 
-The outputs of this use case aims to illustrate how the 3D printing of recycling recycled plastic demonstrator give a concrete results on the the high-level objectives that the INEDIT project aims to
+The outputs of this use case aims to illustrate how the 3D printing of recycled plastic demonstrator give a concrete results on the the high-level objectives that the INEDIT project aims to
 achieve:
 
 - To unleash the creativity of consumers and designers towards co-creation of new pieces of furniture
 addressing the needs of the single user in an industrial context.
 - To democratise the access to production resources in the furniture sector.
-- To support SME operating in the furniture sector in finding new business opportunities.
-- To create a framework of solutions for creation, engineering and distributed production of customer driven pieces of furniture.
+<!-- - To support SME operating in the furniture sector in finding new business opportunities. -->
+<!-- - To create a framework of solutions for creation, engineering and distributed production of customer driven pieces of furniture. -->
 - To define, design and manufacturing strategies focusing on lowering ecological impact and addressing
 societal challenges.
-- To create an ecosystem of all stakeholders within Europe.
+<!-- - To create an ecosystem of all stakeholders within Europe. -->
 
 
-## Outline
-The report is structured into three main parts
-The section @sec-plastic provides a baseline introduction regarding the plastic recycling issues in European Union
-The section @sec-context gives an overview of the context that the 3D printing Recycled demonstrator have in order to give the main technical and methodlogical features. 
-The section @sec-dit presents in detaill the operationalization of the demonstrator in the DIT approach. This is illustrated the step-by-step technical elements to consider and the illustrateive experimentation made.
-The rapport finish with a conclusion section.
 
 
 # Plastic Issues for the European Union {#sec-plastic}
@@ -1056,16 +1094,10 @@ Final furniture made in collaboration with the local designers at Octroi.
 
 # Conclusions
 
-In this report, we described the research and development work developedin the task Task 6.4:
-The major results of the were:
+<!-- In this report, we described the research and development work developedin the task Task 6.4: -->
+<!-- The major results of the were: -->
 
-- The methodlogical proposition of a distributed recycling via additive manufacturing approach.
-- The implementation of the Green 
-- 
-•	The mechanical and process characterization of composite materials with a high percentage of wood or cellulose and their validation as appropriate materials for furniture making.
-- The manufacturing of 8 demonstrators to validate this technology within INEDIT framework.
-The work developed in this task opens a new technology for the flexible manufacturing of customized furniture. Such tools can act as enablers in a Social Manufacturing platform like INEDIT, creating new business models and markets in the furniture sector.
- 
+
 
 <!-- Plastic waste as secondary ressources and possibilities for a secondary market  -->
 
