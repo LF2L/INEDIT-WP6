@@ -32,6 +32,8 @@ subparagraph: yes
 mainfont: Trebuchet MS
 #pdf-engine: lualatex
 prefer-html: true
+filters:
+   - remove_title.lua
 ---
 
 ```{r, echo=FALSE, include=FALSE}
