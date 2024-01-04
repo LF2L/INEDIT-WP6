@@ -18,7 +18,7 @@ format:
     linkcolor: Blue
     urlcolor: Blue
     fig-pos: 'H'
-    link-citations: yes
+    link-citations: true
     include-in-header: [assets/packages.tex]
     include-before-body: [assets/titlepage.tex]
     keep-tex: true
@@ -55,7 +55,9 @@ library(kableExtra)
 
 <!-- \linenumber -->
 
+
 \newpage
+
 # Executive Summary
 
 <!-- ::: {.callout-note} -->

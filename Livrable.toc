@@ -1,0 +1,40 @@
+\contentsline {section}{\numberline {1}Executive Summary}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Outline}{5}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Introduction}{6}{section.2}%
+\contentsline {section}{\numberline {3}Plastic Issues for the European Union}{7}{section.3}%
+\contentsline {section}{\numberline {4}Context of the 3D Printing of Recycled Plastic Demostrator}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Presentation of the scale of the demonstrator: Rives de Meurthe district (Nancy, France)}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Third place Octroi Nancy}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Lorraine Fab Living Lab\textregistered }{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}3D Printing of recycled plastic demonstrator: the ``Green FabLab''}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Rationale for the technological system of the 3D printing recycling demonstrator}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Distributed recycling via Additive Manufacturing DRAM}{14}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Positioning of Use case in the DIT approach.}{15}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Hypothesis of UL case for deployment in reality}{16}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Technical characterization of the 3D printing of recycled demonstrator}{17}{subsection.5.5}%
+\contentsline {subsubsection}{\numberline {5.5.1}Recovery I}{17}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.2}Preparation II}{19}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.3}Compounding III}{20}{subsubsection.5.5.3}%
+\contentsline {subsubsection}{\numberline {5.5.4}Feedstock IV}{21}{subsubsection.5.5.4}%
+\contentsline {subsubsection}{\numberline {5.5.5}Printing process V (and desktop injection molding)}{22}{subsubsection.5.5.5}%
+\contentsline {paragraph}{\numberline {5.5.5.1}Desktop injection molding}{22}{paragraph.5.5.5.1}%
+\contentsline {paragraph}{\numberline {5.5.5.2}3D printing process: Fused Filament \& Granular Fabrication (FFF \& FGF)}{22}{paragraph.5.5.5.2}%
+\contentsline {section}{\numberline {6}Operationalization of DIT process for the Use Case}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Integration of the 3D Printing Recycled Plastic}{25}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Step 1 -- Receive Design and Specification}{26}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Step 2 -- Validation of the technical specifications of model to fabricate}{27}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Step 3 -- Identify local source of plastic waste}{29}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Step 4: Put in place smart collectors}{31}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Step 5: Transport waste material to the recycling facilities}{34}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Step 6: Adequation and preparation of the material}{35}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Step 7: Path planning - 3D Printing}{37}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Step 8 : Post-processing}{37}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Step 9: Implementation Examples}{38}{subsection.6.10}%
+\contentsline {subsubsection}{\numberline {6.10.1}Personalization of existing furniture}{38}{subsubsection.6.10.1}%
+\contentsline {subsubsection}{\numberline {6.10.2}Refurbishing of the an old furniture}{39}{subsubsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.3}Connecting the Recycling part and the Smartification}{40}{subsubsection.6.10.3}%
+\contentsline {subsubsection}{\numberline {6.10.4}Collaborative Desk and Bookshelf}{42}{subsubsection.6.10.4}%
+\contentsline {subsection}{\numberline {6.11}Local collaboration with the Green fablab: the case of the ``Le Spationef \& L'appaillet''}{46}{subsection.6.11}%
+\contentsline {section}{\numberline {7}Conclusions}{50}{section.7}%
+\contentsline {section}{\numberline {8}Bibliography}{51}{section.8}%
+\contentsline {section}{\numberline {A}Annex of the technolgical description of the machines}{55}{appendix.A}%
