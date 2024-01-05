@@ -1177,7 +1177,7 @@ This is a relevant future path for the European union.
 
 [^D2.2]: Delivrable 2.2 DIT DESIGN OF THE DIT APPROACH
 AND XD FRAMEWORK
-[^D4.2]: Delivrable 4.2 SPECIFICATION OF EACH PHYSICAL DEMONSTRATOR (OPEN MANUFACTURING)
+
 
 
 \newpage
